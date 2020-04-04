@@ -1,0 +1,166 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2.class
+@@ -98,13 +98,13 @@
+    #92 = NameAndType        #89:#91       // "<init>":(I)V
+    #93 = Methodref          #5.#92        // kotlin/jvm/internal/Lambda."<init>":(I)V
+    #94 = Utf8               Lkotlin/Metadata;
+    #95 = Utf8               mv
+    #96 = Integer            1
+-   #97 = Integer            17
+-   #98 = Utf8               bv
+-   #99 = Integer            0
++   #97 = Integer            4
++   #98 = Integer            0
++   #99 = Utf8               bv
+   #100 = Integer            3
+   #101 = Utf8               k
+   #102 = Utf8               xi
+   #103 = Integer            2
+   #104 = Utf8               d1
+@@ -165,11 +165,11 @@
+         10: aload_0
+         11: getfield      #32                 // Field this$0:Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion;
+         14: invokestatic  #38                 // Method org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion.access$getWRITE_WITH_FQNAME$p:(Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion;)Lorg/jetbrains/kotlin/name/FqName;
+         17: invokeinterface #44,  2           // InterfaceMethod org/jetbrains/kotlin/descriptors/annotations/Annotations.findAnnotation:(Lorg/jetbrains/kotlin/name/FqName;)Lorg/jetbrains/kotlin/descriptors/annotations/AnnotationDescriptor;
+         22: dup
+-        23: ifnull        91
++        23: ifnull        90
+         26: astore_2
+         27: iconst_0
+         28: istore_3
+         29: iconst_0
+         30: istore        4
+@@ -195,42 +195,41 @@
+         77: invokestatic  #69                 // Method org/jetbrains/kotlin/types/KotlinTypeKt.isError:(Lorg/jetbrains/kotlin/types/KotlinType;)Z
+         80: ifne          86
+         83: aload         7
+         85: areturn
+         86: nop
+-        87: nop
+-        88: goto          92
+-        91: pop
+-        92: aload_0
+-        93: getfield      #73                 // Field $context:Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$ParcelSerializerContext;
+-        96: aload_1
+-        97: invokevirtual #78                 // Method org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$ParcelSerializerContext.findParcelerClass:(Lorg/jetbrains/kotlin/types/KotlinType;)Lorg/jetbrains/kotlin/types/KotlinType;
+-       100: dup
+-       101: ifnull        140
+-       104: astore_2
+-       105: iconst_0
+-       106: istore_3
+-       107: iconst_0
+-       108: istore        4
+-       110: aload_2
+-       111: astore        5
+-       113: iconst_0
+-       114: istore        6
+-       116: aload         5
+-       118: invokestatic  #69                 // Method org/jetbrains/kotlin/types/KotlinTypeKt.isError:(Lorg/jetbrains/kotlin/types/KotlinType;)Z
+-       121: ifne          128
+-       124: iconst_1
+-       125: goto          129
+-       128: iconst_0
+-       129: ifeq          136
+-       132: aload_2
+-       133: goto          142
+-       136: aconst_null
+-       137: goto          142
+-       140: pop
+-       141: aconst_null
+-       142: areturn
++        87: goto          91
++        90: pop
++        91: aload_0
++        92: getfield      #73                 // Field $context:Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$ParcelSerializerContext;
++        95: aload_1
++        96: invokevirtual #78                 // Method org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$ParcelSerializerContext.findParcelerClass:(Lorg/jetbrains/kotlin/types/KotlinType;)Lorg/jetbrains/kotlin/types/KotlinType;
++        99: dup
++       100: ifnull        139
++       103: astore_2
++       104: iconst_0
++       105: istore_3
++       106: iconst_0
++       107: istore        4
++       109: aload_2
++       110: astore        5
++       112: iconst_0
++       113: istore        6
++       115: aload         5
++       117: invokestatic  #69                 // Method org/jetbrains/kotlin/types/KotlinTypeKt.isError:(Lorg/jetbrains/kotlin/types/KotlinType;)Z
++       120: ifne          127
++       123: iconst_1
++       124: goto          128
++       127: iconst_0
++       128: ifeq          135
++       131: aload_2
++       132: goto          141
++       135: aconst_null
++       136: goto          141
++       139: pop
++       140: aconst_null
++       141: areturn
+       StackMapTable: number_of_entries = 10
+         frame_type = 255 /* full_frame */
+           offset_delta = 66
+           locals = [ class org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2, class org/jetbrains/kotlin/types/KotlinType, class org/jetbrains/kotlin/descriptors/annotations/AnnotationDescriptor, int, int, class org/jetbrains/kotlin/descriptors/annotations/AnnotationDescriptor, int ]
+           stack = [ class org/jetbrains/kotlin/types/TypeProjection ]
+@@ -238,11 +237,11 @@
+           stack = [ class org/jetbrains/kotlin/types/KotlinType ]
+         frame_type = 252 /* append */
+           offset_delta = 17
+           locals = [ class org/jetbrains/kotlin/types/KotlinType ]
+         frame_type = 255 /* full_frame */
+-          offset_delta = 4
++          offset_delta = 3
+           locals = [ class org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2, class org/jetbrains/kotlin/types/KotlinType ]
+           stack = [ class org/jetbrains/kotlin/descriptors/annotations/AnnotationDescriptor ]
+         frame_type = 0 /* same */
+         frame_type = 255 /* full_frame */
+           offset_delta = 35
+@@ -257,27 +256,29 @@
+           stack = [ class org/jetbrains/kotlin/types/KotlinType ]
+         frame_type = 65 /* same_locals_1_stack_item */
+           stack = [ class org/jetbrains/kotlin/types/KotlinType ]
+       LineNumberTable:
+         line 87: 6
++        line 65100: 35
+         line 88: 38
+         line 89: 70
+         line 90: 83
+         line 92: 86
+-        line 87: 88
+-        line 94: 92
+-        line 94: 116
+-        line 94: 129
++        line 87: 87
++        line 94: 91
++        line 65100: 112
++        line 94: 115
++        line 94: 128
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+            70      16     7 parceler   Lorg/jetbrains/kotlin/types/KotlinType;
+            35      52     5 writeWith   Lorg/jetbrains/kotlin/descriptors/annotations/AnnotationDescriptor;
+            38      49     6 $i$a$-let-ParcelSerializer$Companion$get$2$1   I
+-          113      16     5    it   Lorg/jetbrains/kotlin/types/KotlinType;
+-          116      13     6 $i$a$-takeIf-ParcelSerializer$Companion$get$2$2   I
+-            0     143     0  this   Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2;
+-            0     143     1  type   Lorg/jetbrains/kotlin/types/KotlinType;
++          112      16     5    it   Lorg/jetbrains/kotlin/types/KotlinType;
++          115      13     6 $i$a$-takeIf-ParcelSerializer$Companion$get$2$2   I
++            0     142     0  this   Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2;
++            0     142     1  type   Lorg/jetbrains/kotlin/types/KotlinType;
+     RuntimeInvisibleAnnotations:
+       0: #15()
+     RuntimeInvisibleParameterAnnotations:
+       0:
+         0: #16()
+@@ -314,7 +315,7 @@
+   org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2
+   *L
+   1#1,350:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #94(#95=[I#96,I#96,I#97],#98=[I#96,I#99,I#100],#101=I#100,#102=I#103,#104=[s#105],#106=[s#107,s#80,s#17,s#8])
++  0: #94(#95=[I#96,I#97,I#98],#99=[I#96,I#98,I#100],#101=I#100,#102=I#103,#104=[s#105],#106=[s#107,s#80,s#17,s#8])
+ 

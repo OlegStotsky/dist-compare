@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$resolve$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$resolve$1.class
+@@ -69,13 +69,13 @@
+   #63 = NameAndType        #37:#62        // "<init>":(I)V
+   #64 = Methodref          #5.#63         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #65 = Utf8               Lkotlin/Metadata;
+   #66 = Utf8               mv
+   #67 = Integer            1
+-  #68 = Integer            17
+-  #69 = Utf8               bv
+-  #70 = Integer            0
++  #68 = Integer            4
++  #69 = Integer            0
++  #70 = Utf8               bv
+   #71 = Integer            3
+   #72 = Utf8               k
+   #73 = Utf8               xi
+   #74 = Integer            2
+   #75 = Utf8               d1
+@@ -173,7 +173,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$resolve$1
+ EnclosingMethod: #82.#84                // org.jetbrains.kotlin.android.synthetic.res.AndroidResourcesKt.resolve
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Ljava/lang/String;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;>;
+ SourceFile: "androidResources.kt"
+ RuntimeVisibleAnnotations:
+-  0: #65(#66=[I#67,I#67,I#68],#69=[I#67,I#70,I#71],#72=I#71,#73=I#74,#75=[s#76],#77=[s#78,s#79,s#17,s#80,s#8])
++  0: #65(#66=[I#67,I#68,I#69],#70=[I#67,I#69,I#71],#72=I#71,#73=I#74,#75=[s#76],#77=[s#78,s#79,s#17,s#80,s#8])
+ 

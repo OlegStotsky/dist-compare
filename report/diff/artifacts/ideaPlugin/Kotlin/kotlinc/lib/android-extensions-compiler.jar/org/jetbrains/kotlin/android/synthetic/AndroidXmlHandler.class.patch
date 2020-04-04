@@ -1,0 +1,40 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidXmlHandler.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidXmlHandler.class
+@@ -112,13 +112,13 @@
+   #106 = NameAndType        #102:#6       // "<init>":()V
+   #107 = Methodref          #4.#106       // org/xml/sax/helpers/DefaultHandler."<init>":()V
+   #108 = Utf8               Lkotlin/Metadata;
+   #109 = Utf8               mv
+   #110 = Integer            1
+-  #111 = Integer            17
+-  #112 = Utf8               bv
+-  #113 = Integer            0
++  #111 = Integer            4
++  #112 = Integer            0
++  #113 = Utf8               bv
+   #114 = Integer            3
+   #115 = Utf8               k
+   #116 = Utf8               xi
+   #117 = Integer            2
+   #118 = Utf8               d1
+@@ -262,10 +262,11 @@
+         line 35: 33
+         line 36: 40
+         line 37: 56
+         line 37: 77
+         line 38: 87
++        line 65100: 105
+         line 38: 108
+         line 38: 113
+         line 38: 118
+         line 39: 120
+         line 40: 139
+@@ -356,7 +357,7 @@
+   org/jetbrains/kotlin/android/synthetic/AndroidXmlHandler
+   *L
+   1#1,56:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #108(#109=[I#110,I#110,I#111],#112=[I#110,I#113,I#114],#115=I#110,#116=I#117,#118=[s#119],#120=[s#10,s#121,s#73,s#122,s#88,s#123,s#123,s#103,s#11,s#98,s#17,s#25,s#27,s#5,s#14,s#29,s#93,s#124])
++  0: #108(#109=[I#110,I#111,I#112],#113=[I#110,I#112,I#114],#115=I#110,#116=I#117,#118=[s#119],#120=[s#10,s#121,s#73,s#122,s#88,s#123,s#123,s#103,s#11,s#98,s#17,s#25,s#27,s#5,s#14,s#29,s#93,s#124])
+ 

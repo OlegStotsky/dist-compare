@@ -1,0 +1,441 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.class
+@@ -60,62 +60,62 @@
+    #54 = Class              #53           // org/jetbrains/kotlin/descriptors/PropertyDescriptor
+    #55 = Utf8               generateResourcePropertyCall
+    #56 = Utf8               (Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/PropertyDescriptor;)Lorg/jetbrains/kotlin/codegen/StackValue;
+    #57 = NameAndType        #55:#56       // generateResourcePropertyCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/PropertyDescriptor;)Lorg/jetbrains/kotlin/codegen/StackValue;
+    #58 = Methodref          #2.#57        // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.generateResourcePropertyCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/PropertyDescriptor;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-   #59 = Utf8               resultingDescriptor
+-   #60 = Utf8               Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
+-   #61 = Utf8               Lorg/jetbrains/kotlin/codegen/StackValue;
+-   #62 = Utf8               Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;
+-   #63 = Utf8               Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;
+-   #64 = Utf8               org/jetbrains/kotlin/descriptors/CallableDescriptor
+-   #65 = Class              #64           // org/jetbrains/kotlin/descriptors/CallableDescriptor
+-   #66 = Utf8               applyFunction
+-   #67 = Utf8               org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
+-   #68 = Class              #67           // org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
+-   #69 = Utf8               targetCallable
+-   #70 = String             #69           // targetCallable
+-   #71 = Utf8               checkNotNullExpressionValue
+-   #72 = NameAndType        #71:#40       // checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+-   #73 = Methodref          #38.#72       // kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+-   #74 = Utf8               getName
+-   #75 = Utf8               ()Lorg/jetbrains/kotlin/name/Name;
+-   #76 = NameAndType        #74:#75       // getName:()Lorg/jetbrains/kotlin/name/Name;
+-   #77 = InterfaceMethodref #65.#76       // org/jetbrains/kotlin/descriptors/CallableDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
+-   #78 = Utf8               org/jetbrains/kotlin/name/Name
+-   #79 = Class              #78           // org/jetbrains/kotlin/name/Name
+-   #80 = Utf8               asString
+-   #81 = Utf8               ()Ljava/lang/String;
+-   #82 = NameAndType        #80:#81       // asString:()Ljava/lang/String;
+-   #83 = Methodref          #79.#82       // org/jetbrains/kotlin/name/Name.asString:()Ljava/lang/String;
+-   #84 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst
+-   #85 = Class              #84           // org/jetbrains/kotlin/android/synthetic/AndroidConst
+-   #86 = Utf8               INSTANCE
+-   #87 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-   #88 = NameAndType        #86:#87       // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-   #89 = Fieldref           #85.#88       // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-   #90 = Utf8               getCLEAR_FUNCTION_NAME
+-   #91 = NameAndType        #90:#81       // getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
+-   #92 = Methodref          #85.#91       // org/jetbrains/kotlin/android/synthetic/AndroidConst.getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
+-   #93 = Utf8               areEqual
+-   #94 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Z
+-   #95 = NameAndType        #93:#94       // areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+-   #96 = Methodref          #38.#95       // kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+-   #97 = Utf8               getReceiverDeclarationDescriptor
+-   #98 = Utf8               (Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
+-   #99 = NameAndType        #97:#98       // getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
+-  #100 = Methodref          #2.#99        // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
+-  #101 = Utf8               org/jetbrains/kotlin/descriptors/ClassDescriptor
+-  #102 = Class              #101          // org/jetbrains/kotlin/descriptors/ClassDescriptor
+-  #103 = Utf8               generateClearFindViewByIdCacheFunctionCall
+-  #104 = Utf8               (Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-  #105 = NameAndType        #103:#104     // generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-  #106 = Methodref          #2.#105       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-  #107 = Utf8               container
+-  #108 = Utf8               Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+-  #109 = Utf8               org/jetbrains/kotlin/codegen/StackValue
+-  #110 = Class              #109          // org/jetbrains/kotlin/codegen/StackValue
++   #59 = Utf8               org/jetbrains/kotlin/codegen/StackValue
++   #60 = Class              #59           // org/jetbrains/kotlin/codegen/StackValue
++   #61 = Utf8               resultingDescriptor
++   #62 = Utf8               Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
++   #63 = Utf8               Lorg/jetbrains/kotlin/codegen/StackValue;
++   #64 = Utf8               Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;
++   #65 = Utf8               Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;
++   #66 = Utf8               org/jetbrains/kotlin/descriptors/CallableDescriptor
++   #67 = Class              #66           // org/jetbrains/kotlin/descriptors/CallableDescriptor
++   #68 = Utf8               applyFunction
++   #69 = Utf8               org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
++   #70 = Class              #69           // org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
++   #71 = Utf8               targetCallable
++   #72 = String             #71           // targetCallable
++   #73 = Utf8               checkNotNullExpressionValue
++   #74 = NameAndType        #73:#40       // checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++   #75 = Methodref          #38.#74       // kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++   #76 = Utf8               getName
++   #77 = Utf8               ()Lorg/jetbrains/kotlin/name/Name;
++   #78 = NameAndType        #76:#77       // getName:()Lorg/jetbrains/kotlin/name/Name;
++   #79 = InterfaceMethodref #67.#78       // org/jetbrains/kotlin/descriptors/CallableDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
++   #80 = Utf8               org/jetbrains/kotlin/name/Name
++   #81 = Class              #80           // org/jetbrains/kotlin/name/Name
++   #82 = Utf8               asString
++   #83 = Utf8               ()Ljava/lang/String;
++   #84 = NameAndType        #82:#83       // asString:()Ljava/lang/String;
++   #85 = Methodref          #81.#84       // org/jetbrains/kotlin/name/Name.asString:()Ljava/lang/String;
++   #86 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst
++   #87 = Class              #86           // org/jetbrains/kotlin/android/synthetic/AndroidConst
++   #88 = Utf8               INSTANCE
++   #89 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++   #90 = NameAndType        #88:#89       // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++   #91 = Fieldref           #87.#90       // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++   #92 = Utf8               getCLEAR_FUNCTION_NAME
++   #93 = NameAndType        #92:#83       // getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
++   #94 = Methodref          #87.#93       // org/jetbrains/kotlin/android/synthetic/AndroidConst.getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
++   #95 = Utf8               areEqual
++   #96 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Z
++   #97 = NameAndType        #95:#96       // areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
++   #98 = Methodref          #38.#97       // kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
++   #99 = Utf8               getReceiverDeclarationDescriptor
++  #100 = Utf8               (Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
++  #101 = NameAndType        #99:#100      // getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
++  #102 = Methodref          #2.#101       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
++  #103 = Utf8               org/jetbrains/kotlin/descriptors/ClassDescriptor
++  #104 = Class              #103          // org/jetbrains/kotlin/descriptors/ClassDescriptor
++  #105 = Utf8               generateClearFindViewByIdCacheFunctionCall
++  #106 = Utf8               (Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
++  #107 = NameAndType        #105:#106     // generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
++  #108 = Methodref          #2.#107       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
++  #109 = Utf8               container
++  #110 = Utf8               Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #111 = Utf8               org/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context
+   #112 = Class              #111          // org/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context
+   #113 = Utf8               org/jetbrains/kotlin/descriptors/ClassifierDescriptor
+   #114 = Class              #113          // org/jetbrains/kotlin/descriptors/ClassifierDescriptor
+   #115 = Utf8               (Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall<*>;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+@@ -158,18 +158,18 @@
+   #152 = NameAndType        #150:#151     // VOID_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+   #153 = Fieldref           #149.#152     // org/jetbrains/org/objectweb/asm/Type.VOID_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+   #154 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1
+   #155 = Class              #154          // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1
+   #156 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1;
+-  #157 = NameAndType        #86:#156      // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1;
++  #157 = NameAndType        #88:#156      // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1;
+   #158 = Fieldref           #155.#157     // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1;
+   #159 = Utf8               kotlin/jvm/functions/Function1
+   #160 = Class              #159          // kotlin/jvm/functions/Function1
+   #161 = Utf8               functionCall
+   #162 = Utf8               (Lorg/jetbrains/org/objectweb/asm/Type;Lorg/jetbrains/kotlin/types/KotlinType;Lkotlin/jvm/functions/Function1;)Lorg/jetbrains/kotlin/codegen/StackValue;
+   #163 = NameAndType        #161:#162     // functionCall:(Lorg/jetbrains/org/objectweb/asm/Type;Lorg/jetbrains/kotlin/types/KotlinType;Lkotlin/jvm/functions/Function1;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-  #164 = Methodref          #110.#163     // org/jetbrains/kotlin/codegen/StackValue.functionCall:(Lorg/jetbrains/org/objectweb/asm/Type;Lorg/jetbrains/kotlin/types/KotlinType;Lkotlin/jvm/functions/Function1;)Lorg/jetbrains/kotlin/codegen/StackValue;
++  #164 = Methodref          #60.#163      // org/jetbrains/kotlin/codegen/StackValue.functionCall:(Lorg/jetbrains/org/objectweb/asm/Type;Lorg/jetbrains/kotlin/types/KotlinType;Lkotlin/jvm/functions/Function1;)Lorg/jetbrains/kotlin/codegen/StackValue;
+   #165 = Utf8               getContainerType
+   #166 = Utf8               ()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;
+   #167 = NameAndType        #165:#166     // getContainerType:()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;
+   #168 = Methodref          #21.#167      // org/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy.getContainerType:()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;
+   #169 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType
+@@ -182,11 +182,11 @@
+   #176 = Utf8               ()Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
+   #177 = NameAndType        #175:#176     // getCodegen:()Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
+   #178 = Methodref          #112.#177     // org/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context.getCodegen:()Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
+   #179 = Utf8               (Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;Lorg/jetbrains/kotlin/codegen/Callable;)Lorg/jetbrains/kotlin/codegen/StackValue;
+   #180 = NameAndType        #35:#179      // receiver:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;Lorg/jetbrains/kotlin/codegen/Callable;)Lorg/jetbrains/kotlin/codegen/StackValue;
+-  #181 = Methodref          #110.#180     // org/jetbrains/kotlin/codegen/StackValue.receiver:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;Lorg/jetbrains/kotlin/codegen/Callable;)Lorg/jetbrains/kotlin/codegen/StackValue;
++  #181 = Methodref          #60.#180      // org/jetbrains/kotlin/codegen/StackValue.receiver:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;Lorg/jetbrains/kotlin/codegen/Callable;)Lorg/jetbrains/kotlin/codegen/StackValue;
+   #182 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$2
+   #183 = Class              #182          // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$2
+   #184 = Utf8               <init>
+   #185 = Utf8               (Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/StackValue;)V
+   #186 = NameAndType        #184:#185     // "<init>":(Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/StackValue;)V
+@@ -219,11 +219,11 @@
+   #213 = NameAndType        #211:#212     // getModule:()Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;
+   #214 = Methodref          #210.#213     // org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.getModule:()Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;
+   #215 = Utf8               org/jetbrains/kotlin/android/synthetic/res/AndroidModule
+   #216 = Class              #215          // org/jetbrains/kotlin/android/synthetic/res/AndroidModule
+   #217 = Utf8               getApplicationPackage
+-  #218 = NameAndType        #217:#81      // getApplicationPackage:()Ljava/lang/String;
++  #218 = NameAndType        #217:#83      // getApplicationPackage:()Ljava/lang/String;
+   #219 = Methodref          #216.#218     // org/jetbrains/kotlin/android/synthetic/res/AndroidModule.getApplicationPackage:()Ljava/lang/String;
+   #220 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue
+   #221 = Class              #220          // org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue
+   #222 = Utf8               getTypeMapper
+   #223 = Utf8               ()Lorg/jetbrains/kotlin/codegen/state/KotlinTypeMapper;
+@@ -241,15 +241,15 @@
+   #235 = Utf8               org/jetbrains/kotlin/descriptors/DeclarationDescriptor
+   #236 = Class              #235          // org/jetbrains/kotlin/descriptors/DeclarationDescriptor
+   #237 = Utf8               java/lang/String
+   #238 = Class              #237          // java/lang/String
+   #239 = Utf8               (Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall<*>;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
+-  #240 = String             #59           // resultingDescriptor
++  #240 = String             #61           // resultingDescriptor
+   #241 = Utf8               getExtensionReceiverParameter
+   #242 = Utf8               ()Lorg/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor;
+   #243 = NameAndType        #241:#242     // getExtensionReceiverParameter:()Lorg/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor;
+-  #244 = InterfaceMethodref #65.#243      // org/jetbrains/kotlin/descriptors/CallableDescriptor.getExtensionReceiverParameter:()Lorg/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor;
++  #244 = InterfaceMethodref #67.#243      // org/jetbrains/kotlin/descriptors/CallableDescriptor.getExtensionReceiverParameter:()Lorg/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor;
+   #245 = Utf8               org/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor
+   #246 = Class              #245          // org/jetbrains/kotlin/descriptors/ReceiverParameterDescriptor
+   #247 = Utf8               getType
+   #248 = Utf8               ()Lorg/jetbrains/kotlin/types/KotlinType;
+   #249 = NameAndType        #247:#248     // getType:()Lorg/jetbrains/kotlin/types/KotlinType;
+@@ -317,18 +317,18 @@
+   #311 = Utf8               org/jetbrains/kotlin/psi/KtClass
+   #312 = Class              #311          // org/jetbrains/kotlin/psi/KtClass
+   #313 = NameAndType        #7:#8         // isEnabled:(Lorg/jetbrains/kotlin/psi/KtElement;)Z
+   #314 = Methodref          #2.#313       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.isEnabled:(Lorg/jetbrains/kotlin/psi/KtElement;)Z
+   #315 = Utf8               descriptor
+-  #316 = NameAndType        #315:#108     // descriptor:Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
++  #316 = NameAndType        #315:#110     // descriptor:Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #317 = Fieldref           #302.#316     // org/jetbrains/kotlin/codegen/ImplementationBodyCodegen.descriptor:Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #318 = Utf8               codegen.descriptor
+   #319 = String             #318          // codegen.descriptor
+   #320 = Utf8               getKind
+   #321 = Utf8               ()Lorg/jetbrains/kotlin/descriptors/ClassKind;
+   #322 = NameAndType        #320:#321     // getKind:()Lorg/jetbrains/kotlin/descriptors/ClassKind;
+-  #323 = InterfaceMethodref #102.#322     // org/jetbrains/kotlin/descriptors/ClassDescriptor.getKind:()Lorg/jetbrains/kotlin/descriptors/ClassKind;
++  #323 = InterfaceMethodref #104.#322     // org/jetbrains/kotlin/descriptors/ClassDescriptor.getKind:()Lorg/jetbrains/kotlin/descriptors/ClassKind;
+   #324 = Utf8               org/jetbrains/kotlin/descriptors/ClassKind
+   #325 = Class              #324          // org/jetbrains/kotlin/descriptors/ClassKind
+   #326 = Utf8               CLASS
+   #327 = Utf8               Lorg/jetbrains/kotlin/descriptors/ClassKind;
+   #328 = NameAndType        #326:#327     // CLASS:Lorg/jetbrains/kotlin/descriptors/ClassKind;
+@@ -375,11 +375,11 @@
+   #369 = NameAndType        #367:#368     // isFragment:()Z
+   #370 = Methodref          #170.#369     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.isFragment:()Z
+   #371 = Utf8               getUnsubstitutedMemberScope
+   #372 = Utf8               ()Lorg/jetbrains/kotlin/resolve/scopes/MemberScope;
+   #373 = NameAndType        #371:#372     // getUnsubstitutedMemberScope:()Lorg/jetbrains/kotlin/resolve/scopes/MemberScope;
+-  #374 = InterfaceMethodref #102.#373     // org/jetbrains/kotlin/descriptors/ClassDescriptor.getUnsubstitutedMemberScope:()Lorg/jetbrains/kotlin/resolve/scopes/MemberScope;
++  #374 = InterfaceMethodref #104.#373     // org/jetbrains/kotlin/descriptors/ClassDescriptor.getUnsubstitutedMemberScope:()Lorg/jetbrains/kotlin/resolve/scopes/MemberScope;
+   #375 = Utf8               org/jetbrains/kotlin/resolve/scopes/ResolutionScope$DefaultImpls
+   #376 = Class              #375          // org/jetbrains/kotlin/resolve/scopes/ResolutionScope$DefaultImpls
+   #377 = Utf8               getContributedDescriptors$default
+   #378 = Utf8               (Lorg/jetbrains/kotlin/resolve/scopes/ResolutionScope;Lorg/jetbrains/kotlin/resolve/scopes/DescriptorKindFilter;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Ljava/util/Collection;
+   #379 = NameAndType        #377:#378     // getContributedDescriptors$default:(Lorg/jetbrains/kotlin/resolve/scopes/ResolutionScope;Lorg/jetbrains/kotlin/resolve/scopes/DescriptorKindFilter;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Ljava/util/Collection;
+@@ -438,11 +438,11 @@
+   #432 = Class              #431          // org/jetbrains/kotlin/descriptors/CallableMemberDescriptor$Kind
+   #433 = Utf8               DECLARATION
+   #434 = Utf8               Lorg/jetbrains/kotlin/descriptors/CallableMemberDescriptor$Kind;
+   #435 = NameAndType        #433:#434     // DECLARATION:Lorg/jetbrains/kotlin/descriptors/CallableMemberDescriptor$Kind;
+   #436 = Fieldref           #432.#435     // org/jetbrains/kotlin/descriptors/CallableMemberDescriptor$Kind.DECLARATION:Lorg/jetbrains/kotlin/descriptors/CallableMemberDescriptor$Kind;
+-  #437 = InterfaceMethodref #397.#76      // org/jetbrains/kotlin/descriptors/FunctionDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
++  #437 = InterfaceMethodref #397.#78      // org/jetbrains/kotlin/descriptors/FunctionDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
+   #438 = Utf8               ON_DESTROY_METHOD_NAME
+   #439 = NameAndType        #438:#230     // ON_DESTROY_METHOD_NAME:Ljava/lang/String;
+   #440 = Fieldref           #2.#439       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.ON_DESTROY_METHOD_NAME:Ljava/lang/String;
+   #441 = Utf8               getVisibility
+   #442 = Utf8               ()Lorg/jetbrains/kotlin/descriptors/Visibility;
+@@ -525,11 +525,11 @@
+   #519 = Utf8               getSuperClassOrAny
+   #520 = Utf8               (Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;)Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #521 = NameAndType        #519:#520     // getSuperClassOrAny:(Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;)Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #522 = Methodref          #518.#521     // org/jetbrains/kotlin/resolve/descriptorUtil/DescriptorUtilsKt.getSuperClassOrAny:(Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;)Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+   #523 = Utf8               getInternalName
+-  #524 = NameAndType        #523:#81      // getInternalName:()Ljava/lang/String;
++  #524 = NameAndType        #523:#83      // getInternalName:()Ljava/lang/String;
+   #525 = Methodref          #149.#524     // org/jetbrains/org/objectweb/asm/Type.getInternalName:()Ljava/lang/String;
+   #526 = Utf8               invokespecial
+   #527 = Utf8               (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+   #528 = NameAndType        #526:#527     // invokespecial:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+   #529 = Methodref          #492.#528     // org/jetbrains/org/objectweb/asm/commons/InstructionAdapter.invokespecial:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+@@ -598,11 +598,11 @@
+   #592 = Methodref          #563.#591     // org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion.getType:(Lkotlinx/android/extensions/CacheImplementation;)Lorg/jetbrains/org/objectweb/asm/Type;
+   #593 = Utf8               PROPERTY_NAME
+   #594 = NameAndType        #593:#230     // PROPERTY_NAME:Ljava/lang/String;
+   #595 = Fieldref           #2.#594       // org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.PROPERTY_NAME:Ljava/lang/String;
+   #596 = Utf8               getDescriptor
+-  #597 = NameAndType        #596:#81      // getDescriptor:()Ljava/lang/String;
++  #597 = NameAndType        #596:#83      // getDescriptor:()Ljava/lang/String;
+   #598 = Methodref          #149.#597     // org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
+   #599 = Utf8               newField
+   #600 = Utf8               (Lorg/jetbrains/kotlin/resolve/jvm/diagnostics/JvmDeclarationOrigin;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/jetbrains/org/objectweb/asm/FieldVisitor;
+   #601 = NameAndType        #599:#600     // newField:(Lorg/jetbrains/kotlin/resolve/jvm/diagnostics/JvmDeclarationOrigin;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/jetbrains/org/objectweb/asm/FieldVisitor;
+   #602 = InterfaceMethodref #423.#601     // org/jetbrains/kotlin/codegen/ClassBuilder.newField:(Lorg/jetbrains/kotlin/resolve/jvm/diagnostics/JvmDeclarationOrigin;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/jetbrains/org/objectweb/asm/FieldVisitor;
+@@ -652,11 +652,11 @@
+   #646 = Utf8               ordinal
+   #647 = Utf8               ()I
+   #648 = NameAndType        #646:#647     // ordinal:()I
+   #649 = Methodref          #170.#648     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.ordinal:()I
+   #650 = Utf8               getInternalClassName
+-  #651 = NameAndType        #650:#81      // getInternalClassName:()Ljava/lang/String;
++  #651 = NameAndType        #650:#83      // getInternalClassName:()Ljava/lang/String;
+   #652 = Methodref          #170.#651     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.getInternalClassName:()Ljava/lang/String;
+   #653 = Utf8               findViewById
+   #654 = String             #653          // findViewById
+   #655 = Utf8               invokevirtual
+   #656 = NameAndType        #655:#527     // invokevirtual:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+@@ -694,11 +694,11 @@
+   #688 = Methodref          #681.#687     // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #689 = Utf8               (Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #690 = NameAndType        #685:#689     // append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #691 = Methodref          #681.#690     // java/lang/StringBuilder.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+   #692 = Utf8               toString
+-  #693 = NameAndType        #692:#81      // toString:()Ljava/lang/String;
++  #693 = NameAndType        #692:#83      // toString:()Ljava/lang/String;
+   #694 = Methodref          #681.#693     // java/lang/StringBuilder.toString:()Ljava/lang/String;
+   #695 = Methodref          #679.#272     // java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+   #696 = Utf8               java/lang/Throwable
+   #697 = Class              #696          // java/lang/Throwable
+   #698 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$2
+@@ -735,13 +735,13 @@
+   #729 = Utf8               access$getCLEAR_CACHE_METHOD_NAME$cp
+   #730 = Utf8               access$getON_DESTROY_METHOD_NAME$cp
+   #731 = Utf8               Lkotlin/Metadata;
+   #732 = Utf8               mv
+   #733 = Integer            1
+-  #734 = Integer            17
+-  #735 = Utf8               bv
+-  #736 = Integer            0
++  #734 = Integer            4
++  #735 = Integer            0
++  #736 = Utf8               bv
+   #737 = Integer            3
+   #738 = Utf8               k
+   #739 = Utf8               xi
+   #740 = Integer            2
+   #741 = Utf8               d1
+@@ -832,11 +832,12 @@
+         38: aload         4
+         40: checkcast     #54                 // class org/jetbrains/kotlin/descriptors/PropertyDescriptor
+         43: invokespecial #58                 // Method generateResourcePropertyCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;Lorg/jetbrains/kotlin/descriptors/PropertyDescriptor;)Lorg/jetbrains/kotlin/codegen/StackValue;
+         46: areturn
+         47: aconst_null
+-        48: areturn
++        48: checkcast     #60                 // class org/jetbrains/kotlin/codegen/StackValue
++        51: areturn
+       StackMapTable: number_of_entries = 1
+         frame_type = 252 /* append */
+           offset_delta = 47
+           locals = [ class org/jetbrains/kotlin/descriptors/CallableDescriptor ]
+       LineNumberTable:
+@@ -845,15 +846,15 @@
+         line 59: 34
+         line 61: 47
+         line 58: 48
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-           26      23     4 resultingDescriptor   Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
+-            0      49     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension;
+-            0      49     1 receiver   Lorg/jetbrains/kotlin/codegen/StackValue;
+-            0      49     2 resolvedCall   Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;
+-            0      49     3     c   Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;
++           26      26     4 resultingDescriptor   Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
++            0      52     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension;
++            0      52     1 receiver   Lorg/jetbrains/kotlin/codegen/StackValue;
++            0      52     2 resolvedCall   Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;
++            0      52     3     c   Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;
+     Signature: #34                          // (Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall<*>;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+     RuntimeInvisibleAnnotations:
+       0: #9()
+     RuntimeInvisibleParameterAnnotations:
+       0:
+@@ -881,41 +882,41 @@
+         19: invokeinterface #52,  1           // InterfaceMethod org/jetbrains/kotlin/resolve/calls/model/ResolvedCall.getResultingDescriptor:()Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
+         24: astore        4
+         26: aload_2
+         27: invokeinterface #52,  1           // InterfaceMethod org/jetbrains/kotlin/resolve/calls/model/ResolvedCall.getResultingDescriptor:()Lorg/jetbrains/kotlin/descriptors/CallableDescriptor;
+         32: dup
+-        33: instanceof    #68                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
++        33: instanceof    #70                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
+         36: ifne          41
+         39: pop
+         40: aconst_null
+-        41: checkcast     #68                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
++        41: checkcast     #70                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction
+         44: dup
+         45: ifnull        51
+         48: goto          54
+         51: pop
+         52: aconst_null
+         53: areturn
+         54: pop
+         55: aload         4
+         57: dup
+-        58: ldc           #70                 // String targetCallable
+-        60: invokestatic  #73                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+-        63: invokeinterface #77,  1           // InterfaceMethod org/jetbrains/kotlin/descriptors/CallableDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
+-        68: invokevirtual #83                 // Method org/jetbrains/kotlin/name/Name.asString:()Ljava/lang/String;
+-        71: getstatic     #89                 // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-        74: invokevirtual #92                 // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
+-        77: invokestatic  #96                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
++        58: ldc           #72                 // String targetCallable
++        60: invokestatic  #75                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++        63: invokeinterface #79,  1           // InterfaceMethod org/jetbrains/kotlin/descriptors/CallableDescriptor.getName:()Lorg/jetbrains/kotlin/name/Name;
++        68: invokevirtual #85                 // Method org/jetbrains/kotlin/name/Name.asString:()Ljava/lang/String;
++        71: getstatic     #91                 // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++        74: invokevirtual #94                 // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getCLEAR_FUNCTION_NAME:()Ljava/lang/String;
++        77: invokestatic  #98                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         80: ifeq          124
+         83: aload_0
+         84: aload_2
+-        85: invokespecial #100                // Method getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
++        85: invokespecial #102                // Method getReceiverDeclarationDescriptor:(Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;)Lorg/jetbrains/kotlin/descriptors/ClassifierDescriptor;
+         88: dup
+-        89: instanceof    #102                // class org/jetbrains/kotlin/descriptors/ClassDescriptor
++        89: instanceof    #104                // class org/jetbrains/kotlin/descriptors/ClassDescriptor
+         92: ifne          97
+         95: pop
+         96: aconst_null
+-        97: checkcast     #102                // class org/jetbrains/kotlin/descriptors/ClassDescriptor
++        97: checkcast     #104                // class org/jetbrains/kotlin/descriptors/ClassDescriptor
+        100: dup
+        101: ifnull        107
+        104: goto          110
+        107: pop
+        108: aconst_null
+@@ -924,11 +925,11 @@
+        112: aload_0
+        113: aload_1
+        114: aload_2
+        115: aload         5
+        117: aload_3
+-       118: invokespecial #106                // Method generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
++       118: invokespecial #108                // Method generateClearFindViewByIdCacheFunctionCall:(Lorg/jetbrains/kotlin/codegen/StackValue;Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/codegen/extensions/ExpressionCodegenExtension$Context;)Lorg/jetbrains/kotlin/codegen/StackValue;
+        121: goto          125
+        124: aconst_null
+        125: areturn
+       StackMapTable: number_of_entries = 8
+         frame_type = 255 /* full_frame */
+@@ -1010,11 +1011,11 @@
+         49: return
+         50: aload_1
+         51: getfield      #317                // Field org/jetbrains/kotlin/codegen/ImplementationBodyCodegen.descriptor:Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;
+         54: dup
+         55: ldc_w         #319                // String codegen.descriptor
+-        58: invokestatic  #73                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++        58: invokestatic  #75                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+         61: astore        4
+         63: aload         4
+         65: invokeinterface #323,  1          // InterfaceMethod org/jetbrains/kotlin/descriptors/ClassDescriptor.getKind:()Lorg/jetbrains/kotlin/descriptors/ClassKind;
+         70: getstatic     #329                // Field org/jetbrains/kotlin/descriptors/ClassKind.CLASS:Lorg/jetbrains/kotlin/descriptors/ClassKind;
+         73: if_acmpeq     90
+@@ -1048,16 +1049,16 @@
+        140: new           #343                // class org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$SyntheticPartsGenerateContext
+        143: dup
+        144: aload_2
+        145: dup
+        146: ldc_w         #345                // String classBuilder
+-       149: invokestatic  #73                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++       149: invokestatic  #75                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+        152: aload_1
+        153: getfield      #349                // Field org/jetbrains/kotlin/codegen/ImplementationBodyCodegen.state:Lorg/jetbrains/kotlin/codegen/state/GenerationState;
+        156: dup
+        157: ldc_w         #351                // String codegen.state
+-       160: invokestatic  #73                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
++       160: invokestatic  #75                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+        163: aload         4
+        165: aload_3
+        166: checkcast     #353                // class org/jetbrains/kotlin/psi/KtClassOrObject
+        169: aload         5
+        171: invokespecial #356                // Method org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$SyntheticPartsGenerateContext."<init>":(Lorg/jetbrains/kotlin/codegen/ClassBuilder;Lorg/jetbrains/kotlin/codegen/state/GenerationState;Lorg/jetbrains/kotlin/descriptors/ClassDescriptor;Lorg/jetbrains/kotlin/psi/KtClassOrObject;Lorg/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy;)V
+@@ -1326,7 +1327,7 @@
+   org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension
+   *L
+   159#1,2:296
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #731(#732=[I#733,I#733,I#734],#735=[I#733,I#736,I#737],#738=I#733,#739=I#740,#741=[s#742],#743=[s#11,s#726,s#478,s#66,s#61,s#35,s#43,s#62,s#45,s#63,s#32,s#297,s#744,s#299,s#421,s#103,s#107,s#108,s#55,s#233,s#234,s#15,s#334,s#12,s#13,s#7,s#744,s#14,s#364,s#418,s#357,s#361,s#402,s#18,s#29,s#97,s#294,s#398,s#467,s#116,s#745,s#746])
++  0: #731(#732=[I#733,I#734,I#735],#736=[I#733,I#735,I#737],#738=I#733,#739=I#740,#741=[s#742],#743=[s#11,s#726,s#478,s#68,s#63,s#35,s#43,s#64,s#45,s#65,s#32,s#297,s#744,s#299,s#421,s#105,s#109,s#110,s#55,s#233,s#234,s#15,s#334,s#12,s#13,s#7,s#744,s#14,s#364,s#418,s#357,s#361,s#402,s#18,s#29,s#99,s#294,s#398,s#467,s#116,s#745,s#746])
+ 

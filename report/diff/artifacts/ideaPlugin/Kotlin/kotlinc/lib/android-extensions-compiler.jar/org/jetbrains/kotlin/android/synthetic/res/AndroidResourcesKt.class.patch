@@ -1,0 +1,40 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt.class
+@@ -149,13 +149,13 @@
+   #143 = Utf8               org/jetbrains/kotlin/descriptors/ClassDescriptor
+   #144 = Class              #143          // org/jetbrains/kotlin/descriptors/ClassDescriptor
+   #145 = Utf8               Lkotlin/Metadata;
+   #146 = Utf8               mv
+   #147 = Integer            1
+-  #148 = Integer            17
+-  #149 = Utf8               bv
+-  #150 = Integer            0
++  #148 = Integer            4
++  #149 = Integer            0
++  #150 = Utf8               bv
+   #151 = Integer            3
+   #152 = Utf8               k
+   #153 = Integer            2
+   #154 = Utf8               xi
+   #155 = Utf8               d1
+@@ -334,10 +334,11 @@
+         line 115: 21
+         line 116: 63
+         line 119: 65
+         line 120: 83
+         line 123: 100
++        line 123: 113
+         line 124: 134
+         line 125: 166
+         line 126: 171
+         line 123: 182
+         line 130: 185
+@@ -358,7 +359,7 @@
+ }
+ InnerClasses:
+      static final #52; //class org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$resolve$1
+ SourceFile: "androidResources.kt"
+ RuntimeVisibleAnnotations:
+-  0: #145(#146=[I#147,I#147,I#148],#149=[I#147,I#150,I#151],#152=I#153,#154=I#153,#155=[s#156],#157=[s#5,s#158,s#159,s#9,s#42,s#17,s#160,s#161,s#44,s#162,s#139,s#49,s#140,s#163])
++  0: #145(#146=[I#147,I#148,I#149],#150=[I#147,I#149,I#151],#152=I#153,#154=I#153,#155=[s#156],#157=[s#5,s#158,s#159,s#9,s#42,s#17,s#160,s#161,s#44,s#162,s#139,s#49,s#140,s#163])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/EfficientParcelableParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/EfficientParcelableParcelSerializer.class
+@@ -94,13 +94,13 @@
+    #88 = NameAndType        #81:#78       // creatorAsmType:Lorg/jetbrains/org/objectweb/asm/Type;
+    #89 = Fieldref           #2.#88        // org/jetbrains/kotlin/android/parcel/serializers/EfficientParcelableParcelSerializer.creatorAsmType:Lorg/jetbrains/org/objectweb/asm/Type;
+    #90 = Utf8               Lkotlin/Metadata;
+    #91 = Utf8               mv
+    #92 = Integer            1
+-   #93 = Integer            17
+-   #94 = Utf8               bv
+-   #95 = Integer            0
++   #93 = Integer            4
++   #94 = Integer            0
++   #95 = Utf8               bv
+    #96 = Integer            3
+    #97 = Utf8               k
+    #98 = Utf8               xi
+    #99 = Integer            2
+   #100 = Utf8               d1
+@@ -241,7 +241,7 @@
+       1:
+         0: #9()
+ }
+ SourceFile: "ParcelSerializers.kt"
+ RuntimeVisibleAnnotations:
+-  0: #90(#91=[I#92,I#92,I#93],#94=[I#92,I#95,I#96],#97=I#92,#98=I#99,#100=[s#101],#102=[s#45,s#103,s#77,s#78,s#81,s#83,s#48,s#49,s#47,s#104,s#10,s#46,s#7,s#105])
++  0: #90(#91=[I#92,I#93,I#94],#95=[I#92,I#94,I#96],#97=I#92,#98=I#99,#100=[s#101],#102=[s#45,s#103,s#77,s#78,s#81,s#83,s#48,s#49,s#47,s#104,s#10,s#46,s#7,s#105])
+ 

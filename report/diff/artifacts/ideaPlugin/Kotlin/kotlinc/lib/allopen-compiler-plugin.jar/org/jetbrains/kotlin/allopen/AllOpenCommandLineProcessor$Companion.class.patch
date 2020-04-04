@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor$Companion.class
+@@ -42,13 +42,13 @@
+   #36 = Utf8               $constructor_marker
+   #37 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #38 = Utf8               Lkotlin/Metadata;
+   #39 = Utf8               mv
+   #40 = Integer            1
+-  #41 = Integer            17
+-  #42 = Utf8               bv
+-  #43 = Integer            0
++  #41 = Integer            4
++  #42 = Integer            0
++  #43 = Utf8               bv
+   #44 = Integer            3
+   #45 = Utf8               k
+   #46 = Utf8               xi
+   #47 = Integer            2
+   #48 = Utf8               d1
+@@ -150,7 +150,7 @@
+ }
+ InnerClasses:
+      public static final #58= #2 of #10; //Companion=class org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor$Companion of class org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor
+ SourceFile: "AllOpenPlugin.kt"
+ RuntimeVisibleAnnotations:
+-  0: #38(#39=[I#40,I#40,I#41],#42=[I#40,I#43,I#44],#45=I#40,#46=I#47,#48=[s#49],#50=[s#15,s#51,s#31,s#52,s#53,s#16,s#17,s#54,s#51,s#25,s#26,s#55,s#21,s#56,s#51,s#51,s#5,s#6,s#57])
++  0: #38(#39=[I#40,I#41,I#42],#43=[I#40,I#42,I#44],#45=I#40,#46=I#47,#48=[s#49],#50=[s#15,s#51,s#31,s#52,s#53,s#16,s#17,s#54,s#51,s#25,s#26,s#55,s#21,s#56,s#51,s#51,s#5,s#6,s#57])
+ 

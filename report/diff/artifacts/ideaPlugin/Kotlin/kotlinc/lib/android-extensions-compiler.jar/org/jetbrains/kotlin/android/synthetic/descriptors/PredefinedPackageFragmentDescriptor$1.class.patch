@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$1.class
+@@ -45,13 +45,13 @@
+   #39 = Utf8               INSTANCE
+   #40 = Utf8               <clinit>
+   #41 = Utf8               Lkotlin/Metadata;
+   #42 = Utf8               mv
+   #43 = Integer            1
+-  #44 = Integer            17
+-  #45 = Utf8               bv
+-  #46 = Integer            0
++  #44 = Integer            4
++  #45 = Integer            0
++  #46 = Utf8               bv
+   #47 = Integer            3
+   #48 = Utf8               k
+   #49 = Utf8               xi
+   #50 = Integer            2
+   #51 = Utf8               d1
+@@ -143,7 +143,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$1
+ EnclosingMethod: #11.#58                // org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.<init>
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Lorg/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor;Ljava/util/List<+Lorg/jetbrains/kotlin/descriptors/SimpleFunctionDescriptor;>;>;
+ SourceFile: "PredefinedPackageFragmentDescriptor.kt"
+ RuntimeVisibleAnnotations:
+-  0: #41(#42=[I#43,I#43,I#44],#45=[I#43,I#46,I#47],#48=I#47,#49=I#50,#51=[s#52],#53=[s#54,s#55,s#56,s#17,s#33,s#8])
++  0: #41(#42=[I#43,I#44,I#45],#46=[I#43,I#45,I#47],#48=I#47,#49=I#50,#51=[s#52],#53=[s#54,s#55,s#56,s#17,s#33,s#8])
+ 

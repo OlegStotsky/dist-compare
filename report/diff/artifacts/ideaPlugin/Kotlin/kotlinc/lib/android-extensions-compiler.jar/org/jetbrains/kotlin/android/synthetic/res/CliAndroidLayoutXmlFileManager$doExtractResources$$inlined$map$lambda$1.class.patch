@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/CliAndroidLayoutXmlFileManager$doExtractResources$$inlined$map$lambda$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/CliAndroidLayoutXmlFileManager$doExtractResources$$inlined$map$lambda$1.class
+@@ -70,13 +70,13 @@
+   #64 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/ResourceIdentifier;
+   #65 = Utf8               Ljava/lang/String;
+   #66 = Utf8               Lkotlin/Metadata;
+   #67 = Utf8               mv
+   #68 = Integer            1
+-  #69 = Integer            17
+-  #70 = Utf8               bv
+-  #71 = Integer            0
++  #69 = Integer            4
++  #70 = Integer            0
++  #71 = Utf8               bv
+   #72 = Integer            3
+   #73 = Utf8               k
+   #74 = Utf8               xi
+   #75 = Integer            2
+   #76 = Utf8               d1
+@@ -195,7 +195,7 @@
+   org/jetbrains/kotlin/android/synthetic/res/CliAndroidLayoutXmlFileManager$doExtractResources$layouts$1$1
+   *L
+   1#1,57:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #66(#67=[I#68,I#68,I#69],#70=[I#68,I#71,I#72],#73=I#72,#74=I#75,#76=[s#77],#78=[s#79,s#80,s#42,s#64,s#50,s#80,s#26,s#81])
++  0: #66(#67=[I#68,I#69,I#70],#71=[I#68,I#70,I#72],#73=I#72,#74=I#75,#76=[s#77],#78=[s#79,s#80,s#42,s#64,s#50,s#80,s#26,s#81])
+ 

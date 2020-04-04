@@ -1,0 +1,50 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$write$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$write$1.class
+@@ -57,13 +57,13 @@
+   #51 = Utf8               $super_call_param$2
+   #52 = Utf8               Lorg/jetbrains/kotlin/codegen/state/GenerationState;
+   #53 = Utf8               Lkotlin/Metadata;
+   #54 = Utf8               mv
+   #55 = Integer            1
+-  #56 = Integer            17
+-  #57 = Utf8               bv
+-  #58 = Integer            0
++  #56 = Integer            4
++  #57 = Integer            0
++  #58 = Utf8               bv
+   #59 = Integer            3
+   #60 = Utf8               k
+   #61 = Utf8               xi
+   #62 = Integer            2
+   #63 = Utf8               d1
+@@ -118,18 +118,19 @@
+         34: nop
+         35: nop
+         36: return
+       LineNumberTable:
+         line 377: 12
++        line 65100: 20
+         line 378: 23
+         line 379: 34
+         line 377: 35
+         line 379: 36
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-           20      14     5 $this$with   Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
+-           23      11     6 $i$a$-with-ParcelableCodegenExtension$write$1$doGenerateBody$1   I
++           20      15     5 $this$with   Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
++           23      12     6 $i$a$-with-ParcelableCodegenExtension$write$1$doGenerateBody$1   I
+             0      37     0  this   Lorg/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$write$1;
+             0      37     1     e   Lorg/jetbrains/kotlin/codegen/ExpressionCodegen;
+             0      37     2 signature   Lorg/jetbrains/kotlin/resolve/jvm/jvmSignature/JvmMethodSignature;
+     RuntimeInvisibleParameterAnnotations:
+       0:
+@@ -176,7 +177,7 @@
+   org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$write$1
+   *L
+   1#1,394:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #53(#54=[I#55,I#55,I#56],#57=[I#55,I#58,I#59],#60=I#55,#61=I#62,#63=[s#64],#65=[s#1,s#66,s#10,s#67,s#13,s#34,s#21,s#39,s#68])
++  0: #53(#54=[I#55,I#56,I#57],#58=[I#55,I#57,I#59],#60=I#55,#61=I#62,#63=[s#64],#65=[s#1,s#66,s#10,s#67,s#13,s#34,s#21,s#39,s#68])
+ 

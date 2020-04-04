@@ -1,0 +1,43 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidCommandLineProcessor.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidCommandLineProcessor.class
+@@ -270,13 +270,13 @@
+   #264 = NameAndType        #217:#39      // ENABLED_OPTION:Lorg/jetbrains/kotlin/compiler/plugin/CliOption;
+   #265 = Fieldref           #2.#264       // org/jetbrains/kotlin/android/synthetic/AndroidCommandLineProcessor.ENABLED_OPTION:Lorg/jetbrains/kotlin/compiler/plugin/CliOption;
+   #266 = Utf8               Lkotlin/Metadata;
+   #267 = Utf8               mv
+   #268 = Integer            1
+-  #269 = Integer            17
+-  #270 = Utf8               bv
+-  #271 = Integer            0
++  #269 = Integer            4
++  #270 = Integer            0
++  #271 = Utf8               bv
+   #272 = Integer            3
+   #273 = Utf8               k
+   #274 = Utf8               xi
+   #275 = Integer            2
+   #276 = Utf8               d1
+@@ -1095,12 +1095,12 @@
+   + 3 _Arrays.kt
+   kotlin/collections/ArraysKt___ArraysKt
+   *L
+   1#1,179:1
+   1420#2:180
+-  1644#2:181
+-  1645#2:184
++  1642#2:181
++  1643#2:184
+   1421#2:185
+   1203#3,2:182
+   *E
+   *S KotlinDebug
+   *F
+@@ -1112,7 +1112,7 @@
+   96#1:184
+   96#1:185
+   96#1,2:182
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #266(#267=[I#268,I#268,I#269],#270=[I#268,I#271,I#272],#273=I#268,#274=I#275,#276=[s#277],#278=[s#15,s#230,s#115,s#7,s#279,s#10,s#11,s#16,s#279,s#201,s#19,s#20,s#24,s#279,s#26,s#34,s#36,s#202,s#219,s#280])
++  0: #266(#267=[I#268,I#269,I#270],#271=[I#268,I#270,I#272],#273=I#268,#274=I#275,#276=[s#277],#278=[s#15,s#230,s#115,s#7,s#279,s#10,s#11,s#16,s#279,s#201,s#19,s#20,s#24,s#279,s#26,s#34,s#36,s#202,s#219,s#280])
+ 

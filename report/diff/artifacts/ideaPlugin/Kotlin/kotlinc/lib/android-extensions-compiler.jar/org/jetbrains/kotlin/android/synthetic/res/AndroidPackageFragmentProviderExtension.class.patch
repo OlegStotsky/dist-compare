@@ -1,0 +1,128 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension.class
+@@ -275,13 +275,13 @@
+   #269 = Class              #268          // org/jetbrains/kotlin/incremental/components/LookupTracker
+   #270 = Methodref          #4.#74        // java/lang/Object."<init>":()V
+   #271 = Utf8               Lkotlin/Metadata;
+   #272 = Utf8               mv
+   #273 = Integer            1
+-  #274 = Integer            17
+-  #275 = Utf8               bv
+-  #276 = Integer            0
++  #274 = Integer            4
++  #275 = Integer            0
++  #276 = Utf8               bv
+   #277 = Integer            3
+   #278 = Utf8               k
+   #279 = Utf8               xi
+   #280 = Integer            2
+   #281 = Utf8               d1
+@@ -620,17 +620,16 @@
+        584: aload         21
+        586: invokeinterface #221,  2          // InterfaceMethod java/util/Collection.add:(Ljava/lang/Object;)Z
+        591: pop
+        592: nop
+        593: nop
+-       594: nop
+-       595: new           #223                // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider
+-       598: dup
+-       599: aload         11
+-       601: invokespecial #226                // Method org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider."<init>":(Ljava/util/Map;)V
+-       604: checkcast     #228                // class org/jetbrains/kotlin/descriptors/PackageFragmentProvider
+-       607: areturn
++       594: new           #223                // class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider
++       597: dup
++       598: aload         11
++       600: invokespecial #226                // Method org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider."<init>":(Ljava/util/Map;)V
++       603: checkcast     #228                // class org/jetbrains/kotlin/descriptors/PackageFragmentProvider
++       606: areturn
+       StackMapTable: number_of_entries = 8
+         frame_type = 255 /* full_frame */
+           offset_delta = 54
+           locals = [ class org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension, class com/intellij/openapi/project/Project, class org/jetbrains/kotlin/descriptors/ModuleDescriptor, class org/jetbrains/kotlin/storage/StorageManager, class org/jetbrains/kotlin/resolve/BindingTrace, class org/jetbrains/kotlin/analyzer/ModuleInfo, class org/jetbrains/kotlin/incremental/components/LookupTracker, int ]
+           stack = [ class org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager ]
+@@ -662,32 +661,36 @@
+         line 65: 77
+         line 65: 90
+         line 66: 92
+         line 66: 105
+         line 69: 107
++        line 69: 119
+         line 70: 141
++        line 70: 165
+         line 70: 201
+         line 70: 220
+         line 71: 225
+         line 88: 255
+         line 90: 302
+         line 91: 313
+         line 70: 342
+         line 69: 345
+         line 96: 348
+         line 103: 372
++        line 103: 384
+         line 104: 406
+         line 105: 450
+         line 103: 478
+         line 111: 481
++        line 65100: 505
+         line 112: 508
+         line 113: 519
+         line 124: 548
+         line 125: 560
+         line 126: 592
+-        line 111: 594
+-        line 128: 595
++        line 111: 593
++        line 128: 594
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+           302      40    20 packageFqName   Ljava/lang/String;
+           255      87    19 $fun$createPackageFragment$1   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1;
+           225     117    18 layouts   Ljava/util/List;
+@@ -697,23 +700,23 @@
+           406      72    13 variantData   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidVariantData;
+           548      44    19 lazyPackageDescriptor   Lkotlin/jvm/functions/Function0;
+           519      73    18 fqName   Lorg/jetbrains/kotlin/name/FqName;
+           505      88    16 fqNameString   Ljava/lang/String;
+           508      85    17 $i$a$-let-AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$4   I
+-          107     501    12 packagesToLookupInCompletion   Ljava/util/List;
+-           92     516    11 packages   Ljava/util/Map;
+-           77     531    10 lazyContext   Lorg/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext;
+-           66     542     9 moduleData   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
+-           59     549     8 layoutXmlFileManager   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager;
+-           40     568     7 isExperimental   Z
+-            0     608     0  this   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension;
+-            0     608     1 project   Lcom/intellij/openapi/project/Project;
+-            0     608     2 module   Lorg/jetbrains/kotlin/descriptors/ModuleDescriptor;
+-            0     608     3 storageManager   Lorg/jetbrains/kotlin/storage/StorageManager;
+-            0     608     4 trace   Lorg/jetbrains/kotlin/resolve/BindingTrace;
+-            0     608     5 moduleInfo   Lorg/jetbrains/kotlin/analyzer/ModuleInfo;
+-            0     608     6 lookupTracker   Lorg/jetbrains/kotlin/incremental/components/LookupTracker;
++          107     500    12 packagesToLookupInCompletion   Ljava/util/List;
++           92     515    11 packages   Ljava/util/Map;
++           77     530    10 lazyContext   Lorg/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext;
++           66     541     9 moduleData   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
++           59     548     8 layoutXmlFileManager   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager;
++           40     567     7 isExperimental   Z
++            0     607     0  this   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension;
++            0     607     1 project   Lcom/intellij/openapi/project/Project;
++            0     607     2 module   Lorg/jetbrains/kotlin/descriptors/ModuleDescriptor;
++            0     607     3 storageManager   Lorg/jetbrains/kotlin/storage/StorageManager;
++            0     607     4 trace   Lorg/jetbrains/kotlin/resolve/BindingTrace;
++            0     607     5 moduleInfo   Lorg/jetbrains/kotlin/analyzer/ModuleInfo;
++            0     607     6 lookupTracker   Lorg/jetbrains/kotlin/incremental/components/LookupTracker;
+     RuntimeInvisibleAnnotations:
+       0: #9()
+     RuntimeInvisibleParameterAnnotations:
+       0:
+         0: #10()
+@@ -758,7 +761,7 @@
+   org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension
+   *L
+   1#1,142:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #271(#272=[I#273,I#273,I#274],#275=[I#273,I#276,I#277],#278=I#273,#279=I#280,#281=[s#282],#283=[s#12,s#284,s#73,s#19,s#285,s#286,s#22,s#7,s#252,s#13,s#14,s#15,s#16,s#45,s#287,s#48,s#254,s#50,s#255,s#52,s#256,s#54,s#257,s#17,s#288,s#289])
++  0: #271(#272=[I#273,I#274,I#275],#276=[I#273,I#275,I#277],#278=I#273,#279=I#280,#281=[s#282],#283=[s#12,s#284,s#73,s#19,s#285,s#286,s#22,s#7,s#252,s#13,s#14,s#15,s#16,s#45,s#287,s#48,s#254,s#50,s#255,s#52,s#256,s#54,s#257,s#17,s#288,s#289])
+ 

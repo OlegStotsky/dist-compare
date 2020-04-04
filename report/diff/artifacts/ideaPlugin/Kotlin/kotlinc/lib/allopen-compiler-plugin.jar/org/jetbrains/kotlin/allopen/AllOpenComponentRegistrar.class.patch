@@ -1,0 +1,51 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AllOpenComponentRegistrar.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AllOpenComponentRegistrar.class
+@@ -139,13 +139,13 @@
+   #133 = Class              #132          // com/intellij/mock/MockProject
+   #134 = Methodref          #4.#50        // java/lang/Object."<init>":()V
+   #135 = Utf8               Lkotlin/Metadata;
+   #136 = Utf8               mv
+   #137 = Integer            1
+-  #138 = Integer            17
+-  #139 = Utf8               bv
+-  #140 = Integer            0
++  #138 = Integer            4
++  #139 = Integer            0
++  #140 = Utf8               bv
+   #141 = Integer            3
+   #142 = Utf8               k
+   #143 = Utf8               xi
+   #144 = Integer            2
+   #145 = Utf8               d1
+@@ -292,10 +292,11 @@
+         line 70: 42
+         line 70: 56
+         line 71: 57
+         line 80: 82
+         line 72: 120
++        line 65100: 152
+         line 72: 155
+         line 72: 175
+         line 72: 175
+         line 73: 179
+         line 81: 183
+@@ -346,17 +347,17 @@
+   org/jetbrains/kotlin/allopen/AllOpenComponentRegistrar
+   + 2 _Collections.kt
+   kotlin/collections/CollectionsKt___CollectionsKt
+   *L
+   1#1,79:1
+-  1644#2,2:80
++  1642#2,2:80
+   *E
+   *S KotlinDebug
+   *F
+   + 1 AllOpenPlugin.kt
+   org/jetbrains/kotlin/allopen/AllOpenComponentRegistrar
+   *L
+   71#1,2:80
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #135(#136=[I#137,I#137,I#138],#139=[I#137,I#140,I#141],#142=I#137,#143=I#144,#145=[s#146],#147=[s#129,s#148,s#49,s#7,s#149,s#10,s#130,s#18,s#131,s#150])
++  0: #135(#136=[I#137,I#138,I#139],#140=[I#137,I#139,I#141],#142=I#137,#143=I#144,#145=[s#146],#147=[s#129,s#148,s#49,s#7,s#149,s#10,s#130,s#18,s#131,s#150])
+ 

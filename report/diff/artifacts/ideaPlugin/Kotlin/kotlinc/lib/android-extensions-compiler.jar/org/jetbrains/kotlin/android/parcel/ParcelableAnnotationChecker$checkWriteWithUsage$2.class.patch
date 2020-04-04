@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$checkWriteWithUsage$2.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$checkWriteWithUsage$2.class
+@@ -61,13 +61,13 @@
+   #55 = Utf8               INSTANCE
+   #56 = Utf8               <clinit>
+   #57 = Utf8               Lkotlin/Metadata;
+   #58 = Utf8               mv
+   #59 = Integer            1
+-  #60 = Integer            17
+-  #61 = Utf8               bv
+-  #62 = Integer            0
++  #60 = Integer            4
++  #61 = Integer            0
++  #62 = Utf8               bv
+   #63 = Integer            3
+   #64 = Utf8               k
+   #65 = Utf8               xi
+   #66 = Integer            2
+   #67 = Utf8               d1
+@@ -175,7 +175,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$checkWriteWithUsage$2
+ EnclosingMethod: #73.#76                // org.jetbrains.kotlin.android.parcel.ParcelableAnnotationChecker.checkWriteWithUsage
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/name/FqName;>;
+ SourceFile: "ParcelableAnnotationChecker.kt"
+ RuntimeVisibleAnnotations:
+-  0: #57(#58=[I#59,I#59,I#60],#61=[I#59,I#62,I#63],#64=I#63,#65=I#66,#67=[s#68],#69=[s#70,s#71,s#45,s#8])
++  0: #57(#58=[I#59,I#60,I#61],#62=[I#59,I#61,I#63],#64=I#63,#65=I#66,#67=[s#68],#69=[s#70,s#71,s#45,s#8])
+ 

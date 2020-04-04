@@ -1,0 +1,3072 @@
+[
+  {
+    "id": 2,
+    "relativePath": "/artifacts/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 4,
+    "relativePath": "/artifacts/ideaPlugin/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 6,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 8,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISMATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 11,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/README.md",
+    "noExtension": false,
+    "extension": "md",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 10,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/COPYRIGHT.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 14,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/prototype_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 12,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/NOTICE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 17,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/eclipse_distribution_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 15,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/trove_readme_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 18,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/spring_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 20,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/lombok_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 19,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/rxjava_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 21,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/eclipse_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 23,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/findbugs_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 24,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/karma-teamcity-reporter_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 25,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/dart_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 22,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/testdata/dagger_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 26,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/gradle_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 28,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/karma_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 30,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/lodash_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 29,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/gwt_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 31,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/qunit_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 32,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/mocha-teamcity-reporter_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 33,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/source-map-loader_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 27,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/closure-compiler_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 34,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/jquery_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 35,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/scala_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 37,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/asm_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 36,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/guava_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 38,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/boost_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 39,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/aosp_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 40,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/teamcity-service-messages_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 41,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/pcollections_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 44,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/args4j_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 42,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/maven_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 46,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/jshashtable_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 43,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/trove_license.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 47,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 45,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/license/third_party/rhino_LICENSE.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 50,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 53,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/META-INF/MANIFEST.MF",
+    "noExtension": false,
+    "extension": "MF",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 57,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/META-INF/maven/org.jetbrains/annotations/pom.properties",
+    "noExtension": false,
+    "extension": "properties",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 58,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/META-INF/maven/org.jetbrains/annotations/pom.xml",
+    "noExtension": false,
+    "extension": "xml",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 62,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/NonNls.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 63,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/Contract.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 64,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/TestOnly.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 65,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/Nls.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 66,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/PropertyKey.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 67,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/Nullable.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 68,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/jetbrains/annotations/NotNull.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 72,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$AdjustableOrientation.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 48,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/build.txt",
+    "noExtension": false,
+    "extension": "txt",
+    "status": "MISSED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 74,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$InputEventMask.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 75,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$HorizontalAlignment.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 76,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/Subst.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 77,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$ListSelectionMode.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 73,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$CalendarMonth.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 79,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/RegExp.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 78,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/Flow.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 80,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$BoxLayoutAxis.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 81,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/PrintFormatPattern.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 82,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$PatternFlags.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 83,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$TabPlacement.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 84,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/Language.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 85,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$TitledBorderTitlePosition.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 87,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/Identifier.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 86,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 88,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$FontStyle.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 89,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$TabLayoutPolicy.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 91,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$TitledBorderJustification.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 90,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$TreeSelectionMode.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 92,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/Pattern.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 93,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/MagicConstant.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 94,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/PrintFormat.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 95,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$FlowLayoutAlignment.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 100,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/META-INF/kotlin-android-extensions-runtime.kotlin_module",
+    "noExtension": false,
+    "extension": "kotlin_module",
+    "status": "MISMATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 99,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/META-INF/MANIFEST.MF",
+    "noExtension": false,
+    "extension": "MF",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 96,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/annotations-13.0.jar/org/intellij/lang/annotations/JdkConstants$CursorType.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 119,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/META-INF/services",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "DIR",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 149,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/services",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "DIR",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 105,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/extensions/LayoutContainer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 107,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/extensions/ContainerOptions.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 106,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/extensions/CacheImplementation$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 104,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/extensions/CacheImplementation.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 109,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/Parcelize.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 110,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/Parceler$DefaultImpls.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 112,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/Parceler.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 111,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/WriteWith.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 113,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/RawValue.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 118,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/META-INF/MANIFEST.MF",
+    "noExtension": false,
+    "extension": "MF",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 120,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CommandLineProcessor",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 121,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/META-INF/services/org.jetbrains.kotlin.compiler.plugin.ComponentRegistrar",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 122,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/META-INF/kotlin-allopen-compiler-plugin.kotlin_module",
+    "noExtension": false,
+    "extension": "kotlin_module",
+    "status": "MISMATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 114,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/IgnoredOnParcel.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 115,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar/kotlinx/android/parcel/TypeParceler.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 127,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 129,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/CliAllOpenDeclarationAttributeAltererExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 130,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 128,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AllOpenComponentRegistrar.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 131,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AllOpenConfigurationKeys.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 136,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/META-INF/MANIFEST.MF",
+    "noExtension": false,
+    "extension": "MF",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 137,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/META-INF/atomicfu-common.kotlin_module",
+    "noExtension": false,
+    "extension": "kotlin_module",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 140,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/kotlinx/atomicfu/AtomicFU_commonKt.kotlin_metadata",
+    "noExtension": false,
+    "extension": "kotlin_metadata",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 141,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/kotlinx/atomicfu/AtomicLong.kotlin_metadata",
+    "noExtension": false,
+    "extension": "kotlin_metadata",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 142,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/kotlinx/atomicfu/AtomicBoolean.kotlin_metadata",
+    "noExtension": false,
+    "extension": "kotlin_metadata",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 143,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/kotlinx/atomicfu/AtomicRef.kotlin_metadata",
+    "noExtension": false,
+    "extension": "kotlin_metadata",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 144,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/atomicfu-common-0.11.12.jar/kotlinx/atomicfu/AtomicInt.kotlin_metadata",
+    "noExtension": false,
+    "extension": "kotlin_metadata",
+    "status": "MATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 147,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/MANIFEST.MF",
+    "noExtension": false,
+    "extension": "MF",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 148,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/android-extensions-compiler.kotlin_module",
+    "noExtension": false,
+    "extension": "kotlin_module",
+    "status": "MISMATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 150,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/services/org.jetbrains.kotlin.compiler.plugin.CommandLineProcessor",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 151,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/services/org.jetbrains.kotlin.compiler.plugin.ComponentRegistrar",
+    "noExtension": true,
+    "extension": "",
+    "status": "MISSED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 152,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/META-INF/kotlin-android-extensions-runtime.kotlin_module",
+    "noExtension": false,
+    "extension": "kotlin_module",
+    "status": "MISMATCHED",
+    "kind": "BIN",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 159,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension$ClinitAwareMethodVisitor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 132,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 160,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 133,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar/org/jetbrains/kotlin/allopen/AllOpenCommandLineProcessor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 161,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/SparseArrayCacheMechanism.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 162,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension$AndroidOnDestroyCollectorClassBuilder.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 164,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 163,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion$get$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 165,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 166,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension$ParcelableClinitClassBuilderFactory.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 168,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$SyntheticPartsGenerateContext.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 167,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidOnDestroyClassBuilderInterceptorExtension$AndroidOnDestroyCollectorClassBuilder$newMethod$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 171,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$createMethod$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 170,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 172,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 173,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 175,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CliAndroidOnDestroyClassBuilderInterceptorExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 174,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 176,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanismsKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 177,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 178,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 179,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 180,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CliAndroidIrExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 169,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 182,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidOnDestroyClassBuilderInterceptorExtension$AndroidOnDestroyClassBuilderFactory.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 183,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 185,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 184,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidOnDestroyClassBuilderInterceptorExtension$AndroidOnDestroyCollectorClassBuilder.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 186,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 188,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 187,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 181,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 189,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidOnDestroyClassBuilderInterceptorExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 190,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue$WhenMappings.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 191,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion$WhenMappings.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 192,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$WhenMappings.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 194,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/CliAndroidExtensionsExpressionCodegenExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 197,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidVariant.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 195,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/HashMapCacheMechanism.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 199,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/CliAndroidLayoutXmlFileManager$doExtractResources$$inlined$map$lambda$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 198,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 193,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 200,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/ResolvedWidget.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 202,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$sam$com_intellij_psi_util_CachedValueProvider$0.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 203,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 205,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayout.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 206,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1$lazyPackageDescriptor$1$packageData$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 201,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 207,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResourcesKt$resolve$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 208,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 210,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResource$Fragment.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 209,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutGroup.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 204,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 211,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$$special$$inlined$sortedBy$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 212,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genProperty$property$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 214,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidVariantData.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 216,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$$inlined$let$lambda$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 213,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$$inlined$let$lambda$1$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 217,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$3.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 219,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 215,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 218,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider$getSubPackagesOf$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 222,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 221,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResource.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 220,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 224,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/CliAndroidPackageFragmentProviderExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 225,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$createLazyValue$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 223,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1$lazyPackageDescriptor$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 226,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutGroupData.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 228,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genClearCacheFunction$function$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 229,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidResource$Widget.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 230,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 227,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/CliAndroidLayoutXmlFileManager.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 232,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidModule.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 233,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/ResourceIdentifier.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 234,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$getVariantData$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 236,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$2$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 237,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidVariant$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 238,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/XmlSourceElement.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 231,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 235,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 239,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidExtensionPropertiesComponentContainerContributor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 241,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidExtensionsFeature.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 242,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidComponentRegistrar.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 240,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidConst.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 246,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 243,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidCommandLineProcessor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 244,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidComponentRegistrar$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 247,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope$properties$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 249,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$widgetReceivers$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 248,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 250,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 251,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$experimentalWidgetReceivers$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 254,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$LazyAndroidExtensionsPackageFragmentDescriptor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 253,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 252,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 255,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageData.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 258,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$calculatedFunctions$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 257,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxyKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 256,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy$Companion$create$cache$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 259,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 262,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/WidgetReceiver.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 260,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 261,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$PredefinedScope.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 265,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext$context$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 263,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 264,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 266,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext$createResolveContext$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 269,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidCommandLineProcessor$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 267,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$fragmentTypes$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 270,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidXmlHandlerKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 272,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/diagnostic/ErrorsAndroid$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 274,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/diagnostic/ErrorsAndroid.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 268,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidConstKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 276,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidXmlHandler.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 275,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/diagnostic/AndroidExtensionPropertiesCallChecker.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 277,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/AndroidConfigurationKeys.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 279,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableSyntheticComponent.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 281,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 273,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/synthetic/diagnostic/DefaultErrorMessagesAndroid.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 280,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion$createMethod$functionDescriptor$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 282,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeNewArrayMethod$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 283,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtensionKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 286,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableSyntheticComponent$ComponentKind.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 287,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtensionKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 284,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 288,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationCheckerKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 290,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationCheckerKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 285,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 291,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$checkWriteWithUsage$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 289,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeCreateFromParcel$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 292,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 294,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$checkParcelableClassProperty$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 295,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 297,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$PropertyToSerialize.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 298,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 296,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 299,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeCreatorConstructor$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 293,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 301,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$checkParcelableClassProperty$1$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 303,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/Method$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 304,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/NullAwareParcelSerializerWrapper$writeValue$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 300,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeWriteToParcel$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 305,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ListSetParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 307,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer$CharParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 308,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/GenericParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 306,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/MapParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 309,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer$BooleanParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 311,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/CharSequenceParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 313,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/NullAwareParcelSerializerWrapper$readValue$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 312,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$DefaultImpls.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 314,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer$ShortParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 315,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 310,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/BoxedPrimitiveTypeParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 317,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/NullAwareParcelSerializerWrapper.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 316,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/EfficientParcelableParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 318,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$5.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 320,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 319,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/GenericParcelableParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 321,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/AbstractCollectionParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 324,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 323,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/NullCompliantObjectParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 322,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializersKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 327,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializerKt.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 325,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/SparseArrayParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 326,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ArrayParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 329,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/TypeParcelerParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 330,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$ParcelSerializerContext.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 332,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ZeroParameterClassSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 331,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 334,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 335,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/BoxedPrimitiveTypeParcelSerializer$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 333,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 336,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/Method.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 328,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 338,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 337,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 340,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/ObjectParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 341,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeDescribeContentsFunction$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 339,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/serializers/EnumParcelSerializer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 342,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationChecker$checkWriteWithUsage$2.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 343,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$write$1.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 347,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/extensions/CacheImplementation.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 348,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/extensions/LayoutContainer.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 350,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/extensions/ContainerOptions.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 349,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/extensions/CacheImplementation$Companion.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 352,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/Parcelize.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 353,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/Parceler$DefaultImpls.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 354,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/WriteWith.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 356,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/RawValue.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 357,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/IgnoredOnParcel.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 359,
+    "relativePath": "/.DS_Store",
+    "noExtension": true,
+    "extension": "",
+    "status": "MATCHED",
+    "kind": "TEXT",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 355,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/Parceler.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  },
+  {
+    "id": 358,
+    "relativePath": "/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar/kotlinx/android/parcel/TypeParceler.class",
+    "noExtension": false,
+    "extension": "class",
+    "status": "MISMATCHED",
+    "kind": "CLASS",
+    "suppressed": false,
+    "diffs": 0
+  }
+]

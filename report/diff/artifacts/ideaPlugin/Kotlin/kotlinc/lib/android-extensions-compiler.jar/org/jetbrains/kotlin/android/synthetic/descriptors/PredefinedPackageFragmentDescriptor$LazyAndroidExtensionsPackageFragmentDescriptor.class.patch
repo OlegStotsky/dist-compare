@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$LazyAndroidExtensionsPackageFragmentDescriptor.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$LazyAndroidExtensionsPackageFragmentDescriptor.class
+@@ -38,13 +38,13 @@
+   #32 = NameAndType        #21:#31        // "<init>":()V
+   #33 = Methodref          #4.#32         // java/lang/Object."<init>":()V
+   #34 = Utf8               Lkotlin/Metadata;
+   #35 = Utf8               mv
+   #36 = Integer            1
+-  #37 = Integer            17
+-  #38 = Utf8               bv
+-  #39 = Integer            0
++  #37 = Integer            4
++  #38 = Integer            0
++  #39 = Utf8               bv
+   #40 = Integer            3
+   #41 = Utf8               k
+   #42 = Utf8               xi
+   #43 = Integer            2
+   #44 = Utf8               d1
+@@ -131,7 +131,7 @@
+ }
+ InnerClasses:
+      public static final #53= #2 of #52; //LazyAndroidExtensionsPackageFragmentDescriptor=class org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor$LazyAndroidExtensionsPackageFragmentDescriptor of class org/jetbrains/kotlin/android/synthetic/descriptors/PredefinedPackageFragmentDescriptor
+ SourceFile: "PredefinedPackageFragmentDescriptor.kt"
+ RuntimeVisibleAnnotations:
+-  0: #34(#35=[I#36,I#36,I#37],#38=[I#36,I#39,I#40],#41=I#36,#42=I#43,#44=[s#45],#46=[s#15,s#47,s#5,s#48,s#49,s#16,s#47,s#22,s#9,s#10,s#18,s#50])
++  0: #34(#35=[I#36,I#37,I#38],#39=[I#36,I#38,I#40],#41=I#36,#42=I#43,#44=[s#45],#46=[s#15,s#47,s#5,s#48,s#49,s#16,s#47,s#22,s#9,s#10,s#18,s#50])
+ 

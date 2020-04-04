@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$PropertyToSerialize.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$PropertyToSerialize.class
+@@ -97,13 +97,13 @@
+    #91 = NameAndType        #89:#90       // areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #92 = Methodref          #33.#91       // kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #93 = Utf8               Lkotlin/Metadata;
+    #94 = Utf8               mv
+    #95 = Integer            1
+-   #96 = Integer            17
+-   #97 = Utf8               bv
+-   #98 = Integer            0
++   #96 = Integer            4
++   #97 = Integer            0
++   #98 = Utf8               bv
+    #99 = Integer            3
+   #100 = Utf8               k
+   #101 = Utf8               xi
+   #102 = Integer            2
+   #103 = Utf8               d1
+@@ -472,7 +472,7 @@
+ }
+ InnerClasses:
+      public static final #113= #2 of #112; //PropertyToSerialize=class org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$PropertyToSerialize of class org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension
+ SourceFile: "ParcelableCodegenExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #93(#94=[I#95,I#95,I#96],#97=[I#95,I#98,I#99],#100=I#95,#101=I#102,#103=[s#104],#105=[s#13,s#106,s#5,s#106,s#14,s#15,s#20,s#106,s#107,s#108,s#29,s#8,s#9,s#23,s#24,s#16,s#17,s#43,s#44,s#45,s#46,s#86,s#106,s#109,s#76,s#106,s#55,s#110])
++  0: #93(#94=[I#95,I#96,I#97],#98=[I#95,I#97,I#99],#100=I#95,#101=I#102,#103=[s#104],#105=[s#13,s#106,s#5,s#106,s#14,s#15,s#20,s#106,s#107,s#108,s#29,s#8,s#9,s#23,s#24,s#16,s#17,s#43,s#44,s#45,s#46,s#86,s#106,s#109,s#76,s#106,s#55,s#110])
+ 

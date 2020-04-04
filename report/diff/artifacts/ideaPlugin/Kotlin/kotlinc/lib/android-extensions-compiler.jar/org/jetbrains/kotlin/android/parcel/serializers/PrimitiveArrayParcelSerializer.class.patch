@@ -1,0 +1,274 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer.class
+@@ -167,13 +167,13 @@
+   #161 = Utf8               java/lang/String
+   #162 = Class              #161          // java/lang/String
+   #163 = Utf8               Lkotlin/Metadata;
+   #164 = Utf8               mv
+   #165 = Integer            1
+-  #166 = Integer            17
+-  #167 = Utf8               bv
+-  #168 = Integer            0
++  #166 = Integer            4
++  #167 = Integer            0
++  #168 = Utf8               bv
+   #169 = Integer            3
+   #170 = Utf8               k
+   #171 = Utf8               xi
+   #172 = Integer            2
+   #173 = Utf8               d1
+@@ -280,11 +280,11 @@
+ 
+   public org.jetbrains.kotlin.android.parcel.serializers.PrimitiveArrayParcelSerializer(org.jetbrains.org.objectweb.asm.Type);
+     descriptor: (Lorg/jetbrains/org/objectweb/asm/Type;)V
+     flags: ACC_PUBLIC
+     Code:
+-      stack=6, locals=6, args_size=2
++      stack=6, locals=5, args_size=2
+          0: aload_1
+          1: ldc           #70                 // String asmType
+          3: invokestatic  #23                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V
+          6: aload_0
+          7: invokespecial #73                 // Method java/lang/Object."<init>":()V
+@@ -299,47 +299,47 @@
+         24: aload_2
+         25: getstatic     #81                 // Field org/jetbrains/org/objectweb/asm/Type.INT_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+         28: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         31: ifeq          39
+         34: ldc           #87                 // String Int
+-        36: goto          184
++        36: goto          182
+         39: aload_2
+         40: getstatic     #90                 // Field org/jetbrains/org/objectweb/asm/Type.BOOLEAN_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+         43: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         46: ifeq          54
+         49: ldc           #92                 // String Boolean
+-        51: goto          184
++        51: goto          182
+         54: aload_2
+         55: getstatic     #95                 // Field org/jetbrains/org/objectweb/asm/Type.BYTE_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+         58: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         61: ifeq          69
+         64: ldc           #97                 // String Byte
+-        66: goto          184
++        66: goto          182
+         69: aload_2
+         70: getstatic     #100                // Field org/jetbrains/org/objectweb/asm/Type.CHAR_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+         73: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         76: ifeq          84
+         79: ldc           #102                // String Char
+-        81: goto          184
++        81: goto          182
+         84: aload_2
+         85: getstatic     #105                // Field org/jetbrains/org/objectweb/asm/Type.DOUBLE_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+         88: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+         91: ifeq          99
+         94: ldc           #107                // String Double
+-        96: goto          184
++        96: goto          182
+         99: aload_2
+        100: getstatic     #110                // Field org/jetbrains/org/objectweb/asm/Type.FLOAT_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+        103: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        106: ifeq          114
+        109: ldc           #112                // String Float
+-       111: goto          184
++       111: goto          182
+        114: aload_2
+        115: getstatic     #115                // Field org/jetbrains/org/objectweb/asm/Type.LONG_TYPE:Lorg/jetbrains/org/objectweb/asm/Type;
+        118: invokestatic  #85                 // Method kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        121: ifeq          129
+        124: ldc           #117                // String Long
+-       126: goto          184
++       126: goto          182
+        129: new           #119                // class java/lang/StringBuilder
+        132: dup
+        133: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
+        136: ldc           #122                // String Unsupported type
+        138: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+@@ -351,76 +351,75 @@
+        151: invokestatic  #34                 // Method kotlin/jvm/internal/Intrinsics.checkNotNullExpressionValue:(Ljava/lang/Object;Ljava/lang/String;)V
+        154: invokevirtual #131                // Method org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
+        157: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        160: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        163: astore_3
+-       164: astore        5
+-       166: iconst_0
+-       167: istore        4
+-       169: new           #136                // class java/lang/IllegalStateException
+-       172: dup
+-       173: aload_3
+-       174: invokevirtual #137                // Method java/lang/Object.toString:()Ljava/lang/String;
+-       177: invokespecial #140                // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+-       180: checkcast     #142                // class java/lang/Throwable
+-       183: athrow
+-       184: putfield      #144                // Field methodNameBase:Ljava/lang/String;
+-       187: aload_0
+-       188: new           #44                 // class org/jetbrains/kotlin/android/parcel/serializers/Method
+-       191: dup
+-       192: new           #119                // class java/lang/StringBuilder
+-       195: dup
+-       196: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
+-       199: ldc           #146                // String write
+-       201: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       204: aload_0
+-       205: getfield      #144                // Field methodNameBase:Ljava/lang/String;
+-       208: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       211: ldc           #148                // String Array
+-       213: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       216: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+-       219: new           #119                // class java/lang/StringBuilder
+-       222: dup
+-       223: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
+-       226: bipush        40
+-       228: invokevirtual #151                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+-       231: aload_0
+-       232: invokevirtual #75                 // Method getAsmType:()Lorg/jetbrains/org/objectweb/asm/Type;
+-       235: invokevirtual #131                // Method org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
+-       238: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       241: ldc           #153                // String )V
+-       243: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       246: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+-       249: invokespecial #156                // Method org/jetbrains/kotlin/android/parcel/serializers/Method."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+-       252: putfield      #42                 // Field writeMethod:Lorg/jetbrains/kotlin/android/parcel/serializers/Method;
+-       255: aload_0
+-       256: new           #44                 // class org/jetbrains/kotlin/android/parcel/serializers/Method
+-       259: dup
+-       260: new           #119                // class java/lang/StringBuilder
+-       263: dup
+-       264: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
+-       267: ldc           #158                // String create
+-       269: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       272: aload_0
+-       273: getfield      #144                // Field methodNameBase:Ljava/lang/String;
+-       276: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       279: ldc           #148                // String Array
+-       281: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       284: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+-       287: new           #119                // class java/lang/StringBuilder
+-       290: dup
+-       291: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
+-       294: ldc           #160                // String ()
+-       296: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       299: aload_0
+-       300: invokevirtual #75                 // Method getAsmType:()Lorg/jetbrains/org/objectweb/asm/Type;
+-       303: invokevirtual #131                // Method org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
+-       306: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+-       309: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+-       312: invokespecial #156                // Method org/jetbrains/kotlin/android/parcel/serializers/Method."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+-       315: putfield      #62                 // Field createArrayMethod:Lorg/jetbrains/kotlin/android/parcel/serializers/Method;
+-       318: return
++       164: iconst_0
++       165: istore        4
++       167: new           #136                // class java/lang/IllegalStateException
++       170: dup
++       171: aload_3
++       172: invokevirtual #137                // Method java/lang/Object.toString:()Ljava/lang/String;
++       175: invokespecial #140                // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
++       178: checkcast     #142                // class java/lang/Throwable
++       181: athrow
++       182: putfield      #144                // Field methodNameBase:Ljava/lang/String;
++       185: aload_0
++       186: new           #44                 // class org/jetbrains/kotlin/android/parcel/serializers/Method
++       189: dup
++       190: new           #119                // class java/lang/StringBuilder
++       193: dup
++       194: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
++       197: ldc           #146                // String write
++       199: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       202: aload_0
++       203: getfield      #144                // Field methodNameBase:Ljava/lang/String;
++       206: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       209: ldc           #148                // String Array
++       211: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       214: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
++       217: new           #119                // class java/lang/StringBuilder
++       220: dup
++       221: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
++       224: bipush        40
++       226: invokevirtual #151                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
++       229: aload_0
++       230: invokevirtual #75                 // Method getAsmType:()Lorg/jetbrains/org/objectweb/asm/Type;
++       233: invokevirtual #131                // Method org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
++       236: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       239: ldc           #153                // String )V
++       241: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       244: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
++       247: invokespecial #156                // Method org/jetbrains/kotlin/android/parcel/serializers/Method."<init>":(Ljava/lang/String;Ljava/lang/String;)V
++       250: putfield      #42                 // Field writeMethod:Lorg/jetbrains/kotlin/android/parcel/serializers/Method;
++       253: aload_0
++       254: new           #44                 // class org/jetbrains/kotlin/android/parcel/serializers/Method
++       257: dup
++       258: new           #119                // class java/lang/StringBuilder
++       261: dup
++       262: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
++       265: ldc           #158                // String create
++       267: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       270: aload_0
++       271: getfield      #144                // Field methodNameBase:Ljava/lang/String;
++       274: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       277: ldc           #148                // String Array
++       279: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       282: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
++       285: new           #119                // class java/lang/StringBuilder
++       288: dup
++       289: invokespecial #120                // Method java/lang/StringBuilder."<init>":()V
++       292: ldc           #160                // String ()
++       294: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       297: aload_0
++       298: invokevirtual #75                 // Method getAsmType:()Lorg/jetbrains/org/objectweb/asm/Type;
++       301: invokevirtual #131                // Method org/jetbrains/org/objectweb/asm/Type.getDescriptor:()Ljava/lang/String;
++       304: invokevirtual #126                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
++       307: invokevirtual #134                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
++       310: invokespecial #156                // Method org/jetbrains/kotlin/android/parcel/serializers/Method."<init>":(Ljava/lang/String;Ljava/lang/String;)V
++       313: putfield      #62                 // Field createArrayMethod:Lorg/jetbrains/kotlin/android/parcel/serializers/Method;
++       316: return
+       StackMapTable: number_of_entries = 8
+         frame_type = 255 /* full_frame */
+           offset_delta = 39
+           locals = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer, class org/jetbrains/org/objectweb/asm/Type, class org/jetbrains/org/objectweb/asm/Type ]
+           stack = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer ]
+@@ -435,11 +434,11 @@
+         frame_type = 78 /* same_locals_1_stack_item */
+           stack = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer ]
+         frame_type = 78 /* same_locals_1_stack_item */
+           stack = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer ]
+         frame_type = 255 /* full_frame */
+-          offset_delta = 54
++          offset_delta = 52
+           locals = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer, class org/jetbrains/org/objectweb/asm/Type, class org/jetbrains/org/objectweb/asm/Type ]
+           stack = [ class org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer, class java/lang/String ]
+       LineNumberTable:
+         line 602: 6
+         line 605: 15
+@@ -449,17 +448,17 @@
+         line 609: 69
+         line 610: 84
+         line 611: 99
+         line 612: 114
+         line 613: 129
+-        line 605: 184
+-        line 616: 187
+-        line 617: 255
++        line 605: 182
++        line 616: 185
++        line 617: 253
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-            0     319     0  this   Lorg/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer;
+-            0     319     1 asmType   Lorg/jetbrains/org/objectweb/asm/Type;
++            0     317     0  this   Lorg/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer;
++            0     317     1 asmType   Lorg/jetbrains/org/objectweb/asm/Type;
+     RuntimeInvisibleParameterAnnotations:
+       0:
+         0: #15()
+ }
+ SourceFile: "ParcelSerializers.kt"
+@@ -473,7 +472,7 @@
+   org/jetbrains/kotlin/android/parcel/serializers/PrimitiveArrayParcelSerializer
+   *L
+   1#1,831:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #163(#164=[I#165,I#165,I#166],#167=[I#165,I#168,I#169],#170=I#165,#171=I#172,#173=[s#174],#175=[s#58,s#176,s#63,s#64,s#69,s#65,s#27,s#12,s#10,s#177,s#7,s#9,s#60,s#177,s#16,s#59,s#13,s#178])
++  0: #163(#164=[I#165,I#166,I#167],#168=[I#165,I#167,I#169],#170=I#165,#171=I#172,#173=[s#174],#175=[s#58,s#176,s#63,s#64,s#69,s#65,s#27,s#12,s#10,s#177,s#7,s#9,s#60,s#177,s#16,s#59,s#13,s#178])
+ 

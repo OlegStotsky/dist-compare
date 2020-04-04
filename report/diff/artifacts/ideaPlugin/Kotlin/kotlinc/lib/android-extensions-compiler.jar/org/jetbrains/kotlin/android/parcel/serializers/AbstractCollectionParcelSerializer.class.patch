@@ -1,0 +1,43 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/AbstractCollectionParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/AbstractCollectionParcelSerializer.class
+@@ -235,13 +235,13 @@
+   #229 = Utf8               java/util/LinkedList
+   #230 = String             #229          // java/util/LinkedList
+   #231 = Utf8               Lkotlin/Metadata;
+   #232 = Utf8               mv
+   #233 = Integer            1
+-  #234 = Integer            17
+-  #235 = Utf8               bv
+-  #236 = Integer            0
++  #234 = Integer            4
++  #235 = Integer            0
++  #236 = Utf8               bv
+   #237 = Integer            3
+   #238 = Utf8               k
+   #239 = Utf8               xi
+   #240 = Integer            2
+   #241 = Utf8               d1
+@@ -569,12 +569,12 @@
+         line 373: 223
+         line 374: 227
+         line 375: 231
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-           35     105     6 sizeVarIndex   I
+-           38     102     7 $i$a$-useTmpVar-AbstractCollectionParcelSerializer$readValue$1   I
++           35     106     6 sizeVarIndex   I
++           38     103     7 $i$a$-useTmpVar-AbstractCollectionParcelSerializer$readValue$1   I
+            31     116     5 index$iv   I
+            21     126     2 $this$useTmpVar$iv   Lorg/jetbrains/kotlin/codegen/FrameMap;
+            21     126     3 type$iv   Lorg/jetbrains/org/objectweb/asm/Type;
+            24     123     4 $i$f$useTmpVar   I
+           163      69     3 loopIsOver   Lorg/jetbrains/org/objectweb/asm/Label;
+@@ -875,7 +875,7 @@
+   org/jetbrains/kotlin/android/parcel/serializers/AbstractCollectionParcelSerializer
+   *L
+   339#1,4:832
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #231(#232=[I#233,I#233,I#234],#235=[I#233,I#236,I#237],#238=I#233,#239=I#240,#241=[s#242],#243=[s#15,s#180,s#175,s#8,s#179,s#115,s#116,s#185,s#176,s#11,s#7,s#10,s#181,s#182,s#16,s#244,s#24,s#244,s#20,s#21,s#23,s#22,s#18,s#114,s#25,s#245])
++  0: #231(#232=[I#233,I#234,I#235],#236=[I#233,I#235,I#237],#238=I#233,#239=I#240,#241=[s#242],#243=[s#15,s#180,s#175,s#8,s#179,s#115,s#116,s#185,s#176,s#11,s#7,s#10,s#181,s#182,s#16,s#244,s#24,s#244,s#20,s#21,s#23,s#22,s#18,s#114,s#25,s#245])
+ 

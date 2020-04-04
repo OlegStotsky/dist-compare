@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$2.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$2.class
+@@ -83,13 +83,13 @@
+    #77 = NameAndType        #32:#76       // "<init>":(I)V
+    #78 = Methodref          #5.#77        // kotlin/jvm/internal/Lambda."<init>":(I)V
+    #79 = Utf8               Lkotlin/Metadata;
+    #80 = Utf8               mv
+    #81 = Integer            1
+-   #82 = Integer            17
+-   #83 = Utf8               bv
+-   #84 = Integer            0
++   #82 = Integer            4
++   #83 = Integer            0
++   #84 = Utf8               bv
+    #85 = Integer            3
+    #86 = Utf8               k
+    #87 = Utf8               xi
+    #88 = Integer            2
+    #89 = Utf8               d1
+@@ -209,7 +209,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$2
+ EnclosingMethod: #51.#96                // org.jetbrains.kotlin.android.synthetic.res.AndroidPackageFragmentProviderExtension.getPackageFragmentProvider
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Ljava/lang/String;Lkotlin/Unit;>;
+ SourceFile: "AndroidPackageFragmentProviderExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #79(#80=[I#81,I#81,I#82],#83=[I#81,I#84,I#85],#86=I#85,#87=I#88,#89=[s#90],#91=[s#92,s#93,s#22,s#93,s#8])
++  0: #79(#80=[I#81,I#82,I#83],#84=[I#81,I#83,I#85],#86=I#85,#87=I#88,#89=[s#90],#91=[s#92,s#93,s#22,s#93,s#8])
+ 

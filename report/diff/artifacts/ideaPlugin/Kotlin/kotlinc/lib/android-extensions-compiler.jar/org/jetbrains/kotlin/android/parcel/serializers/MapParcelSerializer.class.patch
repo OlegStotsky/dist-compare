@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/MapParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/MapParcelSerializer.class
+@@ -113,13 +113,13 @@
+   #107 = Utf8               Lorg/jetbrains/org/objectweb/asm/Type;
+   #108 = Utf8               Lorg/jetbrains/kotlin/codegen/FrameMap;
+   #109 = Utf8               Lkotlin/Metadata;
+   #110 = Utf8               mv
+   #111 = Integer            1
+-  #112 = Integer            17
+-  #113 = Utf8               bv
+-  #114 = Integer            0
++  #112 = Integer            4
++  #113 = Integer            0
++  #114 = Utf8               bv
+   #115 = Integer            3
+   #116 = Utf8               k
+   #117 = Utf8               xi
+   #118 = Integer            2
+   #119 = Utf8               d1
+@@ -350,7 +350,7 @@
+       3:
+         0: #7()
+ }
+ SourceFile: "ParcelSerializers.kt"
+ RuntimeVisibleAnnotations:
+-  0: #109(#110=[I#111,I#111,I#112],#113=[I#111,I#114,I#115],#116=I#111,#117=I#118,#119=[s#120],#121=[s#29,s#122,s#97,s#107,s#53,s#54,s#100,s#102,s#108,s#96,s#78,s#123,s#8,s#30,s#42,s#31,s#5,s#124])
++  0: #109(#110=[I#111,I#112,I#113],#114=[I#111,I#113,I#115],#116=I#111,#117=I#118,#119=[s#120],#121=[s#29,s#122,s#97,s#107,s#53,s#54,s#100,s#102,s#108,s#96,s#78,s#123,s#8,s#30,s#42,s#31,s#5,s#124])
+ 

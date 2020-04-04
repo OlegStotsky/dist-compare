@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension$ClinitAwareMethodVisitor.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension$ClinitAwareMethodVisitor.class
+@@ -90,13 +90,13 @@
+    #84 = NameAndType        #9:#83        // "<init>":(ILorg/jetbrains/org/objectweb/asm/MethodVisitor;)V
+    #85 = Methodref          #4.#84        // org/jetbrains/org/objectweb/asm/MethodVisitor."<init>":(ILorg/jetbrains/org/objectweb/asm/MethodVisitor;)V
+    #86 = Utf8               Lorg/jetbrains/org/objectweb/asm/MethodVisitor;
+    #87 = Utf8               Lkotlin/Metadata;
+    #88 = Integer            1
+-   #89 = Integer            17
+-   #90 = Utf8               bv
+-   #91 = Integer            0
++   #89 = Integer            4
++   #90 = Integer            0
++   #91 = Utf8               bv
+    #92 = Integer            3
+    #93 = Utf8               k
+    #94 = Utf8               xi
+    #95 = Integer            2
+    #96 = Utf8               d1
+@@ -236,7 +236,7 @@
+       1:
+         0: #70()
+ }
+ SourceFile: "ParcelableClinitClassBuilderInterceptorExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #87(#80=[I#88,I#88,I#89],#90=[I#88,I#91,I#92],#93=I#88,#94=I#95,#96=[s#97],#98=[s#67,s#86,s#18,s#99,s#80,s#72,s#71,s#29,s#5,s#99,s#68,s#99,s#100])
++  0: #87(#80=[I#88,I#89,I#90],#91=[I#88,I#90,I#92],#93=I#88,#94=I#95,#96=[s#97],#98=[s#67,s#86,s#18,s#99,s#80,s#72,s#71,s#29,s#5,s#99,s#68,s#99,s#100])
+ 

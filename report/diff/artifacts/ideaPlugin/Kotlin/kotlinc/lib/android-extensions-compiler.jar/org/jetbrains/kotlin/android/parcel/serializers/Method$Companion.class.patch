@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/Method$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/Method$Companion.class
+@@ -36,13 +36,13 @@
+   #30 = Utf8               $constructor_marker
+   #31 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #32 = Utf8               Lkotlin/Metadata;
+   #33 = Utf8               mv
+   #34 = Integer            1
+-  #35 = Integer            17
+-  #36 = Utf8               bv
+-  #37 = Integer            0
++  #35 = Integer            4
++  #36 = Integer            0
++  #37 = Utf8               bv
+   #38 = Integer            3
+   #39 = Utf8               k
+   #40 = Utf8               xi
+   #41 = Integer            2
+   #42 = Utf8               d1
+@@ -105,7 +105,7 @@
+ }
+ InnerClasses:
+      public static final #48= #2 of #17; //Companion=class org/jetbrains/kotlin/android/parcel/serializers/Method$Companion of class org/jetbrains/kotlin/android/parcel/serializers/Method
+ SourceFile: "ParcelSerializers.kt"
+ RuntimeVisibleAnnotations:
+-  0: #32(#33=[I#34,I#34,I#35],#36=[I#34,I#37,I#38],#39=I#34,#40=I#41,#42=[s#43],#44=[s#23,s#45,s#25,s#5,s#46,s#45,s#8,s#45,s#47])
++  0: #32(#33=[I#34,I#35,I#36],#37=[I#34,I#36,I#38],#39=I#34,#40=I#41,#42=[s#43],#44=[s#23,s#45,s#25,s#5,s#46,s#45,s#8,s#45,s#47])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genClearCacheFunction$function$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genClearCacheFunction$function$1.class
+@@ -40,13 +40,13 @@
+   #34 = Utf8               $super_call_param$6
+   #35 = Utf8               Lorg/jetbrains/kotlin/descriptors/SourceElement;
+   #36 = Utf8               Lkotlin/Metadata;
+   #37 = Utf8               mv
+   #38 = Integer            1
+-  #39 = Integer            17
+-  #40 = Utf8               bv
+-  #41 = Integer            0
++  #39 = Integer            4
++  #40 = Integer            0
++  #41 = Utf8               bv
+   #42 = Integer            3
+   #43 = Utf8               k
+   #44 = Utf8               xi
+   #45 = Integer            2
+   #46 = Utf8               d1
+@@ -102,7 +102,7 @@
+ InnerClasses:
+      public static final #2; //class org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genClearCacheFunction$function$1
+ EnclosingMethod: #8.#11                 // org.jetbrains.kotlin.android.synthetic.res.SyntheticDescriptorGenerationKt.genClearCacheFunction
+ SourceFile: "syntheticDescriptorGeneration.kt"
+ RuntimeVisibleAnnotations:
+-  0: #36(#37=[I#38,I#38,I#39],#40=[I#38,I#41,I#42],#43=I#38,#44=I#45,#46=[s#47],#48=[s#1,s#49,s#50,s#51])
++  0: #36(#37=[I#38,I#39,I#40],#41=[I#38,I#40,I#42],#43=I#38,#44=I#45,#46=[s#47],#48=[s#1,s#49,s#50,s#51])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$DefaultImpls.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$DefaultImpls.class
+@@ -204,13 +204,13 @@
+   #198 = Utf8               Lorg/jetbrains/kotlin/name/Name;
+   #199 = Utf8               $this$hasParcelizeSyntheticMethod
+   #200 = Utf8               Lkotlin/Metadata;
+   #201 = Utf8               mv
+   #202 = Integer            1
+-  #203 = Integer            17
+-  #204 = Utf8               bv
+-  #205 = Integer            0
++  #203 = Integer            4
++  #204 = Integer            0
++  #205 = Utf8               bv
+   #206 = Integer            3
+   #207 = Utf8               k
+   #208 = Utf8               xi
+   #209 = Integer            2
+   #210 = Utf8               DefaultImpls
+@@ -530,7 +530,7 @@
+   46#1,2:59
+   54#1:61
+   54#1,2:62
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #200(#201=[I#202,I#202,I#203],#204=[I#202,I#205,I#206],#207=I#206,#208=I#209)
++  0: #200(#201=[I#202,I#203,I#204],#205=[I#202,I#204,I#206],#207=I#206,#208=I#209)
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1.class
+@@ -35,13 +35,13 @@
+   #29 = Methodref          #5.#28         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #30 = Utf8               <clinit>
+   #31 = Utf8               Lkotlin/Metadata;
+   #32 = Utf8               mv
+   #33 = Integer            1
+-  #34 = Integer            17
+-  #35 = Utf8               bv
+-  #36 = Integer            0
++  #34 = Integer            4
++  #35 = Integer            0
++  #36 = Utf8               bv
+   #37 = Integer            3
+   #38 = Utf8               k
+   #39 = Utf8               xi
+   #40 = Integer            2
+   #41 = Utf8               d1
+@@ -125,7 +125,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateClearFindViewByIdCacheFunctionCall$1
+ EnclosingMethod: #48.#51                // org.jetbrains.kotlin.android.synthetic.codegen.AbstractAndroidExtensionsExpressionCodegenExtension.generateClearFindViewByIdCacheFunctionCall
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Lorg/jetbrains/org/objectweb/asm/commons/InstructionAdapter;Lkotlin/Unit;>;
+ SourceFile: "AbstractAndroidExtensionsExpressionCodegenExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #31(#32=[I#33,I#33,I#34],#35=[I#33,I#36,I#37],#38=I#37,#39=I#40,#41=[s#42],#43=[s#44,s#45,s#23,s#24,s#46,s#8])
++  0: #31(#32=[I#33,I#34,I#35],#36=[I#33,I#35,I#37],#38=I#37,#39=I#40,#41=[s#42],#43=[s#44,s#45,s#23,s#24,s#46,s#8])
+ 

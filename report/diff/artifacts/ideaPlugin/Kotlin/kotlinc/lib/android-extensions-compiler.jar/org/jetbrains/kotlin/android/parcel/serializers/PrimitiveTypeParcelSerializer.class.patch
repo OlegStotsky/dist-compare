@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer.class
+@@ -107,13 +107,13 @@
+   #101 = NameAndType        #89:#72       // INSTANCES:Ljava/util/Map;
+   #102 = Fieldref           #2.#101       // org/jetbrains/kotlin/android/parcel/serializers/PrimitiveTypeParcelSerializer.INSTANCES:Ljava/util/Map;
+   #103 = Utf8               Lkotlin/Metadata;
+   #104 = Utf8               mv
+   #105 = Integer            1
+-  #106 = Integer            17
+-  #107 = Utf8               bv
+-  #108 = Integer            0
++  #106 = Integer            4
++  #107 = Integer            0
++  #108 = Utf8               bv
+   #109 = Integer            3
+   #110 = Utf8               k
+   #111 = Utf8               xi
+   #112 = Integer            2
+   #113 = Utf8               d1
+@@ -769,7 +769,7 @@
+   *L
+   716#1:832
+   716#1,3:833
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #103(#104=[I#105,I#105,I#106],#107=[I#105,I#108,I#109],#110=I#105,#111=I#112,#113=[s#114],#115=[s#56,s#116,s#61,s#62,s#67,s#63,s#25,s#10,s#8,s#117,s#7,s#58,s#117,s#14,s#57,s#11,s#118,s#119,s#92,s#120,s#121])
++  0: #103(#104=[I#105,I#106,I#107],#108=[I#105,I#107,I#109],#110=I#105,#111=I#112,#113=[s#114],#115=[s#56,s#116,s#61,s#62,s#67,s#63,s#25,s#10,s#8,s#117,s#7,s#58,s#117,s#14,s#57,s#11,s#118,s#119,s#92,s#120,s#121])
+ 

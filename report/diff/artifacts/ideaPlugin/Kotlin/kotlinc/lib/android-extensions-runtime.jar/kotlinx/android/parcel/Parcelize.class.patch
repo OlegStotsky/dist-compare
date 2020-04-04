@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/parcel/Parcelize.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/parcel/Parcelize.class
+@@ -24,13 +24,13 @@
+   #18 = Utf8               Ljava/lang/annotation/ElementType;
+   #19 = Utf8               TYPE
+   #20 = Utf8               Lkotlin/Metadata;
+   #21 = Utf8               mv
+   #22 = Integer            1
+-  #23 = Integer            17
+-  #24 = Utf8               bv
+-  #25 = Integer            0
++  #23 = Integer            4
++  #24 = Integer            0
++  #25 = Utf8               bv
+   #26 = Integer            3
+   #27 = Utf8               k
+   #28 = Utf8               xi
+   #29 = Integer            2
+   #30 = Utf8               d1
+@@ -48,7 +48,7 @@
+ RuntimeVisibleAnnotations:
+   0: #7(#8=[e#9.#10])
+   1: #11(#12=e#13.#14)
+   2: #15(#12=e#16.#10)
+   3: #17(#12=[e#18.#19])
+-  4: #20(#21=[I#22,I#22,I#23],#24=[I#22,I#25,I#26],#27=I#22,#28=I#29,#30=[s#31],#32=[s#33,s#34,s#35])
++  4: #20(#21=[I#22,I#23,I#24],#25=[I#22,I#24,I#26],#27=I#22,#28=I#29,#30=[s#31],#32=[s#33,s#34,s#35])
+ 

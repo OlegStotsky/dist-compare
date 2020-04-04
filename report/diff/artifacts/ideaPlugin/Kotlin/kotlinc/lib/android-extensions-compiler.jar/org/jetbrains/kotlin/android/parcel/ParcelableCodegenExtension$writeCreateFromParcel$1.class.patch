@@ -1,0 +1,67 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeCreateFromParcel$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeCreateFromParcel$1.class
+@@ -308,13 +308,13 @@
+   #302 = NameAndType        #92:#301      // "<init>":(I)V
+   #303 = Methodref          #5.#302       // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #304 = Utf8               Lkotlin/Metadata;
+   #305 = Utf8               mv
+   #306 = Integer            1
+-  #307 = Integer            17
+-  #308 = Utf8               bv
+-  #309 = Integer            0
++  #307 = Integer            4
++  #308 = Integer            0
++  #309 = Utf8               bv
+   #310 = Integer            3
+   #311 = Utf8               k
+   #312 = Utf8               xi
+   #313 = Integer            2
+   #314 = Utf8               d1
+@@ -683,10 +683,11 @@
+         line 227: 78
+         line 230: 130
+         line 231: 141
+         line 233: 148
+         line 234: 156
++        line 65100: 175
+         line 235: 178
+         line 236: 188
+         line 237: 203
+         line 234: 204
+         line 234: 206
+@@ -699,10 +700,11 @@
+         line 247: 336
+         line 244: 356
+         line 249: 358
+         line 250: 370
+         line 252: 390
++        line 252: 401
+         line 253: 437
+         line 254: 456
+         line 256: 466
+         line 257: 496
+         line 258: 508
+@@ -714,12 +716,12 @@
+         line 266: 582
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+            48      79     3 companionFieldName   Ljava/lang/String;
+            48      79     2 companionAsmType   Lorg/jetbrains/org/objectweb/asm/Type;
+-          175      28     7 $this$apply   Lorg/jetbrains/kotlin/codegen/FrameMap;
+-          178      25     8 $i$a$-apply-ParcelableCodegenExtension$writeCreateFromParcel$1$frameMap$1   I
++          175      29     7 $this$apply   Lorg/jetbrains/kotlin/codegen/FrameMap;
++          178      26     8 $i$a$-apply-ParcelableCodegenExtension$writeCreateFromParcel$1$frameMap$1   I
+           358      29     7 serializer   Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer;
+           291      96     6 asmType   Lorg/jetbrains/org/objectweb/asm/Type;
+           266     121     5 entityType   Lorg/jetbrains/kotlin/types/SimpleType;
+           496      29    10 serializer   Lorg/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer;
+           456      69     9 asmType   Lorg/jetbrains/org/objectweb/asm/Type;
+@@ -783,7 +785,7 @@
+   org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtension$writeCreateFromParcel$1
+   *L
+   1#1,394:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #304(#305=[I#306,I#306,I#307],#308=[I#306,I#309,I#310],#311=I#310,#312=I#313,#314=[s#315],#316=[s#317,s#318,s#295,s#8])
++  0: #304(#305=[I#306,I#307,I#308],#309=[I#306,I#308,I#310],#311=I#310,#312=I#313,#314=[s#315],#316=[s#317,s#318,s#295,s#8])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext.class
+@@ -159,13 +159,13 @@
+   #153 = Utf8               access$getModule$p
+   #154 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext;)Lorg/jetbrains/kotlin/descriptors/ModuleDescriptor;
+   #155 = Utf8               Lkotlin/Metadata;
+   #156 = Utf8               mv
+   #157 = Integer            1
+-  #158 = Integer            17
+-  #159 = Utf8               bv
+-  #160 = Integer            0
++  #158 = Integer            4
++  #159 = Integer            0
++  #160 = Utf8               bv
+   #161 = Integer            3
+   #162 = Utf8               k
+   #163 = Utf8               xi
+   #164 = Integer            2
+   #165 = Utf8               d1
+@@ -277,7 +277,7 @@
+ InnerClasses:
+      static final #26; //class org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext$createResolveContext$1
+      static final #134; //class org/jetbrains/kotlin/android/synthetic/descriptors/LazySyntheticElementResolveContext$context$1
+ SourceFile: "LazySyntheticElementResolveContext.kt"
+ RuntimeVisibleAnnotations:
+-  0: #155(#156=[I#157,I#157,I#158],#159=[I#157,I#160,I#161],#162=I#157,#163=I#164,#165=[s#166],#167=[s#22,s#168,s#120,s#115,s#126,s#146,s#121,s#5,s#6,s#169,s#15,s#8,s#23,s#170])
++  0: #155(#156=[I#157,I#158,I#159],#160=[I#157,I#159,I#161],#162=I#157,#163=I#164,#165=[s#166],#167=[s#22,s#168,s#120,s#115,s#126,s#146,s#121,s#5,s#6,s#169,s#15,s#8,s#23,s#170])
+ 

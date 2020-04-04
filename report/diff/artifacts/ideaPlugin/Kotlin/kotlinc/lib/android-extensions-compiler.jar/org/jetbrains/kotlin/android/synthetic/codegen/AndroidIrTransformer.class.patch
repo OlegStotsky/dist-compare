@@ -1,0 +1,1001 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.class
+@@ -55,16 +55,16 @@
+    #49 = Utf8               org/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol
+    #50 = Class              #49           // org/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol
+    #51 = Utf8               (Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V
+    #52 = NameAndType        #36:#51       // "<init>":(Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V
+    #53 = Methodref          #41.#52       // org/jetbrains/kotlin/ir/declarations/impl/IrExternalPackageFragmentImpl."<init>":(Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V
+-   #54 = Utf8               put
+-   #55 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+-   #56 = NameAndType        #54:#55       // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+-   #57 = InterfaceMethodref #19.#56       // java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+-   #58 = Utf8               org/jetbrains/kotlin/ir/declarations/IrPackageFragment
+-   #59 = Class              #58           // org/jetbrains/kotlin/ir/declarations/IrPackageFragment
++   #54 = Utf8               org/jetbrains/kotlin/ir/declarations/IrPackageFragment
++   #55 = Class              #54           // org/jetbrains/kotlin/ir/declarations/IrPackageFragment
++   #56 = Utf8               put
++   #57 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++   #58 = NameAndType        #56:#57       // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++   #59 = InterfaceMethodref #19.#58       // java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    #60 = Utf8               descriptor
+    #61 = Utf8               Lorg/jetbrains/kotlin/descriptors/impl/EmptyPackageFragmentDescriptor;
+    #62 = Utf8               $i$a$-getOrPut-AndroidIrTransformer$createPackage$1
+    #63 = Utf8               I
+    #64 = Utf8               answer$iv
+@@ -661,221 +661,226 @@
+   #655 = Class              #654          // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl
+   #656 = Utf8               setDispatchReceiver
+   #657 = Utf8               (Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+   #658 = NameAndType        #656:#657     // setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+   #659 = Methodref          #655.#658     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #660 = Utf8               putValueArgument
+-  #661 = Utf8               (ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #662 = NameAndType        #660:#661     // putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #663 = Methodref          #655.#662     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #664 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst
+-  #665 = Class              #664          // org/jetbrains/kotlin/android/synthetic/AndroidConst
+-  #666 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-  #667 = NameAndType        #117:#666     // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-  #668 = Fieldref           #665.#667     // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-  #669 = Utf8               getVIEW_FQNAME
+-  #670 = NameAndType        #669:#394     // getVIEW_FQNAME:()Ljava/lang/String;
+-  #671 = Methodref          #665.#670     // org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
+-  #672 = Utf8               $EnumSwitchMapping$2
+-  #673 = NameAndType        #672:#590     // $EnumSwitchMapping$2:[I
+-  #674 = Fieldref           #588.#673     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I
+-  #675 = Utf8               getView
+-  #676 = String             #675          // getView
+-  #677 = Utf8               getContainerView
+-  #678 = String             #677          // getContainerView
+-  #679 = Utf8               findViewById
+-  #680 = String             #679          // findViewById
+-  #681 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
+-  #682 = Class              #681          // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
+-  #683 = Methodref          #682.#648     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V
+-  #684 = Utf8               getCurrentScope
+-  #685 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
+-  #686 = NameAndType        #684:#685     // getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
+-  #687 = Methodref          #2.#686       // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
+-  #688 = Utf8               org/jetbrains/kotlin/backend/common/ScopeWithIr
+-  #689 = Class              #688          // org/jetbrains/kotlin/backend/common/ScopeWithIr
+-  #690 = Utf8               getScope
+-  #691 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/Scope;
+-  #692 = NameAndType        #690:#691     // getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
+-  #693 = Methodref          #689.#692     // org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
+-  #694 = Utf8               org/jetbrains/kotlin/ir/builders/Scope
+-  #695 = Class              #694          // org/jetbrains/kotlin/ir/builders/Scope
+-  #696 = Utf8               getScopeOwnerSymbol
+-  #697 = NameAndType        #696:#562     // getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
+-  #698 = Methodref          #695.#697     // org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
+-  #699 = Utf8               org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
+-  #700 = Class              #699          // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
+-  #701 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
+-  #702 = Class              #701          // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
+-  #703 = Utf8               (Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
+-  #704 = NameAndType        #36:#703      // "<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
+-  #705 = Methodref          #702.#704     // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
+-  #706 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContext
+-  #707 = Class              #706          // org/jetbrains/kotlin/ir/builders/IrGeneratorContext
+-  #708 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #709 = NameAndType        #36:#708      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #710 = Methodref          #700.#709     // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #711 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
+-  #712 = Class              #711          // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
+-  #713 = Utf8               org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
+-  #714 = Class              #713          // org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
+-  #715 = InterfaceMethodref #463.#454     // org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I
+-  #716 = InterfaceMethodref #463.#457     // org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I
+-  #717 = Utf8               org/jetbrains/kotlin/ir/builders/IrBlockBuilder
+-  #718 = Class              #717          // org/jetbrains/kotlin/ir/builders/IrBlockBuilder
+-  #719 = Utf8               getContext
+-  #720 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
+-  #721 = NameAndType        #719:#720     // getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
+-  #722 = InterfaceMethodref #712.#721     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
+-  #723 = InterfaceMethodref #712.#692     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
+-  #724 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #725 = NameAndType        #36:#724      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #726 = Methodref          #718.#725     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-  #727 = Utf8               org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
+-  #728 = Class              #727          // org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
+-  #729 = Utf8               org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt
+-  #730 = Class              #729          // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt
+-  #731 = Utf8               irTemporary$default
+-  #732 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
+-  #733 = NameAndType        #731:#732     // irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
+-  #734 = Methodref          #730.#733     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
+-  #735 = Utf8               org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+-  #736 = Class              #735          // org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+-  #737 = Methodref          #655.#498     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
+-  #738 = Utf8               org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
+-  #739 = Class              #738          // org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
+-  #740 = Utf8               irGet
+-  #741 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
+-  #742 = NameAndType        #740:#741     // irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
+-  #743 = Methodref          #730.#742     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
+-  #744 = Utf8               irNull
+-  #745 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
+-  #746 = NameAndType        #744:#745     // irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
+-  #747 = Methodref          #730.#746     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
+-  #748 = Utf8               irIfNull
+-  #749 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
+-  #750 = NameAndType        #748:#749     // irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
+-  #751 = Methodref          #730.#750     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
+-  #752 = Utf8               org/jetbrains/kotlin/ir/IrStatement
+-  #753 = Class              #752          // org/jetbrains/kotlin/ir/IrStatement
+-  #754 = Utf8               unaryPlus
+-  #755 = Utf8               (Lorg/jetbrains/kotlin/ir/IrStatement;)V
+-  #756 = NameAndType        #754:#755     // unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
+-  #757 = Methodref          #718.#756     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
+-  #758 = Utf8               doBuild
+-  #759 = Utf8               ()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
+-  #760 = NameAndType        #758:#759     // doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
+-  #761 = Methodref          #718.#760     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
+-  #762 = Utf8               org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
+-  #763 = Class              #762          // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
+-  #764 = Utf8               org/jetbrains/kotlin/ir/expressions/IrTypeOperator
+-  #765 = Class              #764          // org/jetbrains/kotlin/ir/expressions/IrTypeOperator
+-  #766 = Utf8               CAST
+-  #767 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
+-  #768 = NameAndType        #766:#767     // CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
+-  #769 = Fieldref           #765.#768     // org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
+-  #770 = Utf8               (IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #771 = NameAndType        #36:#770      // "<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #772 = Methodref          #763.#771     // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-  #773 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;
+-  #774 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2$1
+-  #775 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2
+-  #776 = Utf8               fragmentManager
+-  #777 = Utf8               fragment
+-  #778 = Utf8               getFragmentManagerFqName
+-  #779 = Utf8               appPackageFqName
+-  #780 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2
+-  #781 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$3
+-  #782 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$variable$1
+-  #783 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$1
+-  #784 = Utf8               variable
+-  #785 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
+-  #786 = Utf8               $this$irBlock
+-  #787 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;
+-  #788 = Utf8               $i$a$-irBlock-AndroidIrTransformer$visitCall$result$4
+-  #789 = Utf8               this_$iv$iv$iv
+-  #790 = Utf8               $i$f$block
+-  #791 = Utf8               $this$irBlock$iv$iv
+-  #792 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;
+-  #793 = Utf8               startOffset$iv$iv
+-  #794 = Utf8               endOffset$iv$iv
+-  #795 = Utf8               $i$f$irBlock
+-  #796 = Utf8               $this$irBlock$iv
+-  #797 = Utf8               origin$iv
+-  #798 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;
+-  #799 = Utf8               resultType$iv
+-  #800 = Utf8               scope
+-  #801 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
+-  #802 = Utf8               findViewByIdParent
+-  #803 = Utf8               viewClass
+-  #804 = Utf8               $this$with
+-  #805 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrCall;
+-  #806 = Utf8               $i$a$-with-AndroidIrTransformer$visitCall$1
+-  #807 = Utf8               result
+-  #808 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrExpression;
+-  #809 = Utf8               containerType
+-  #810 = Utf8               resourceId
+-  #811 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;
+-  #812 = Utf8               field
+-  #813 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrField;
+-  #814 = Utf8               packageFqName
+-  #815 = Utf8               receiver
+-  #816 = Utf8               receiverClass
+-  #817 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;
+-  #818 = Utf8               packageFragment
+-  #819 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;
+-  #820 = Utf8               resource
+-  #821 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;
+-  #822 = Utf8               org/jetbrains/kotlin/descriptors/FunctionDescriptor
+-  #823 = Class              #822          // org/jetbrains/kotlin/descriptors/FunctionDescriptor
+-  #824 = Utf8               org/jetbrains/kotlin/descriptors/DeclarationDescriptor
+-  #825 = Class              #824          // org/jetbrains/kotlin/descriptors/DeclarationDescriptor
+-  #826 = Utf8               org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol
+-  #827 = Class              #826          // org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol
+-  #828 = Utf8               getExtension
+-  #829 = Utf8               ()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;
+-  #830 = Utf8               getPluginContext
+-  #831 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;
+-  #832 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;)V
+-  #833 = String             #357          // extension
+-  #834 = String             #26           // pluginContext
+-  #835 = Methodref          #4.#82        // org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V
+-  #836 = Utf8               java/util/LinkedHashMap
+-  #837 = Class              #836          // java/util/LinkedHashMap
+-  #838 = Methodref          #837.#82      // java/util/LinkedHashMap."<init>":()V
+-  #839 = Utf8               Lkotlin/Metadata;
+-  #840 = Utf8               mv
+-  #841 = Integer            1
+-  #842 = Integer            17
+-  #843 = Utf8               bv
+-  #844 = Integer            0
+-  #845 = Integer            3
+-  #846 = Utf8               k
+-  #847 = Utf8               xi
+-  #848 = Integer            2
+-  #849 = Utf8               d1
+-  #850 = Utf8                r\n\n\n \n\n \n\n\n%\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n 20B00¢J0\n20\t20HJ020\t20HJ=020\t202020 0!0¢\"HJ#020\tHJ$0%2&0'HJ(0)2*0\nHR0\t0\n0X¢\n R0\t00X¢\n R\r0\t00X¢\n R0\t00X¢\n R0¢\n R0¢\n ¨+
+-  #851 = Utf8               d2
+-  #852 = Utf8               Lorg/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext;
+-  #853 = Utf8
+-  #854 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrPackageFragment;
+-  #855 = Utf8               Lkotlin/Function1;
+-  #856 = Utf8               Lkotlin/ExtensionFunctionType;
+-  #857 = Utf8               Lorg/jetbrains/kotlin/ir/IrStatement;
+-  #858 = Utf8               android-extensions-compiler
+-  #859 = Utf8               AndroidIrExtension.kt
+-  #860 = Utf8               Signature
+-  #861 = Utf8               RuntimeInvisibleAnnotations
+-  #862 = Utf8               Code
+-  #863 = Utf8               StackMapTable
+-  #864 = Utf8               LineNumberTable
+-  #865 = Utf8               LocalVariableTable
+-  #866 = Utf8               RuntimeInvisibleParameterAnnotations
+-  #867 = Utf8               InnerClasses
+-  #868 = Utf8               SourceFile
+-  #869 = Utf8               SourceDebugExtension
+-  #870 = Utf8               RuntimeVisibleAnnotations
++  #660 = Utf8               kotlin/Unit
++  #661 = Class              #660          // kotlin/Unit
++  #662 = Utf8               Lkotlin/Unit;
++  #663 = NameAndType        #117:#662     // INSTANCE:Lkotlin/Unit;
++  #664 = Fieldref           #661.#663     // kotlin/Unit.INSTANCE:Lkotlin/Unit;
++  #665 = Utf8               putValueArgument
++  #666 = Utf8               (ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #667 = NameAndType        #665:#666     // putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #668 = Methodref          #655.#667     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #669 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst
++  #670 = Class              #669          // org/jetbrains/kotlin/android/synthetic/AndroidConst
++  #671 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++  #672 = NameAndType        #117:#671     // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++  #673 = Fieldref           #670.#672     // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++  #674 = Utf8               getVIEW_FQNAME
++  #675 = NameAndType        #674:#394     // getVIEW_FQNAME:()Ljava/lang/String;
++  #676 = Methodref          #670.#675     // org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
++  #677 = Utf8               $EnumSwitchMapping$2
++  #678 = NameAndType        #677:#590     // $EnumSwitchMapping$2:[I
++  #679 = Fieldref           #588.#678     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I
++  #680 = Utf8               getView
++  #681 = String             #680          // getView
++  #682 = Utf8               getContainerView
++  #683 = String             #682          // getContainerView
++  #684 = Utf8               findViewById
++  #685 = String             #684          // findViewById
++  #686 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
++  #687 = Class              #686          // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
++  #688 = Methodref          #687.#648     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V
++  #689 = Utf8               getCurrentScope
++  #690 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
++  #691 = NameAndType        #689:#690     // getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
++  #692 = Methodref          #2.#691       // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
++  #693 = Utf8               org/jetbrains/kotlin/backend/common/ScopeWithIr
++  #694 = Class              #693          // org/jetbrains/kotlin/backend/common/ScopeWithIr
++  #695 = Utf8               getScope
++  #696 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/Scope;
++  #697 = NameAndType        #695:#696     // getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
++  #698 = Methodref          #694.#697     // org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
++  #699 = Utf8               org/jetbrains/kotlin/ir/builders/Scope
++  #700 = Class              #699          // org/jetbrains/kotlin/ir/builders/Scope
++  #701 = Utf8               getScopeOwnerSymbol
++  #702 = NameAndType        #701:#562     // getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
++  #703 = Methodref          #700.#702     // org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
++  #704 = Utf8               org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
++  #705 = Class              #704          // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
++  #706 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
++  #707 = Class              #706          // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
++  #708 = Utf8               (Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
++  #709 = NameAndType        #36:#708      // "<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
++  #710 = Methodref          #707.#709     // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
++  #711 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContext
++  #712 = Class              #711          // org/jetbrains/kotlin/ir/builders/IrGeneratorContext
++  #713 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #714 = NameAndType        #36:#713      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #715 = Methodref          #705.#714     // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #716 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
++  #717 = Class              #716          // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
++  #718 = Utf8               org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
++  #719 = Class              #718          // org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
++  #720 = InterfaceMethodref #463.#454     // org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I
++  #721 = InterfaceMethodref #463.#457     // org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I
++  #722 = Utf8               org/jetbrains/kotlin/ir/builders/IrBlockBuilder
++  #723 = Class              #722          // org/jetbrains/kotlin/ir/builders/IrBlockBuilder
++  #724 = Utf8               getContext
++  #725 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
++  #726 = NameAndType        #724:#725     // getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
++  #727 = InterfaceMethodref #717.#726     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
++  #728 = InterfaceMethodref #717.#697     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
++  #729 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #730 = NameAndType        #36:#729      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #731 = Methodref          #723.#730     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
++  #732 = Utf8               org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
++  #733 = Class              #732          // org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
++  #734 = Utf8               org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt
++  #735 = Class              #734          // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt
++  #736 = Utf8               irTemporary$default
++  #737 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
++  #738 = NameAndType        #736:#737     // irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
++  #739 = Methodref          #735.#738     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
++  #740 = Utf8               org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++  #741 = Class              #740          // org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++  #742 = Methodref          #655.#498     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
++  #743 = Utf8               org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
++  #744 = Class              #743          // org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
++  #745 = Utf8               irGet
++  #746 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
++  #747 = NameAndType        #745:#746     // irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
++  #748 = Methodref          #735.#747     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
++  #749 = Utf8               irNull
++  #750 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
++  #751 = NameAndType        #749:#750     // irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
++  #752 = Methodref          #735.#751     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
++  #753 = Utf8               irIfNull
++  #754 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
++  #755 = NameAndType        #753:#754     // irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
++  #756 = Methodref          #735.#755     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
++  #757 = Utf8               org/jetbrains/kotlin/ir/IrStatement
++  #758 = Class              #757          // org/jetbrains/kotlin/ir/IrStatement
++  #759 = Utf8               unaryPlus
++  #760 = Utf8               (Lorg/jetbrains/kotlin/ir/IrStatement;)V
++  #761 = NameAndType        #759:#760     // unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
++  #762 = Methodref          #723.#761     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
++  #763 = Utf8               doBuild
++  #764 = Utf8               ()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
++  #765 = NameAndType        #763:#764     // doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
++  #766 = Methodref          #723.#765     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
++  #767 = Utf8               org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
++  #768 = Class              #767          // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
++  #769 = Utf8               org/jetbrains/kotlin/ir/expressions/IrTypeOperator
++  #770 = Class              #769          // org/jetbrains/kotlin/ir/expressions/IrTypeOperator
++  #771 = Utf8               CAST
++  #772 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
++  #773 = NameAndType        #771:#772     // CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
++  #774 = Fieldref           #770.#773     // org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
++  #775 = Utf8               (IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #776 = NameAndType        #36:#775      // "<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #777 = Methodref          #768.#776     // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++  #778 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;
++  #779 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2$1
++  #780 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2
++  #781 = Utf8               fragmentManager
++  #782 = Utf8               fragment
++  #783 = Utf8               getFragmentManagerFqName
++  #784 = Utf8               appPackageFqName
++  #785 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2
++  #786 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$3
++  #787 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$variable$1
++  #788 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$1
++  #789 = Utf8               variable
++  #790 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
++  #791 = Utf8               $this$irBlock
++  #792 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;
++  #793 = Utf8               $i$a$-irBlock-AndroidIrTransformer$visitCall$result$4
++  #794 = Utf8               this_$iv$iv$iv
++  #795 = Utf8               $i$f$block
++  #796 = Utf8               $this$irBlock$iv$iv
++  #797 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;
++  #798 = Utf8               startOffset$iv$iv
++  #799 = Utf8               endOffset$iv$iv
++  #800 = Utf8               $i$f$irBlock
++  #801 = Utf8               $this$irBlock$iv
++  #802 = Utf8               origin$iv
++  #803 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;
++  #804 = Utf8               resultType$iv
++  #805 = Utf8               scope
++  #806 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
++  #807 = Utf8               findViewByIdParent
++  #808 = Utf8               viewClass
++  #809 = Utf8               $this$with
++  #810 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrCall;
++  #811 = Utf8               $i$a$-with-AndroidIrTransformer$visitCall$1
++  #812 = Utf8               result
++  #813 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrExpression;
++  #814 = Utf8               containerType
++  #815 = Utf8               resourceId
++  #816 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;
++  #817 = Utf8               field
++  #818 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrField;
++  #819 = Utf8               packageFqName
++  #820 = Utf8               receiver
++  #821 = Utf8               receiverClass
++  #822 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;
++  #823 = Utf8               packageFragment
++  #824 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;
++  #825 = Utf8               resource
++  #826 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;
++  #827 = Utf8               org/jetbrains/kotlin/descriptors/FunctionDescriptor
++  #828 = Class              #827          // org/jetbrains/kotlin/descriptors/FunctionDescriptor
++  #829 = Utf8               org/jetbrains/kotlin/descriptors/DeclarationDescriptor
++  #830 = Class              #829          // org/jetbrains/kotlin/descriptors/DeclarationDescriptor
++  #831 = Utf8               org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol
++  #832 = Class              #831          // org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol
++  #833 = Utf8               getExtension
++  #834 = Utf8               ()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;
++  #835 = Utf8               getPluginContext
++  #836 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;
++  #837 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;)V
++  #838 = String             #357          // extension
++  #839 = String             #26           // pluginContext
++  #840 = Methodref          #4.#82        // org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V
++  #841 = Utf8               java/util/LinkedHashMap
++  #842 = Class              #841          // java/util/LinkedHashMap
++  #843 = Methodref          #842.#82      // java/util/LinkedHashMap."<init>":()V
++  #844 = Utf8               Lkotlin/Metadata;
++  #845 = Utf8               mv
++  #846 = Integer            1
++  #847 = Integer            4
++  #848 = Integer            0
++  #849 = Utf8               bv
++  #850 = Integer            3
++  #851 = Utf8               k
++  #852 = Utf8               xi
++  #853 = Integer            2
++  #854 = Utf8               d1
++  #855 = Utf8                r\n\n\n \n\n \n\n\n%\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n 20B00¢J0\n20\t20HJ020\t20HJ=020\t202020 0!0¢\"HJ#020\tHJ$0%2&0'HJ(0)2*0\nHR0\t0\n0X¢\n R0\t00X¢\n R\r0\t00X¢\n R0\t00X¢\n R0¢\n R0¢\n ¨+
++  #856 = Utf8               d2
++  #857 = Utf8               Lorg/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext;
++  #858 = Utf8
++  #859 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrPackageFragment;
++  #860 = Utf8               Lkotlin/Function1;
++  #861 = Utf8               Lkotlin/ExtensionFunctionType;
++  #862 = Utf8               Lorg/jetbrains/kotlin/ir/IrStatement;
++  #863 = Utf8               android-extensions-compiler
++  #864 = Utf8               AndroidIrExtension.kt
++  #865 = Utf8               Signature
++  #866 = Utf8               RuntimeInvisibleAnnotations
++  #867 = Utf8               Code
++  #868 = Utf8               StackMapTable
++  #869 = Utf8               LineNumberTable
++  #870 = Utf8               LocalVariableTable
++  #871 = Utf8               RuntimeInvisibleParameterAnnotations
++  #872 = Utf8               InnerClasses
++  #873 = Utf8               SourceFile
++  #874 = Utf8               SourceDebugExtension
++  #875 = Utf8               RuntimeVisibleAnnotations
+ {
+   static org.jetbrains.kotlin.ir.declarations.IrClass createClass$default(org.jetbrains.kotlin.android.synthetic.codegen.AndroidIrTransformer, org.jetbrains.kotlin.name.FqName, boolean, int, java.lang.Object);
+     descriptor: (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;ZILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrClass;
+     flags: ACC_STATIC, ACC_SYNTHETIC
+     Code:
+@@ -1150,32 +1155,37 @@
+         line 110: 99
+         line 114: 99
+         line 110: 99
+         line 268: 107
+         line 269: 110
++        line 65100: 129
+         line 270: 132
+         line 111: 139
+         line 112: 160
+         line 113: 168
+         line 114: 183
+         line 271: 184
+         line 269: 192
+         line 272: 193
+         line 268: 195
++        line 65100: 205
+         line 276: 208
+         line 277: 222
+         line 278: 231
+         line 268: 232
+         line 278: 234
+         line 114: 235
++        line 65100: 244
+         line 115: 247
+         line 279: 257
++        line 65100: 276
+         line 280: 279
+         line 115: 286
+         line 281: 298
+         line 282: 304
+         line 283: 314
++        line 65100: 331
+         line 284: 334
+         line 285: 343
+         line 286: 355
+         line 283: 356
+         line 286: 357
+@@ -1185,29 +1195,29 @@
+         line 117: 380
+         line 114: 381
+         line 118: 382
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-          136      47    11 $this$addFunction   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;
+-          139      44    12 $i$a$-addFunction-AndroidIrTransformer$visitClassNew$1   I
++          136      48    11 $this$addFunction   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;
++          139      45    12 $i$a$-addFunction-AndroidIrTransformer$visitClassNew$1   I
+           129      63     9 $this$run$iv$iv   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;
+           132      60    10 $i$a$-run-DeclarationBuildersKt$buildFun$2$iv$iv   I
+           110      83     5 $i$f$buildFun   I
+-          205      26     8 function$iv   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;
+-          208      23     9 $i$a$-also-DeclarationBuildersKt$addFunction$1$iv   I
++          205      27     8 function$iv   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;
++          208      24     9 $i$a$-also-DeclarationBuildersKt$addFunction$1$iv   I
+           104     130     3 $this$addFunction$iv   Lorg/jetbrains/kotlin/ir/declarations/IrDeclarationContainer;
+           107     127     4 $i$f$addFunction   I
+           283      15    15 $this$addDispatchReceiver   Lorg/jetbrains/kotlin/ir/builders/declarations/IrValueParameterBuilder;
+           286      12    16 $i$a$-addDispatchReceiver-AndroidIrTransformer$visitClassNew$2$1   I
+-          331      24    20 receiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrValueParameter;
+-          334      21    21 $i$a$-also-DeclarationBuildersKt$addDispatchReceiver$1$1$iv   I
++          331      25    20 receiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrValueParameter;
++          334      22    21 $i$a$-also-DeclarationBuildersKt$addDispatchReceiver$1$1$iv   I
+           276      82    13 $this$run$iv   Lorg/jetbrains/kotlin/ir/builders/declarations/IrValueParameterBuilder;
+           279      79    14 $i$a$-run-DeclarationBuildersKt$addDispatchReceiver$1$iv   I
+-          254     105     8 $this$addDispatchReceiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;
+-          257     102     9 $i$f$addDispatchReceiver   I
+-          244     136     6 $this$apply   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;
+-          247     133     7 $i$a$-apply-AndroidIrTransformer$visitClassNew$2   I
++          254     106     8 $this$addDispatchReceiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;
++          257     103     9 $i$f$addDispatchReceiver   I
++          244     137     6 $this$apply   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;
++          247     134     7 $i$a$-apply-AndroidIrTransformer$visitClassNew$2   I
+            40     348     2 containerOptions   Lorg/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy;
+             0     388     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;
+             0     388     1 declaration   Lorg/jetbrains/kotlin/ir/declarations/IrClass;
+     RuntimeInvisibleAnnotations:
+       0: #322()
+@@ -1514,51 +1524,50 @@
+        695: aload         15
+        697: aload_1
+        698: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+        701: invokestatic  #653                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$callWithRanges:(Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;
+        704: astore        21
+-       706: astore        22
+-       708: iconst_0
+-       709: istore        23
+-       711: iconst_0
+-       712: istore        24
+-       714: aload         21
++       706: iconst_0
++       707: istore        22
++       709: iconst_0
++       710: istore        23
++       712: aload         21
++       714: astore        24
+        716: astore        25
+        718: iconst_0
+        719: istore        26
+-       721: aload         25
++       721: aload         24
+        723: aload         5
+        725: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-       728: nop
+-       729: aload         21
++       728: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;
+        731: astore        27
+-       733: aload         22
+-       735: aload         27
++       733: aload         25
++       735: aload         21
+        737: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+        740: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+        743: aload         19
+        745: iconst_0
+        746: aload         8
+        748: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-       751: invokevirtual #663                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++       751: invokevirtual #668                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+        754: nop
+        755: aload         16
+        757: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-       760: goto          1425
++       760: goto          1424
+        763: aload_0
+        764: new           #85                 // class org/jetbrains/kotlin/name/FqName
+        767: dup
+-       768: getstatic     #668                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-       771: invokevirtual #671                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
++       768: getstatic     #673                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++       771: invokevirtual #676                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
+        774: invokespecial #537                // Method org/jetbrains/kotlin/name/FqName."<init>":(Ljava/lang/String;)V
+        777: iconst_0
+        778: iconst_2
+        779: aconst_null
+        780: invokestatic  #304                // Method createClass$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;ZILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrClass;
+        783: astore        11
+        785: aload         9
+-       787: getstatic     #674                // Field org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I
++       787: getstatic     #679                // Field org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I
+        790: swap
+        791: invokevirtual #595                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.ordinal:()I
+        794: iaload
+        795: tableswitch   { // 1 to 9
+                        1: 844
+@@ -1575,11 +1584,11 @@
+        844: aconst_null
+        845: goto          948
+        848: aload_0
+        849: aload         9
+        851: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;
+-       854: ldc_w         #676                // String getView
++       854: ldc_w         #681                // String getView
+        857: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;
+        860: aload         11
+        862: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;
+        865: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType
+        868: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;
+@@ -1590,11 +1599,11 @@
+        876: invokestatic  #638                // Method createMethod$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;Lorg/jetbrains/kotlin/ir/types/IrType;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;
+        879: goto          948
+        882: aload_0
+        883: aload         9
+        885: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;
+-       888: ldc_w         #678                // String getContainerView
++       888: ldc_w         #683                // String getContainerView
+        891: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;
+        894: aload         11
+        896: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;
+        899: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType
+        902: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;
+@@ -1623,27 +1632,27 @@
+        955: aload         9
+        957: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;
+        960: goto          976
+        963: new           #85                 // class org/jetbrains/kotlin/name/FqName
+        966: dup
+-       967: getstatic     #668                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
+-       970: invokevirtual #671                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
++       967: getstatic     #673                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;
++       970: invokevirtual #676                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;
+        973: invokespecial #537                // Method org/jetbrains/kotlin/name/FqName."<init>":(Ljava/lang/String;)V
+        976: astore        13
+        978: aload_0
+        979: aload         13
+-       981: ldc_w         #680                // String findViewById
++       981: ldc_w         #685                // String findViewById
+        984: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;
+        987: aload         11
+        989: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;
+        992: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType
+        995: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;
+        998: iconst_0
+-       999: new           #682                // class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
++       999: new           #687                // class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
+       1002: dup
+       1003: aload_0
+-      1004: invokespecial #683                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V
++      1004: invokespecial #688                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V
+       1007: checkcast     #257                // class kotlin/jvm/functions/Function1
+       1010: iconst_4
+       1011: aconst_null
+       1012: invokestatic  #638                // Method createMethod$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;Lorg/jetbrains/kotlin/ir/types/IrType;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;
+       1015: aload_1
+@@ -1660,11 +1669,11 @@
+       1035: istore        19
+       1037: aload         18
+       1039: iconst_0
+       1040: aload         8
+       1042: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1045: invokevirtual #663                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++      1045: invokevirtual #668                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+       1048: nop
+       1049: aload         15
+       1051: astore        14
+       1053: aload         12
+       1055: ifnonnull     1090
+@@ -1681,37 +1690,37 @@
+       1075: aload         18
+       1077: aload         5
+       1079: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+       1082: aload         15
+       1084: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1087: goto          1425
++      1087: goto          1424
+       1090: aload_0
+-      1091: invokevirtual #687                // Method getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
++      1091: invokevirtual #692                // Method getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;
+       1094: dup
+       1095: invokestatic  #509                // Method kotlin/jvm/internal/Intrinsics.checkNotNull:(Ljava/lang/Object;)V
+-      1098: invokevirtual #693                // Method org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
+-      1101: invokevirtual #698                // Method org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
++      1098: invokevirtual #698                // Method org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
++      1101: invokevirtual #703                // Method org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;
+       1104: astore        15
+-      1106: new           #700                // class org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
++      1106: new           #705                // class org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder
+       1109: dup
+-      1110: new           #702                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
++      1110: new           #707                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase
+       1113: dup
+       1114: aload_0
+       1115: getfield      #29                 // Field pluginContext:Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;
+       1118: invokevirtual #410                // Method org/jetbrains/kotlin/backend/common/extensions/IrPluginContext.getIrBuiltIns:()Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;
+-      1121: invokespecial #705                // Method org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
+-      1124: checkcast     #707                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContext
++      1121: invokespecial #710                // Method org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V
++      1124: checkcast     #712                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContext
+       1127: aload         15
+       1129: iconst_0
+       1130: iconst_0
+       1131: bipush        12
+       1133: aconst_null
+-      1134: invokespecial #710                // Method org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+-      1137: checkcast     #712                // class org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
++      1134: invokespecial #715                // Method org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
++      1137: checkcast     #717                // class org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope
+       1140: astore        16
+       1142: aconst_null
+-      1143: checkcast     #714                // class org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
++      1143: checkcast     #719                // class org/jetbrains/kotlin/ir/expressions/IrStatementOrigin
+       1146: astore        17
+       1148: aload_1
+       1149: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1152: invokeinterface #499,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
+       1157: astore        18
+@@ -1719,153 +1728,150 @@
+       1160: istore        19
+       1162: aload         16
+       1164: astore        20
+       1166: aload_1
+       1167: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1170: invokeinterface #715,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I
++      1170: invokeinterface #720,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I
+       1175: istore        21
+       1177: aload_1
+       1178: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1181: invokeinterface #716,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I
++      1181: invokeinterface #721,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I
+       1186: istore        22
+       1188: iconst_0
+       1189: istore        23
+-      1191: new           #718                // class org/jetbrains/kotlin/ir/builders/IrBlockBuilder
++      1191: new           #723                // class org/jetbrains/kotlin/ir/builders/IrBlockBuilder
+       1194: dup
+       1195: aload         20
+-      1197: invokeinterface #722,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
++      1197: invokeinterface #727,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;
+       1202: aload         20
+-      1204: invokeinterface #723,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
++      1204: invokeinterface #728,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;
+       1209: iload         21
+       1211: iload         22
+       1213: aload         17
+       1215: aload         18
+       1217: iconst_0
+       1218: bipush        64
+       1220: aconst_null
+-      1221: invokespecial #726                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
++      1221: invokespecial #731                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+       1224: astore        24
+       1226: iconst_0
+       1227: istore        25
+       1229: aload         24
+       1231: astore        26
+       1233: iconst_0
+       1234: istore        27
+       1236: aload         26
+-      1238: checkcast     #728                // class org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
++      1238: checkcast     #733                // class org/jetbrains/kotlin/ir/builders/IrStatementsBuilder
+       1241: aload         12
+       1243: aload_1
+       1244: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1247: invokestatic  #653                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$callWithRanges:(Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;
+       1250: astore        28
+-      1252: astore        29
+-      1254: iconst_0
+-      1255: istore        30
+-      1257: iconst_0
+-      1258: istore        31
+-      1260: aload         28
++      1252: iconst_0
++      1253: istore        29
++      1255: iconst_0
++      1256: istore        30
++      1258: aload         28
++      1260: astore        31
+       1262: astore        32
+       1264: iconst_0
+       1265: istore        33
+-      1267: aload         32
++      1267: aload         31
+       1269: aload         5
+       1271: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-      1274: nop
+-      1275: aload         28
++      1274: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;
+       1277: astore        34
+-      1279: aload         29
+-      1281: aload         34
++      1279: aload         32
++      1281: aload         28
+       1283: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1286: aconst_null
+       1287: aconst_null
+       1288: aconst_null
+       1289: bipush        14
+       1291: aconst_null
+-      1292: invokestatic  #734                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
++      1292: invokestatic  #739                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;
+       1295: astore        35
+       1297: aload         26
+       1299: aload         26
+-      1301: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++      1301: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+       1304: aload         14
+-      1306: invokevirtual #737                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
++      1306: invokevirtual #742                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
+       1309: aload         26
+-      1311: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++      1311: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+       1314: aload         35
+-      1316: checkcast     #739                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
+-      1319: invokestatic  #743                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
++      1316: checkcast     #744                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
++      1319: invokestatic  #748                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
+       1322: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1325: aload         26
+-      1327: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+-      1330: invokestatic  #747                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
++      1327: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++      1330: invokestatic  #752                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;
+       1333: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1336: aload         14
+       1338: astore        28
+-      1340: astore        36
+-      1342: astore        37
+-      1344: astore        38
+-      1346: astore        34
+-      1348: astore        29
+-      1350: iconst_0
+-      1351: istore        30
+-      1353: iconst_0
+-      1354: istore        31
+-      1356: aload         28
++      1340: iconst_0
++      1341: istore        29
++      1343: iconst_0
++      1344: istore        30
++      1346: aload         28
++      1348: astore        31
++      1350: astore        36
++      1352: astore        37
++      1354: astore        38
++      1356: astore        34
+       1358: astore        32
+       1360: iconst_0
+       1361: istore        33
+-      1363: aload         32
++      1363: aload         31
+       1365: aload         26
+-      1367: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
++      1367: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope
+       1370: aload         35
+-      1372: checkcast     #739                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
+-      1375: invokestatic  #743                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
++      1372: checkcast     #744                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration
++      1375: invokestatic  #748                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;
+       1378: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+       1381: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-      1384: nop
+-      1385: aload         28
++      1384: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;
+       1387: astore        39
+-      1389: aload         29
++      1389: aload         32
+       1391: aload         34
+       1393: aload         38
+       1395: aload         37
+       1397: aload         36
+-      1399: aload         39
++      1399: aload         28
+       1401: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1404: invokestatic  #751                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
+-      1407: checkcast     #753                // class org/jetbrains/kotlin/ir/IrStatement
+-      1410: invokevirtual #757                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
++      1404: invokestatic  #756                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;
++      1407: checkcast     #758                // class org/jetbrains/kotlin/ir/IrStatement
++      1410: invokevirtual #762                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V
+       1413: nop
+-      1414: nop
+-      1415: aload         24
+-      1417: invokevirtual #761                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
+-      1420: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
++      1414: aload         24
++      1416: invokevirtual #766                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;
++      1419: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
++      1422: nop
+       1423: nop
+-      1424: nop
+-      1425: astore        10
+-      1427: iconst_0
+-      1428: istore        11
+-      1430: iconst_0
+-      1431: istore        12
+-      1433: aload_1
+-      1434: astore        13
+-      1436: iconst_0
+-      1437: istore        14
+-      1439: new           #763                // class org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
+-      1442: dup
+-      1443: aload         13
+-      1445: invokeinterface #455,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getStartOffset:()I
+-      1450: aload         13
+-      1452: invokeinterface #458,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getEndOffset:()I
+-      1457: aload         13
+-      1459: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
+-      1464: getstatic     #769                // Field org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
+-      1467: aload         13
+-      1469: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
+-      1474: aload         10
+-      1476: invokespecial #772                // Method org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
+-      1479: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
+-      1482: areturn
++      1424: astore        10
++      1426: iconst_0
++      1427: istore        11
++      1429: iconst_0
++      1430: istore        12
++      1432: aload_1
++      1433: astore        13
++      1435: iconst_0
++      1436: istore        14
++      1438: new           #768                // class org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl
++      1441: dup
++      1442: aload         13
++      1444: invokeinterface #455,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getStartOffset:()I
++      1449: aload         13
++      1451: invokeinterface #458,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getEndOffset:()I
++      1456: aload         13
++      1458: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
++      1463: getstatic     #774                // Field org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;
++      1466: aload         13
++      1468: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;
++      1473: aload         10
++      1475: invokespecial #777                // Method org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V
++      1478: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression
++      1481: areturn
+       StackMapTable: number_of_entries = 33
+         frame_type = 61 /* same */
+         frame_type = 83 /* same_locals_1_stack_item */
+           stack = [ class org/jetbrains/kotlin/descriptors/FunctionDescriptor ]
+         frame_type = 78 /* same_locals_1_stack_item */
+@@ -1929,11 +1935,11 @@
+         frame_type = 255 /* full_frame */
+           offset_delta = 113
+           locals = [ class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer, class org/jetbrains/kotlin/ir/expressions/IrCall, class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty, class org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor, class org/jetbrains/kotlin/ir/symbols/IrClassSymbol, class org/jetbrains/kotlin/ir/expressions/IrExpression, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/declarations/IrField, class org/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl, class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType, top, class org/jetbrains/kotlin/ir/declarations/IrClass, class org/jetbrains/kotlin/ir/declarations/IrSimpleFunction, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, int, int, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, int ]
+           stack = []
+         frame_type = 255 /* full_frame */
+-          offset_delta = 334
++          offset_delta = 333
+           locals = [ class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer, class org/jetbrains/kotlin/ir/expressions/IrCall, class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty, class org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor, class org/jetbrains/kotlin/ir/symbols/IrClassSymbol, class org/jetbrains/kotlin/ir/expressions/IrExpression, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/declarations/IrField, class org/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl, class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType, top, class java/lang/Object, class java/lang/Object, class org/jetbrains/kotlin/name/FqName, class java/lang/Object, class java/lang/Object ]
+           stack = [ class org/jetbrains/kotlin/ir/expressions/IrExpression ]
+       LineNumberTable:
+         line 122: 7
+         line 124: 24
+@@ -1969,14 +1975,16 @@
+         line 161: 627
+         line 159: 627
+         line 161: 627
+         line 159: 627
+         line 161: 671
++        line 65100: 690
+         line 162: 693
++        line 65100: 718
+         line 163: 721
+         line 164: 728
+-        line 162: 729
++        line 162: 735
+         line 165: 743
+         line 166: 754
+         line 161: 755
+         line 169: 763
+         line 170: 785
+@@ -1990,16 +1998,18 @@
+         line 182: 978
+         line 180: 978
+         line 182: 978
+         line 180: 978
+         line 182: 1015
++        line 65100: 1034
+         line 183: 1037
+         line 184: 1048
+         line 182: 1049
+         line 180: 1051
+         line 185: 1053
+         line 186: 1058
+And more [--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.class, +++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.class, @@ -55,16 +55,16 @@,     #49 = Utf8               org/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol,     #50 = Class              #49           // org/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol,     #51 = Utf8               (Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V,     #52 = NameAndType        #36:#51       // "<init>":(Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V,     #53 = Methodref          #41.#52       // org/jetbrains/kotlin/ir/declarations/impl/IrExternalPackageFragmentImpl."<init>":(Lorg/jetbrains/kotlin/ir/symbols/IrExternalPackageFragmentSymbol;)V, -   #54 = Utf8               put, -   #55 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, -   #56 = NameAndType        #54:#55       // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, -   #57 = InterfaceMethodref #19.#56       // java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, -   #58 = Utf8               org/jetbrains/kotlin/ir/declarations/IrPackageFragment, -   #59 = Class              #58           // org/jetbrains/kotlin/ir/declarations/IrPackageFragment, +   #54 = Utf8               org/jetbrains/kotlin/ir/declarations/IrPackageFragment, +   #55 = Class              #54           // org/jetbrains/kotlin/ir/declarations/IrPackageFragment, +   #56 = Utf8               put, +   #57 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, +   #58 = NameAndType        #56:#57       // put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;, +   #59 = InterfaceMethodref #19.#58       // java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,     #60 = Utf8               descriptor,     #61 = Utf8               Lorg/jetbrains/kotlin/descriptors/impl/EmptyPackageFragmentDescriptor;,     #62 = Utf8               $i$a$-getOrPut-AndroidIrTransformer$createPackage$1,     #63 = Utf8               I,     #64 = Utf8               answer$iv, @@ -661,221 +661,226 @@,    #655 = Class              #654          // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl,    #656 = Utf8               setDispatchReceiver,    #657 = Utf8               (Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,    #658 = NameAndType        #656:#657     // setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,    #659 = Methodref          #655.#658     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #660 = Utf8               putValueArgument, -  #661 = Utf8               (ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #662 = NameAndType        #660:#661     // putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #663 = Methodref          #655.#662     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #664 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst, -  #665 = Class              #664          // org/jetbrains/kotlin/android/synthetic/AndroidConst, -  #666 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, -  #667 = NameAndType        #117:#666     // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, -  #668 = Fieldref           #665.#667     // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, -  #669 = Utf8               getVIEW_FQNAME, -  #670 = NameAndType        #669:#394     // getVIEW_FQNAME:()Ljava/lang/String;, -  #671 = Methodref          #665.#670     // org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;, -  #672 = Utf8               $EnumSwitchMapping$2, -  #673 = NameAndType        #672:#590     // $EnumSwitchMapping$2:[I, -  #674 = Fieldref           #588.#673     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I, -  #675 = Utf8               getView, -  #676 = String             #675          // getView, -  #677 = Utf8               getContainerView, -  #678 = String             #677          // getContainerView, -  #679 = Utf8               findViewById, -  #680 = String             #679          // findViewById, -  #681 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, -  #682 = Class              #681          // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, -  #683 = Methodref          #682.#648     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V, -  #684 = Utf8               getCurrentScope, -  #685 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, -  #686 = NameAndType        #684:#685     // getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, -  #687 = Methodref          #2.#686       // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, -  #688 = Utf8               org/jetbrains/kotlin/backend/common/ScopeWithIr, -  #689 = Class              #688          // org/jetbrains/kotlin/backend/common/ScopeWithIr, -  #690 = Utf8               getScope, -  #691 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/Scope;, -  #692 = NameAndType        #690:#691     // getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, -  #693 = Methodref          #689.#692     // org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, -  #694 = Utf8               org/jetbrains/kotlin/ir/builders/Scope, -  #695 = Class              #694          // org/jetbrains/kotlin/ir/builders/Scope, -  #696 = Utf8               getScopeOwnerSymbol, -  #697 = NameAndType        #696:#562     // getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, -  #698 = Methodref          #695.#697     // org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, -  #699 = Utf8               org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder, -  #700 = Class              #699          // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder, -  #701 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase, -  #702 = Class              #701          // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase, -  #703 = Utf8               (Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, -  #704 = NameAndType        #36:#703      // "<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, -  #705 = Methodref          #702.#704     // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, -  #706 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContext, -  #707 = Class              #706          // org/jetbrains/kotlin/ir/builders/IrGeneratorContext, -  #708 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #709 = NameAndType        #36:#708      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #710 = Methodref          #700.#709     // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #711 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope, -  #712 = Class              #711          // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope, -  #713 = Utf8               org/jetbrains/kotlin/ir/expressions/IrStatementOrigin, -  #714 = Class              #713          // org/jetbrains/kotlin/ir/expressions/IrStatementOrigin, -  #715 = InterfaceMethodref #463.#454     // org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I, -  #716 = InterfaceMethodref #463.#457     // org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I, -  #717 = Utf8               org/jetbrains/kotlin/ir/builders/IrBlockBuilder, -  #718 = Class              #717          // org/jetbrains/kotlin/ir/builders/IrBlockBuilder, -  #719 = Utf8               getContext, -  #720 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, -  #721 = NameAndType        #719:#720     // getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, -  #722 = InterfaceMethodref #712.#721     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, -  #723 = InterfaceMethodref #712.#692     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, -  #724 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #725 = NameAndType        #36:#724      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #726 = Methodref          #718.#725     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, -  #727 = Utf8               org/jetbrains/kotlin/ir/builders/IrStatementsBuilder, -  #728 = Class              #727          // org/jetbrains/kotlin/ir/builders/IrStatementsBuilder, -  #729 = Utf8               org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt, -  #730 = Class              #729          // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt, -  #731 = Utf8               irTemporary$default, -  #732 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, -  #733 = NameAndType        #731:#732     // irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, -  #734 = Methodref          #730.#733     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, -  #735 = Utf8               org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, -  #736 = Class              #735          // org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, -  #737 = Methodref          #655.#498     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, -  #738 = Utf8               org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, -  #739 = Class              #738          // org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, -  #740 = Utf8               irGet, -  #741 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, -  #742 = NameAndType        #740:#741     // irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, -  #743 = Methodref          #730.#742     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, -  #744 = Utf8               irNull, -  #745 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, -  #746 = NameAndType        #744:#745     // irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, -  #747 = Methodref          #730.#746     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, -  #748 = Utf8               irIfNull, -  #749 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, -  #750 = NameAndType        #748:#749     // irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, -  #751 = Methodref          #730.#750     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, -  #752 = Utf8               org/jetbrains/kotlin/ir/IrStatement, -  #753 = Class              #752          // org/jetbrains/kotlin/ir/IrStatement, -  #754 = Utf8               unaryPlus, -  #755 = Utf8               (Lorg/jetbrains/kotlin/ir/IrStatement;)V, -  #756 = NameAndType        #754:#755     // unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V, -  #757 = Methodref          #718.#756     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V, -  #758 = Utf8               doBuild, -  #759 = Utf8               ()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, -  #760 = NameAndType        #758:#759     // doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, -  #761 = Methodref          #718.#760     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, -  #762 = Utf8               org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, -  #763 = Class              #762          // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, -  #764 = Utf8               org/jetbrains/kotlin/ir/expressions/IrTypeOperator, -  #765 = Class              #764          // org/jetbrains/kotlin/ir/expressions/IrTypeOperator, -  #766 = Utf8               CAST, -  #767 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, -  #768 = NameAndType        #766:#767     // CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, -  #769 = Fieldref           #765.#768     // org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, -  #770 = Utf8               (IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #771 = NameAndType        #36:#770      // "<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #772 = Methodref          #763.#771     // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -  #773 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, -  #774 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2$1, -  #775 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2, -  #776 = Utf8               fragmentManager, -  #777 = Utf8               fragment, -  #778 = Utf8               getFragmentManagerFqName, -  #779 = Utf8               appPackageFqName, -  #780 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2, -  #781 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$3, -  #782 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$variable$1, -  #783 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$1, -  #784 = Utf8               variable, -  #785 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, -  #786 = Utf8               $this$irBlock, -  #787 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;, -  #788 = Utf8               $i$a$-irBlock-AndroidIrTransformer$visitCall$result$4, -  #789 = Utf8               this_$iv$iv$iv, -  #790 = Utf8               $i$f$block, -  #791 = Utf8               $this$irBlock$iv$iv, -  #792 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, -  #793 = Utf8               startOffset$iv$iv, -  #794 = Utf8               endOffset$iv$iv, -  #795 = Utf8               $i$f$irBlock, -  #796 = Utf8               $this$irBlock$iv, -  #797 = Utf8               origin$iv, -  #798 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;, -  #799 = Utf8               resultType$iv, -  #800 = Utf8               scope, -  #801 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, -  #802 = Utf8               findViewByIdParent, -  #803 = Utf8               viewClass, -  #804 = Utf8               $this$with, -  #805 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrCall;, -  #806 = Utf8               $i$a$-with-AndroidIrTransformer$visitCall$1, -  #807 = Utf8               result, -  #808 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, -  #809 = Utf8               containerType, -  #810 = Utf8               resourceId, -  #811 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;, -  #812 = Utf8               field, -  #813 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrField;, -  #814 = Utf8               packageFqName, -  #815 = Utf8               receiver, -  #816 = Utf8               receiverClass, -  #817 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;, -  #818 = Utf8               packageFragment, -  #819 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;, -  #820 = Utf8               resource, -  #821 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;, -  #822 = Utf8               org/jetbrains/kotlin/descriptors/FunctionDescriptor, -  #823 = Class              #822          // org/jetbrains/kotlin/descriptors/FunctionDescriptor, -  #824 = Utf8               org/jetbrains/kotlin/descriptors/DeclarationDescriptor, -  #825 = Class              #824          // org/jetbrains/kotlin/descriptors/DeclarationDescriptor, -  #826 = Utf8               org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol, -  #827 = Class              #826          // org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol, -  #828 = Utf8               getExtension, -  #829 = Utf8               ()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;, -  #830 = Utf8               getPluginContext, -  #831 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;, -  #832 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;)V, -  #833 = String             #357          // extension, -  #834 = String             #26           // pluginContext, -  #835 = Methodref          #4.#82        // org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V, -  #836 = Utf8               java/util/LinkedHashMap, -  #837 = Class              #836          // java/util/LinkedHashMap, -  #838 = Methodref          #837.#82      // java/util/LinkedHashMap."<init>":()V, -  #839 = Utf8               Lkotlin/Metadata;, -  #840 = Utf8               mv, -  #841 = Integer            1, -  #842 = Integer            17, -  #843 = Utf8               bv, -  #844 = Integer            0, -  #845 = Integer            3, -  #846 = Utf8               k, -  #847 = Utf8               xi, -  #848 = Integer            2, -  #849 = Utf8               d1, -  #850 = Utf8                r\n\n\n \n\n \n\n\n%\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n 20B00¢J0\n20\t20HJ020\t20HJ=020\t202020 0!0¢\"HJ#020\tHJ$0%2&0'HJ(0)2*0\nHR0\t0\n0X¢\n R0\t00X¢\n R\r0\t00X¢\n R0\t00X¢\n R0¢\n R0¢\n ¨+, -  #851 = Utf8               d2, -  #852 = Utf8               Lorg/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext;, -  #853 = Utf8, -  #854 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrPackageFragment;, -  #855 = Utf8               Lkotlin/Function1;, -  #856 = Utf8               Lkotlin/ExtensionFunctionType;, -  #857 = Utf8               Lorg/jetbrains/kotlin/ir/IrStatement;, -  #858 = Utf8               android-extensions-compiler, -  #859 = Utf8               AndroidIrExtension.kt, -  #860 = Utf8               Signature, -  #861 = Utf8               RuntimeInvisibleAnnotations, -  #862 = Utf8               Code, -  #863 = Utf8               StackMapTable, -  #864 = Utf8               LineNumberTable, -  #865 = Utf8               LocalVariableTable, -  #866 = Utf8               RuntimeInvisibleParameterAnnotations, -  #867 = Utf8               InnerClasses, -  #868 = Utf8               SourceFile, -  #869 = Utf8               SourceDebugExtension, -  #870 = Utf8               RuntimeVisibleAnnotations, +  #660 = Utf8               kotlin/Unit, +  #661 = Class              #660          // kotlin/Unit, +  #662 = Utf8               Lkotlin/Unit;, +  #663 = NameAndType        #117:#662     // INSTANCE:Lkotlin/Unit;, +  #664 = Fieldref           #661.#663     // kotlin/Unit.INSTANCE:Lkotlin/Unit;, +  #665 = Utf8               putValueArgument, +  #666 = Utf8               (ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #667 = NameAndType        #665:#666     // putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #668 = Methodref          #655.#667     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #669 = Utf8               org/jetbrains/kotlin/android/synthetic/AndroidConst, +  #670 = Class              #669          // org/jetbrains/kotlin/android/synthetic/AndroidConst, +  #671 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, +  #672 = NameAndType        #117:#671     // INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, +  #673 = Fieldref           #670.#672     // org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, +  #674 = Utf8               getVIEW_FQNAME, +  #675 = NameAndType        #674:#394     // getVIEW_FQNAME:()Ljava/lang/String;, +  #676 = Methodref          #670.#675     // org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;, +  #677 = Utf8               $EnumSwitchMapping$2, +  #678 = NameAndType        #677:#590     // $EnumSwitchMapping$2:[I, +  #679 = Fieldref           #588.#678     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I, +  #680 = Utf8               getView, +  #681 = String             #680          // getView, +  #682 = Utf8               getContainerView, +  #683 = String             #682          // getContainerView, +  #684 = Utf8               findViewById, +  #685 = String             #684          // findViewById, +  #686 = Utf8               org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, +  #687 = Class              #686          // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, +  #688 = Methodref          #687.#648     // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V, +  #689 = Utf8               getCurrentScope, +  #690 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, +  #691 = NameAndType        #689:#690     // getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, +  #692 = Methodref          #2.#691       // org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer.getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, +  #693 = Utf8               org/jetbrains/kotlin/backend/common/ScopeWithIr, +  #694 = Class              #693          // org/jetbrains/kotlin/backend/common/ScopeWithIr, +  #695 = Utf8               getScope, +  #696 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/Scope;, +  #697 = NameAndType        #695:#696     // getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, +  #698 = Methodref          #694.#697     // org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, +  #699 = Utf8               org/jetbrains/kotlin/ir/builders/Scope, +  #700 = Class              #699          // org/jetbrains/kotlin/ir/builders/Scope, +  #701 = Utf8               getScopeOwnerSymbol, +  #702 = NameAndType        #701:#562     // getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, +  #703 = Methodref          #700.#702     // org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, +  #704 = Utf8               org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder, +  #705 = Class              #704          // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder, +  #706 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase, +  #707 = Class              #706          // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase, +  #708 = Utf8               (Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, +  #709 = NameAndType        #36:#708      // "<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, +  #710 = Methodref          #707.#709     // org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, +  #711 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorContext, +  #712 = Class              #711          // org/jetbrains/kotlin/ir/builders/IrGeneratorContext, +  #713 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #714 = NameAndType        #36:#713      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #715 = Methodref          #705.#714     // org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #716 = Utf8               org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope, +  #717 = Class              #716          // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope, +  #718 = Utf8               org/jetbrains/kotlin/ir/expressions/IrStatementOrigin, +  #719 = Class              #718          // org/jetbrains/kotlin/ir/expressions/IrStatementOrigin, +  #720 = InterfaceMethodref #463.#454     // org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I, +  #721 = InterfaceMethodref #463.#457     // org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I, +  #722 = Utf8               org/jetbrains/kotlin/ir/builders/IrBlockBuilder, +  #723 = Class              #722          // org/jetbrains/kotlin/ir/builders/IrBlockBuilder, +  #724 = Utf8               getContext, +  #725 = Utf8               ()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, +  #726 = NameAndType        #724:#725     // getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, +  #727 = InterfaceMethodref #717.#726     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, +  #728 = InterfaceMethodref #717.#697     // org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, +  #729 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #730 = NameAndType        #36:#729      // "<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #731 = Methodref          #723.#730     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, +  #732 = Utf8               org/jetbrains/kotlin/ir/builders/IrStatementsBuilder, +  #733 = Class              #732          // org/jetbrains/kotlin/ir/builders/IrStatementsBuilder, +  #734 = Utf8               org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt, +  #735 = Class              #734          // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt, +  #736 = Utf8               irTemporary$default, +  #737 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, +  #738 = NameAndType        #736:#737     // irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, +  #739 = Methodref          #735.#738     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, +  #740 = Utf8               org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +  #741 = Class              #740          // org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +  #742 = Methodref          #655.#498     // org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, +  #743 = Utf8               org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, +  #744 = Class              #743          // org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, +  #745 = Utf8               irGet, +  #746 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, +  #747 = NameAndType        #745:#746     // irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, +  #748 = Methodref          #735.#747     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, +  #749 = Utf8               irNull, +  #750 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, +  #751 = NameAndType        #749:#750     // irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, +  #752 = Methodref          #735.#751     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, +  #753 = Utf8               irIfNull, +  #754 = Utf8               (Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, +  #755 = NameAndType        #753:#754     // irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, +  #756 = Methodref          #735.#755     // org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, +  #757 = Utf8               org/jetbrains/kotlin/ir/IrStatement, +  #758 = Class              #757          // org/jetbrains/kotlin/ir/IrStatement, +  #759 = Utf8               unaryPlus, +  #760 = Utf8               (Lorg/jetbrains/kotlin/ir/IrStatement;)V, +  #761 = NameAndType        #759:#760     // unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V, +  #762 = Methodref          #723.#761     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V, +  #763 = Utf8               doBuild, +  #764 = Utf8               ()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, +  #765 = NameAndType        #763:#764     // doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, +  #766 = Methodref          #723.#765     // org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, +  #767 = Utf8               org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, +  #768 = Class              #767          // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, +  #769 = Utf8               org/jetbrains/kotlin/ir/expressions/IrTypeOperator, +  #770 = Class              #769          // org/jetbrains/kotlin/ir/expressions/IrTypeOperator, +  #771 = Utf8               CAST, +  #772 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, +  #773 = NameAndType        #771:#772     // CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, +  #774 = Fieldref           #770.#773     // org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, +  #775 = Utf8               (IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #776 = NameAndType        #36:#775      // "<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #777 = Methodref          #768.#776     // org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +  #778 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +  #779 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2$1, +  #780 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$2, +  #781 = Utf8               fragmentManager, +  #782 = Utf8               fragment, +  #783 = Utf8               getFragmentManagerFqName, +  #784 = Utf8               appPackageFqName, +  #785 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2, +  #786 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$3, +  #787 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$variable$1, +  #788 = Utf8               $i$a$-apply-AndroidIrTransformer$visitCall$result$4$1, +  #789 = Utf8               variable, +  #790 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, +  #791 = Utf8               $this$irBlock, +  #792 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;, +  #793 = Utf8               $i$a$-irBlock-AndroidIrTransformer$visitCall$result$4, +  #794 = Utf8               this_$iv$iv$iv, +  #795 = Utf8               $i$f$block, +  #796 = Utf8               $this$irBlock$iv$iv, +  #797 = Utf8               Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, +  #798 = Utf8               startOffset$iv$iv, +  #799 = Utf8               endOffset$iv$iv, +  #800 = Utf8               $i$f$irBlock, +  #801 = Utf8               $this$irBlock$iv, +  #802 = Utf8               origin$iv, +  #803 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;, +  #804 = Utf8               resultType$iv, +  #805 = Utf8               scope, +  #806 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, +  #807 = Utf8               findViewByIdParent, +  #808 = Utf8               viewClass, +  #809 = Utf8               $this$with, +  #810 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrCall;, +  #811 = Utf8               $i$a$-with-AndroidIrTransformer$visitCall$1, +  #812 = Utf8               result, +  #813 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, +  #814 = Utf8               containerType, +  #815 = Utf8               resourceId, +  #816 = Utf8               Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;, +  #817 = Utf8               field, +  #818 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrField;, +  #819 = Utf8               packageFqName, +  #820 = Utf8               receiver, +  #821 = Utf8               receiverClass, +  #822 = Utf8               Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;, +  #823 = Utf8               packageFragment, +  #824 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;, +  #825 = Utf8               resource, +  #826 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;, +  #827 = Utf8               org/jetbrains/kotlin/descriptors/FunctionDescriptor, +  #828 = Class              #827          // org/jetbrains/kotlin/descriptors/FunctionDescriptor, +  #829 = Utf8               org/jetbrains/kotlin/descriptors/DeclarationDescriptor, +  #830 = Class              #829          // org/jetbrains/kotlin/descriptors/DeclarationDescriptor, +  #831 = Utf8               org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol, +  #832 = Class              #831          // org/jetbrains/kotlin/ir/symbols/IrClassifierSymbol, +  #833 = Utf8               getExtension, +  #834 = Utf8               ()Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;, +  #835 = Utf8               getPluginContext, +  #836 = Utf8               ()Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;, +  #837 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;)V, +  #838 = String             #357          // extension, +  #839 = String             #26           // pluginContext, +  #840 = Methodref          #4.#82        // org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V, +  #841 = Utf8               java/util/LinkedHashMap, +  #842 = Class              #841          // java/util/LinkedHashMap, +  #843 = Methodref          #842.#82      // java/util/LinkedHashMap."<init>":()V, +  #844 = Utf8               Lkotlin/Metadata;, +  #845 = Utf8               mv, +  #846 = Integer            1, +  #847 = Integer            4, +  #848 = Integer            0, +  #849 = Utf8               bv, +  #850 = Integer            3, +  #851 = Utf8               k, +  #852 = Utf8               xi, +  #853 = Integer            2, +  #854 = Utf8               d1, +  #855 = Utf8                r\n\n\n \n\n \n\n\n%\n\n\n \n\n \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n \n\n \n\n 20B00¢J0\n20\t20HJ020\t20HJ=020\t202020 0!0¢\"HJ#020\tHJ$0%2&0'HJ(0)2*0\nHR0\t0\n0X¢\n R0\t00X¢\n R\r0\t00X¢\n R0\t00X¢\n R0¢\n R0¢\n ¨+, +  #856 = Utf8               d2, +  #857 = Utf8               Lorg/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext;, +  #858 = Utf8, +  #859 = Utf8               Lorg/jetbrains/kotlin/ir/declarations/IrPackageFragment;, +  #860 = Utf8               Lkotlin/Function1;, +  #861 = Utf8               Lkotlin/ExtensionFunctionType;, +  #862 = Utf8               Lorg/jetbrains/kotlin/ir/IrStatement;, +  #863 = Utf8               android-extensions-compiler, +  #864 = Utf8               AndroidIrExtension.kt, +  #865 = Utf8               Signature, +  #866 = Utf8               RuntimeInvisibleAnnotations, +  #867 = Utf8               Code, +  #868 = Utf8               StackMapTable, +  #869 = Utf8               LineNumberTable, +  #870 = Utf8               LocalVariableTable, +  #871 = Utf8               RuntimeInvisibleParameterAnnotations, +  #872 = Utf8               InnerClasses, +  #873 = Utf8               SourceFile, +  #874 = Utf8               SourceDebugExtension, +  #875 = Utf8               RuntimeVisibleAnnotations,  {,    static org.jetbrains.kotlin.ir.declarations.IrClass createClass$default(org.jetbrains.kotlin.android.synthetic.codegen.AndroidIrTransformer, org.jetbrains.kotlin.name.FqName, boolean, int, java.lang.Object);,      descriptor: (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;ZILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrClass;,      flags: ACC_STATIC, ACC_SYNTHETIC,      Code:, @@ -1150,32 +1155,37 @@,          line 110: 99,          line 114: 99,          line 110: 99,          line 268: 107,          line 269: 110, +        line 65100: 129,          line 270: 132,          line 111: 139,          line 112: 160,          line 113: 168,          line 114: 183,          line 271: 184,          line 269: 192,          line 272: 193,          line 268: 195, +        line 65100: 205,          line 276: 208,          line 277: 222,          line 278: 231,          line 268: 232,          line 278: 234,          line 114: 235, +        line 65100: 244,          line 115: 247,          line 279: 257, +        line 65100: 276,          line 280: 279,          line 115: 286,          line 281: 298,          line 282: 304,          line 283: 314, +        line 65100: 331,          line 284: 334,          line 285: 343,          line 286: 355,          line 283: 356,          line 286: 357, @@ -1185,29 +1195,29 @@,          line 117: 380,          line 114: 381,          line 118: 382,        LocalVariableTable:,          Start  Length  Slot  Name   Signature, -          136      47    11 $this$addFunction   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;, -          139      44    12 $i$a$-addFunction-AndroidIrTransformer$visitClassNew$1   I, +          136      48    11 $this$addFunction   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;, +          139      45    12 $i$a$-addFunction-AndroidIrTransformer$visitClassNew$1   I,            129      63     9 $this$run$iv$iv   Lorg/jetbrains/kotlin/ir/builders/declarations/IrFunctionBuilder;,            132      60    10 $i$a$-run-DeclarationBuildersKt$buildFun$2$iv$iv   I,            110      83     5 $i$f$buildFun   I, -          205      26     8 function$iv   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;, -          208      23     9 $i$a$-also-DeclarationBuildersKt$addFunction$1$iv   I, +          205      27     8 function$iv   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;, +          208      24     9 $i$a$-also-DeclarationBuildersKt$addFunction$1$iv   I,            104     130     3 $this$addFunction$iv   Lorg/jetbrains/kotlin/ir/declarations/IrDeclarationContainer;,            107     127     4 $i$f$addFunction   I,            283      15    15 $this$addDispatchReceiver   Lorg/jetbrains/kotlin/ir/builders/declarations/IrValueParameterBuilder;,            286      12    16 $i$a$-addDispatchReceiver-AndroidIrTransformer$visitClassNew$2$1   I, -          331      24    20 receiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrValueParameter;, -          334      21    21 $i$a$-also-DeclarationBuildersKt$addDispatchReceiver$1$1$iv   I, +          331      25    20 receiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrValueParameter;, +          334      22    21 $i$a$-also-DeclarationBuildersKt$addDispatchReceiver$1$1$iv   I,            276      82    13 $this$run$iv   Lorg/jetbrains/kotlin/ir/builders/declarations/IrValueParameterBuilder;,            279      79    14 $i$a$-run-DeclarationBuildersKt$addDispatchReceiver$1$iv   I, -          254     105     8 $this$addDispatchReceiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;, -          257     102     9 $i$f$addDispatchReceiver   I, -          244     136     6 $this$apply   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;, -          247     133     7 $i$a$-apply-AndroidIrTransformer$visitClassNew$2   I, +          254     106     8 $this$addDispatchReceiver$iv   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;, +          257     103     9 $i$f$addDispatchReceiver   I, +          244     137     6 $this$apply   Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;, +          247     134     7 $i$a$-apply-AndroidIrTransformer$visitClassNew$2   I,             40     348     2 containerOptions   Lorg/jetbrains/kotlin/android/synthetic/descriptors/ContainerOptionsProxy;,              0     388     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;,              0     388     1 declaration   Lorg/jetbrains/kotlin/ir/declarations/IrClass;,      RuntimeInvisibleAnnotations:,        0: #322(), @@ -1514,51 +1524,50 @@,         695: aload         15,         697: aload_1,         698: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,         701: invokestatic  #653                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$callWithRanges:(Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,         704: astore        21, -       706: astore        22, -       708: iconst_0, -       709: istore        23, -       711: iconst_0, -       712: istore        24, -       714: aload         21, +       706: iconst_0, +       707: istore        22, +       709: iconst_0, +       710: istore        23, +       712: aload         21, +       714: astore        24,         716: astore        25,         718: iconst_0,         719: istore        26, -       721: aload         25, +       721: aload         24,         723: aload         5,         725: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -       728: nop, -       729: aload         21, +       728: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;,         731: astore        27, -       733: aload         22, -       735: aload         27, +       733: aload         25, +       735: aload         21,         737: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,         740: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,         743: aload         19,         745: iconst_0,         746: aload         8,         748: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -       751: invokevirtual #663                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +       751: invokevirtual #668                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,         754: nop,         755: aload         16,         757: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -       760: goto          1425, +       760: goto          1424,         763: aload_0,         764: new           #85                 // class org/jetbrains/kotlin/name/FqName,         767: dup, -       768: getstatic     #668                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, -       771: invokevirtual #671                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;, +       768: getstatic     #673                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, +       771: invokevirtual #676                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;,         774: invokespecial #537                // Method org/jetbrains/kotlin/name/FqName."<init>":(Ljava/lang/String;)V,         777: iconst_0,         778: iconst_2,         779: aconst_null,         780: invokestatic  #304                // Method createClass$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;ZILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrClass;,         783: astore        11,         785: aload         9, -       787: getstatic     #674                // Field org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I, +       787: getstatic     #679                // Field org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.$EnumSwitchMapping$2:[I,         790: swap,         791: invokevirtual #595                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.ordinal:()I,         794: iaload,         795: tableswitch   { // 1 to 9,                         1: 844, @@ -1575,11 +1584,11 @@,         844: aconst_null,         845: goto          948,         848: aload_0,         849: aload         9,         851: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;, -       854: ldc_w         #676                // String getView, +       854: ldc_w         #681                // String getView,         857: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;,         860: aload         11,         862: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;,         865: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType,         868: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;, @@ -1590,11 +1599,11 @@,         876: invokestatic  #638                // Method createMethod$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;Lorg/jetbrains/kotlin/ir/types/IrType;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;,         879: goto          948,         882: aload_0,         883: aload         9,         885: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;, -       888: ldc_w         #678                // String getContainerView, +       888: ldc_w         #683                // String getContainerView,         891: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;,         894: aload         11,         896: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;,         899: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType,         902: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;, @@ -1623,27 +1632,27 @@,         955: aload         9,         957: invokestatic  #628                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$getFqName$p:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;)Lorg/jetbrains/kotlin/name/FqName;,         960: goto          976,         963: new           #85                 // class org/jetbrains/kotlin/name/FqName,         966: dup, -       967: getstatic     #668                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, -       970: invokevirtual #671                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;, +       967: getstatic     #673                // Field org/jetbrains/kotlin/android/synthetic/AndroidConst.INSTANCE:Lorg/jetbrains/kotlin/android/synthetic/AndroidConst;, +       970: invokevirtual #676                // Method org/jetbrains/kotlin/android/synthetic/AndroidConst.getVIEW_FQNAME:()Ljava/lang/String;,         973: invokespecial #537                // Method org/jetbrains/kotlin/name/FqName."<init>":(Ljava/lang/String;)V,         976: astore        13,         978: aload_0,         979: aload         13, -       981: ldc_w         #680                // String findViewById, +       981: ldc_w         #685                // String findViewById,         984: invokestatic  #545                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$child:(Lorg/jetbrains/kotlin/name/FqName;Ljava/lang/String;)Lorg/jetbrains/kotlin/name/FqName;,         987: aload         11,         989: invokestatic  #227                // Method org/jetbrains/kotlin/ir/util/IrUtilsKt.getDefaultType:(Lorg/jetbrains/kotlin/ir/declarations/IrClass;)Lorg/jetbrains/kotlin/ir/types/IrSimpleType;,         992: checkcast     #229                // class org/jetbrains/kotlin/ir/types/IrType,         995: invokestatic  #644                // Method org/jetbrains/kotlin/ir/types/IrTypesKt.makeNullable:(Lorg/jetbrains/kotlin/ir/types/IrType;)Lorg/jetbrains/kotlin/ir/types/IrType;,         998: iconst_0, -       999: new           #682                // class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, +       999: new           #687                // class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1,        1002: dup,        1003: aload_0, -      1004: invokespecial #683                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V, +      1004: invokespecial #688                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1."<init>":(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;)V,        1007: checkcast     #257                // class kotlin/jvm/functions/Function1,        1010: iconst_4,        1011: aconst_null,        1012: invokestatic  #638                // Method createMethod$default:(Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;Lorg/jetbrains/kotlin/name/FqName;Lorg/jetbrains/kotlin/ir/types/IrType;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;,        1015: aload_1, @@ -1660,11 +1669,11 @@,        1035: istore        19,        1037: aload         18,        1039: iconst_0,        1040: aload         8,        1042: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1045: invokevirtual #663                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +      1045: invokevirtual #668                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.putValueArgument:(ILorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,        1048: nop,        1049: aload         15,        1051: astore        14,        1053: aload         12,        1055: ifnonnull     1090, @@ -1681,37 +1690,37 @@,        1075: aload         18,        1077: aload         5,        1079: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V,        1082: aload         15,        1084: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1087: goto          1425, +      1087: goto          1424,        1090: aload_0, -      1091: invokevirtual #687                // Method getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;, +      1091: invokevirtual #692                // Method getCurrentScope:()Lorg/jetbrains/kotlin/backend/common/ScopeWithIr;,        1094: dup,        1095: invokestatic  #509                // Method kotlin/jvm/internal/Intrinsics.checkNotNull:(Ljava/lang/Object;)V, -      1098: invokevirtual #693                // Method org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, -      1101: invokevirtual #698                // Method org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, +      1098: invokevirtual #698                // Method org/jetbrains/kotlin/backend/common/ScopeWithIr.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, +      1101: invokevirtual #703                // Method org/jetbrains/kotlin/ir/builders/Scope.getScopeOwnerSymbol:()Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;,        1104: astore        15, -      1106: new           #700                // class org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder, +      1106: new           #705                // class org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder,        1109: dup, -      1110: new           #702                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase, +      1110: new           #707                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase,        1113: dup,        1114: aload_0,        1115: getfield      #29                 // Field pluginContext:Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;,        1118: invokevirtual #410                // Method org/jetbrains/kotlin/backend/common/extensions/IrPluginContext.getIrBuiltIns:()Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;, -      1121: invokespecial #705                // Method org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, -      1124: checkcast     #707                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContext, +      1121: invokespecial #710                // Method org/jetbrains/kotlin/ir/builders/IrGeneratorContextBase."<init>":(Lorg/jetbrains/kotlin/ir/descriptors/IrBuiltIns;)V, +      1124: checkcast     #712                // class org/jetbrains/kotlin/ir/builders/IrGeneratorContext,        1127: aload         15,        1129: iconst_0,        1130: iconst_0,        1131: bipush        12,        1133: aconst_null, -      1134: invokespecial #710                // Method org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, -      1137: checkcast     #712                // class org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope, +      1134: invokespecial #715                // Method org/jetbrains/kotlin/backend/common/lower/DeclarationIrBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;IIILkotlin/jvm/internal/DefaultConstructorMarker;)V, +      1137: checkcast     #717                // class org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope,        1140: astore        16,        1142: aconst_null, -      1143: checkcast     #714                // class org/jetbrains/kotlin/ir/expressions/IrStatementOrigin, +      1143: checkcast     #719                // class org/jetbrains/kotlin/ir/expressions/IrStatementOrigin,        1146: astore        17,        1148: aload_1,        1149: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1152: invokeinterface #499,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;,        1157: astore        18, @@ -1719,153 +1728,150 @@,        1160: istore        19,        1162: aload         16,        1164: astore        20,        1166: aload_1,        1167: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1170: invokeinterface #715,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I, +      1170: invokeinterface #720,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getStartOffset:()I,        1175: istore        21,        1177: aload_1,        1178: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1181: invokeinterface #716,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I, +      1181: invokeinterface #721,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrExpression.getEndOffset:()I,        1186: istore        22,        1188: iconst_0,        1189: istore        23, -      1191: new           #718                // class org/jetbrains/kotlin/ir/builders/IrBlockBuilder, +      1191: new           #723                // class org/jetbrains/kotlin/ir/builders/IrBlockBuilder,        1194: dup,        1195: aload         20, -      1197: invokeinterface #722,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;, +      1197: invokeinterface #727,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getContext:()Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;,        1202: aload         20, -      1204: invokeinterface #723,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;, +      1204: invokeinterface #728,  1          // InterfaceMethod org/jetbrains/kotlin/ir/builders/IrGeneratorWithScope.getScope:()Lorg/jetbrains/kotlin/ir/builders/Scope;,        1209: iload         21,        1211: iload         22,        1213: aload         17,        1215: aload         18,        1217: iconst_0,        1218: bipush        64,        1220: aconst_null, -      1221: invokespecial #726                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V, +      1221: invokespecial #731                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder."<init>":(Lorg/jetbrains/kotlin/ir/builders/IrGeneratorContext;Lorg/jetbrains/kotlin/ir/builders/Scope;IILorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;Lorg/jetbrains/kotlin/ir/types/IrType;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V,        1224: astore        24,        1226: iconst_0,        1227: istore        25,        1229: aload         24,        1231: astore        26,        1233: iconst_0,        1234: istore        27,        1236: aload         26, -      1238: checkcast     #728                // class org/jetbrains/kotlin/ir/builders/IrStatementsBuilder, +      1238: checkcast     #733                // class org/jetbrains/kotlin/ir/builders/IrStatementsBuilder,        1241: aload         12,        1243: aload_1,        1244: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1247: invokestatic  #653                // Method org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtensionKt.access$callWithRanges:(Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,        1250: astore        28, -      1252: astore        29, -      1254: iconst_0, -      1255: istore        30, -      1257: iconst_0, -      1258: istore        31, -      1260: aload         28, +      1252: iconst_0, +      1253: istore        29, +      1255: iconst_0, +      1256: istore        30, +      1258: aload         28, +      1260: astore        31,        1262: astore        32,        1264: iconst_0,        1265: istore        33, -      1267: aload         32, +      1267: aload         31,        1269: aload         5,        1271: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -      1274: nop, -      1275: aload         28, +      1274: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;,        1277: astore        34, -      1279: aload         29, -      1281: aload         34, +      1279: aload         32, +      1281: aload         28,        1283: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1286: aconst_null,        1287: aconst_null,        1288: aconst_null,        1289: bipush        14,        1291: aconst_null, -      1292: invokestatic  #734                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;, +      1292: invokestatic  #739                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irTemporary$default:(Lorg/jetbrains/kotlin/ir/builders/IrStatementsBuilder;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Ljava/lang/String;Lorg/jetbrains/kotlin/types/KotlinType;Lorg/jetbrains/kotlin/ir/types/IrType;ILjava/lang/Object;)Lorg/jetbrains/kotlin/ir/declarations/IrVariable;,        1295: astore        35,        1297: aload         26,        1299: aload         26, -      1301: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +      1301: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope,        1304: aload         14, -      1306: invokevirtual #737                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, +      1306: invokevirtual #742                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;,        1309: aload         26, -      1311: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +      1311: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope,        1314: aload         35, -      1316: checkcast     #739                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, -      1319: invokestatic  #743                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, +      1316: checkcast     #744                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, +      1319: invokestatic  #748                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;,        1322: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1325: aload         26, -      1327: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, -      1330: invokestatic  #747                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;, +      1327: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +      1330: invokestatic  #752                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrConstImpl;,        1333: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1336: aload         14,        1338: astore        28, -      1340: astore        36, -      1342: astore        37, -      1344: astore        38, -      1346: astore        34, -      1348: astore        29, -      1350: iconst_0, -      1351: istore        30, -      1353: iconst_0, -      1354: istore        31, -      1356: aload         28, +      1340: iconst_0, +      1341: istore        29, +      1343: iconst_0, +      1344: istore        30, +      1346: aload         28, +      1348: astore        31, +      1350: astore        36, +      1352: astore        37, +      1354: astore        38, +      1356: astore        34,        1358: astore        32,        1360: iconst_0,        1361: istore        33, -      1363: aload         32, +      1363: aload         31,        1365: aload         26, -      1367: checkcast     #736                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope, +      1367: checkcast     #741                // class org/jetbrains/kotlin/ir/builders/IrBuilderWithScope,        1370: aload         35, -      1372: checkcast     #739                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, -      1375: invokestatic  #743                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;, +      1372: checkcast     #744                // class org/jetbrains/kotlin/ir/declarations/IrValueDeclaration, +      1375: invokestatic  #748                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irGet:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/declarations/IrValueDeclaration;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetValueImpl;,        1378: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression,        1381: invokevirtual #659                // Method org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl.setDispatchReceiver:(Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -      1384: nop, -      1385: aload         28, +      1384: getstatic     #664                // Field kotlin/Unit.INSTANCE:Lkotlin/Unit;,        1387: astore        39, -      1389: aload         29, +      1389: aload         32,        1391: aload         34,        1393: aload         38,        1395: aload         37,        1397: aload         36, -      1399: aload         39, +      1399: aload         28,        1401: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1404: invokestatic  #751                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, -      1407: checkcast     #753                // class org/jetbrains/kotlin/ir/IrStatement, -      1410: invokevirtual #757                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V, +      1404: invokestatic  #756                // Method org/jetbrains/kotlin/ir/builders/ExpressionHelpersKt.irIfNull:(Lorg/jetbrains/kotlin/ir/builders/IrBuilderWithScope;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)Lorg/jetbrains/kotlin/ir/expressions/impl/IrIfThenElseImpl;, +      1407: checkcast     #758                // class org/jetbrains/kotlin/ir/IrStatement, +      1410: invokevirtual #762                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.unaryPlus:(Lorg/jetbrains/kotlin/ir/IrStatement;)V,        1413: nop, -      1414: nop, -      1415: aload         24, -      1417: invokevirtual #761                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, -      1420: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, +      1414: aload         24, +      1416: invokevirtual #766                // Method org/jetbrains/kotlin/ir/builders/IrBlockBuilder.doBuild:()Lorg/jetbrains/kotlin/ir/expressions/IrContainerExpression;, +      1419: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, +      1422: nop,        1423: nop, -      1424: nop, -      1425: astore        10, -      1427: iconst_0, -      1428: istore        11, -      1430: iconst_0, -      1431: istore        12, -      1433: aload_1, -      1434: astore        13, -      1436: iconst_0, -      1437: istore        14, -      1439: new           #763                // class org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, -      1442: dup, -      1443: aload         13, -      1445: invokeinterface #455,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getStartOffset:()I, -      1450: aload         13, -      1452: invokeinterface #458,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getEndOffset:()I, -      1457: aload         13, -      1459: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, -      1464: getstatic     #769                // Field org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, -      1467: aload         13, -      1469: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, -      1474: aload         10, -      1476: invokespecial #772                // Method org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, -      1479: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, -      1482: areturn, +      1424: astore        10, +      1426: iconst_0, +      1427: istore        11, +      1429: iconst_0, +      1430: istore        12, +      1432: aload_1, +      1433: astore        13, +      1435: iconst_0, +      1436: istore        14, +      1438: new           #768                // class org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl, +      1441: dup, +      1442: aload         13, +      1444: invokeinterface #455,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getStartOffset:()I, +      1449: aload         13, +      1451: invokeinterface #458,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getEndOffset:()I, +      1456: aload         13, +      1458: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, +      1463: getstatic     #774                // Field org/jetbrains/kotlin/ir/expressions/IrTypeOperator.CAST:Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;, +      1466: aload         13, +      1468: invokeinterface #578,  1          // InterfaceMethod org/jetbrains/kotlin/ir/expressions/IrCall.getType:()Lorg/jetbrains/kotlin/ir/types/IrType;, +      1473: aload         10, +      1475: invokespecial #777                // Method org/jetbrains/kotlin/ir/expressions/impl/IrTypeOperatorCallImpl."<init>":(IILorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrTypeOperator;Lorg/jetbrains/kotlin/ir/types/IrType;Lorg/jetbrains/kotlin/ir/expressions/IrExpression;)V, +      1478: checkcast     #463                // class org/jetbrains/kotlin/ir/expressions/IrExpression, +      1481: areturn,        StackMapTable: number_of_entries = 33,          frame_type = 61 /* same */,          frame_type = 83 /* same_locals_1_stack_item */,            stack = [ class org/jetbrains/kotlin/descriptors/FunctionDescriptor ],          frame_type = 78 /* same_locals_1_stack_item */, @@ -1929,11 +1935,11 @@,          frame_type = 255 /* full_frame */,            offset_delta = 113,            locals = [ class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer, class org/jetbrains/kotlin/ir/expressions/IrCall, class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty, class org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor, class org/jetbrains/kotlin/ir/symbols/IrClassSymbol, class org/jetbrains/kotlin/ir/expressions/IrExpression, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/declarations/IrField, class org/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl, class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType, top, class org/jetbrains/kotlin/ir/declarations/IrClass, class org/jetbrains/kotlin/ir/declarations/IrSimpleFunction, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, int, int, class org/jetbrains/kotlin/ir/expressions/impl/IrCallImpl, int ],            stack = [],          frame_type = 255 /* full_frame */, -          offset_delta = 334, +          offset_delta = 333,            locals = [ class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer, class org/jetbrains/kotlin/ir/expressions/IrCall, class org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty, class org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor, class org/jetbrains/kotlin/ir/symbols/IrClassSymbol, class org/jetbrains/kotlin/ir/expressions/IrExpression, class org/jetbrains/kotlin/name/FqName, class org/jetbrains/kotlin/ir/declarations/IrField, class org/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl, class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType, top, class java/lang/Object, class java/lang/Object, class org/jetbrains/kotlin/name/FqName, class java/lang/Object, class java/lang/Object ],            stack = [ class org/jetbrains/kotlin/ir/expressions/IrExpression ],        LineNumberTable:,          line 122: 7,          line 124: 24, @@ -1969,14 +1975,16 @@,          line 161: 627,          line 159: 627,          line 161: 627,          line 159: 627,          line 161: 671, +        line 65100: 690,          line 162: 693, +        line 65100: 718,          line 163: 721,          line 164: 728, -        line 162: 729, +        line 162: 735,          line 165: 743,          line 166: 754,          line 161: 755,          line 169: 763,          line 170: 785, @@ -1990,16 +1998,18 @@,          line 182: 978,          line 180: 978,          line 182: 978,          line 180: 978,          line 182: 1015, +        line 65100: 1034,          line 183: 1037,          line 184: 1048,          line 182: 1049,          line 180: 1051,          line 185: 1053,          line 186: 1058, +        line 65100: 1072,          line 186: 1075,          line 186: 1082,          line 188: 1090,          line 189: 1106,          line 288: 1142, @@ -2014,78 +2024,81 @@,          line 302: 1213,          line 293: 1221,          line 298: 1226,          line 303: 1229,          line 190: 1236, +        line 65100: 1264,          line 191: 1267,          line 192: 1274, -        line 190: 1275, +        line 190: 1281,          line 190: 1292,          line 193: 1297, +        line 65100: 1360,          line 194: 1363,          line 195: 1384, -        line 193: 1385, +        line 193: 1399,          line 193: 1404,          line 196: 1413, -        line 304: 1415, -        line 298: 1423, -        line 292: 1424, -        line 185: 1425, -        line 140: 1425, -        line 199: 1427, -        line 199: 1439, -        line 199: 1479, +        line 304: 1414, +        line 298: 1422, +        line 292: 1423, +        line 185: 1424, +        line 140: 1424, +        line 199: 1426, +        line 65100: 1435, +        line 199: 1438, +        line 199: 1478,        LocalVariableTable:,          Start  Length  Slot  Name   Signature, -          718      10    25 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +          718      10    24 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,            721       7    26 $i$a$-apply-AndroidIrTransformer$visitCall$result$2$1   I, -          690      64    19 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, -          693      61    20 $i$a$-apply-AndroidIrTransformer$visitCall$result$2   I, +          690      65    19 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +          693      62    20 $i$a$-apply-AndroidIrTransformer$visitCall$result$2   I,            627     133    15 getFragmentManager   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;,            599     161    14 fragmentManager   Lorg/jetbrains/kotlin/name/FqName;,            589     171    13 fragment   Lorg/jetbrains/kotlin/name/FqName;,            579     181    12 getFragmentManagerFqName   Lorg/jetbrains/kotlin/name/FqName;,            520     240    11 appPackageFqName   Lorg/jetbrains/kotlin/name/FqName;, -         1034      14    18 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, -         1037      11    19 $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2   I, +         1034      15    18 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +         1037      12    19 $i$a$-apply-AndroidIrTransformer$visitCall$result$findViewById$2   I,           1072      10    18 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,           1075       7    19 $i$a$-apply-AndroidIrTransformer$visitCall$result$3   I, -         1264      10    32 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +         1264      10    31 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,           1267       7    33 $i$a$-apply-AndroidIrTransformer$visitCall$result$4$variable$1   I, -         1360      24    32 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +         1360      24    31 $this$apply   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;,           1363      21    33 $i$a$-apply-AndroidIrTransformer$visitCall$result$4$1   I,           1297     116    35 variable   Lorg/jetbrains/kotlin/ir/declarations/IrVariable;,           1233     181    26 $this$irBlock   Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;,           1236     178    27 $i$a$-irBlock-AndroidIrTransformer$visitCall$result$4   I, -         1226     194    24 this_$iv$iv$iv   Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;, -         1229     191    25 $i$f$block   I, -         1188     236    20 $this$irBlock$iv$iv   Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, -         1188     236    21 startOffset$iv$iv   I, -         1188     236    22 endOffset$iv$iv   I, -         1191     233    23 $i$f$irBlock   I, -         1142     283    16 $this$irBlock$iv   Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, -         1148     277    17 origin$iv   Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;, -         1159     266    18 resultType$iv   Lorg/jetbrains/kotlin/ir/types/IrType;, -         1162     263    19 $i$f$irBlock   I, -         1106     319    15 scope   Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, -         1053     372    14 findViewById   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, -          978     447    13 findViewByIdParent   Lorg/jetbrains/kotlin/name/FqName;, -          950     475    12 getView   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;, -          785     640    11 viewClass   Lorg/jetbrains/kotlin/ir/declarations/IrClass;, -         1436      43    13 $this$with   Lorg/jetbrains/kotlin/ir/expressions/IrCall;, -         1439      40    14 $i$a$-with-AndroidIrTransformer$visitCall$1   I, -         1427      56    10 result   Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, -          374    1109     9 containerType   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;, -          353    1130     8 resourceId   Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;, -          310    1173     7 field   Lorg/jetbrains/kotlin/ir/declarations/IrField;, -          267    1216     6 packageFqName   Lorg/jetbrains/kotlin/name/FqName;, -          245    1238     5 receiver   Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, -          223    1260     4 receiverClass   Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;, -          182    1301     3 packageFragment   Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;, -          128    1355     2 resource   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;, -            0    1483     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;, -            0    1483     1 expression   Lorg/jetbrains/kotlin/ir/expressions/IrCall;, +         1226     193    24 this_$iv$iv$iv   Lorg/jetbrains/kotlin/ir/builders/IrBlockBuilder;, +         1229     190    25 $i$f$block   I, +         1188     235    20 $this$irBlock$iv$iv   Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, +         1188     235    21 startOffset$iv$iv   I, +         1188     235    22 endOffset$iv$iv   I, +         1191     232    23 $i$f$irBlock   I, +         1142     282    16 $this$irBlock$iv   Lorg/jetbrains/kotlin/ir/builders/IrGeneratorWithScope;, +         1148     276    17 origin$iv   Lorg/jetbrains/kotlin/ir/expressions/IrStatementOrigin;, +         1159     265    18 resultType$iv   Lorg/jetbrains/kotlin/ir/types/IrType;, +         1162     262    19 $i$f$irBlock   I, +         1106     318    15 scope   Lorg/jetbrains/kotlin/ir/symbols/IrSymbol;, +         1053     371    14 findViewById   Lorg/jetbrains/kotlin/ir/expressions/impl/IrCallImpl;, +          978     446    13 findViewByIdParent   Lorg/jetbrains/kotlin/name/FqName;, +          950     474    12 getView   Lorg/jetbrains/kotlin/ir/declarations/IrSimpleFunction;, +          785     639    11 viewClass   Lorg/jetbrains/kotlin/ir/declarations/IrClass;, +         1435      43    13 $this$with   Lorg/jetbrains/kotlin/ir/expressions/IrCall;, +         1438      40    14 $i$a$-with-AndroidIrTransformer$visitCall$1   I, +         1426      56    10 result   Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, +          374    1108     9 containerType   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;, +          353    1129     8 resourceId   Lorg/jetbrains/kotlin/ir/expressions/impl/IrGetFieldImpl;, +          310    1172     7 field   Lorg/jetbrains/kotlin/ir/declarations/IrField;, +          267    1215     6 packageFqName   Lorg/jetbrains/kotlin/name/FqName;, +          245    1237     5 receiver   Lorg/jetbrains/kotlin/ir/expressions/IrExpression;, +          223    1259     4 receiverClass   Lorg/jetbrains/kotlin/ir/symbols/IrClassSymbol;, +          182    1300     3 packageFragment   Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;, +          128    1354     2 resource   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;, +            0    1482     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;, +            0    1482     1 expression   Lorg/jetbrains/kotlin/ir/expressions/IrCall;,      RuntimeInvisibleAnnotations:,        0: #322(),      RuntimeInvisibleParameterAnnotations:,        0:,          0: #322(), @@ -2124,96 +2137,80 @@,  ,    public org.jetbrains.kotlin.android.synthetic.codegen.AndroidIrTransformer(org.jetbrains.kotlin.android.synthetic.codegen.AndroidIrExtension, org.jetbrains.kotlin.backend.common.extensions.IrPluginContext);,      descriptor: (Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;)V,      flags: ACC_PUBLIC,      Code:, -      stack=2, locals=6, args_size=3, +      stack=3, locals=4, args_size=3,           0: aload_1, -         1: ldc_w         #833                // String extension, +         1: ldc_w         #838                // String extension,           4: invokestatic  #327                // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V,           7: aload_2, -         8: ldc_w         #834                // String pluginContext, +         8: ldc_w         #839                // String pluginContext,          11: invokestatic  #327                // Method kotlin/jvm/internal/Intrinsics.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V,          14: aload_0, -        15: invokespecial #835                // Method org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V, +        15: invokespecial #840                // Method org/jetbrains/kotlin/backend/common/IrElementTransformerVoidWithContext."<init>":()V,          18: aload_0,          19: aload_1,          20: putfield      #360                // Field extension:Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;,          23: aload_0,          24: aload_2,          25: putfield      #29                 // Field pluginContext:Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;,          28: aload_0, -        29: astore        4, -        31: iconst_0, -        32: istore_3, -        33: new           #837                // class java/util/LinkedHashMap, -        36: dup, -        37: invokespecial #838                // Method java/util/LinkedHashMap."<init>":()V, -        40: checkcast     #19                 // class java/util/Map, -        43: astore        5, -        45: aload         4, -        47: aload         5, -        49: putfield      #17                 // Field cachedPackages:Ljava/util/Map;, -        52: aload_0, -        53: astore        4, -        55: iconst_0, -        56: istore_3, -        57: new           #837                // class java/util/LinkedHashMap, -        60: dup, -        61: invokespecial #838                // Method java/util/LinkedHashMap."<init>":()V, -        64: checkcast     #19                 // class java/util/Map, -        67: astore        5, -        69: aload         4, -        71: aload         5, -        73: putfield      #78                 // Field cachedClasses:Ljava/util/Map;, +        29: iconst_0, +        30: istore_3, +        31: new           #842                // class java/util/LinkedHashMap, +        34: dup, +        35: invokespecial #843                // Method java/util/LinkedHashMap."<init>":()V, +        38: checkcast     #19                 // class java/util/Map, +        41: putfield      #17                 // Field cachedPackages:Ljava/util/Map;, +        44: aload_0, +        45: iconst_0, +        46: istore_3, +        47: new           #842                // class java/util/LinkedHashMap, +        50: dup, +        51: invokespecial #843                // Method java/util/LinkedHashMap."<init>":()V, +        54: checkcast     #19                 // class java/util/Map, +        57: putfield      #78                 // Field cachedClasses:Ljava/util/Map;, +        60: aload_0, +        61: iconst_0, +        62: istore_3, +        63: new           #842                // class java/util/LinkedHashMap, +        66: dup, +        67: invokespecial #843                // Method java/util/LinkedHashMap."<init>":()V, +        70: checkcast     #19                 // class java/util/Map, +        73: putfield      #175                // Field cachedMethods:Ljava/util/Map;,          76: aload_0, -        77: astore        4, -        79: iconst_0, -        80: istore_3, -        81: new           #837                // class java/util/LinkedHashMap, -        84: dup, -        85: invokespecial #838                // Method java/util/LinkedHashMap."<init>":()V, -        88: checkcast     #19                 // class java/util/Map, -        91: astore        5, -        93: aload         4, -        95: aload         5, -        97: putfield      #175                // Field cachedMethods:Ljava/util/Map;, -       100: aload_0, -       101: astore        4, -       103: iconst_0, -       104: istore_3, -       105: new           #837                // class java/util/LinkedHashMap, -       108: dup, -       109: invokespecial #838                // Method java/util/LinkedHashMap."<init>":()V, -       112: checkcast     #19                 // class java/util/Map, -       115: astore        5, -       117: aload         4, -       119: aload         5, -       121: putfield      #302                // Field cachedFields:Ljava/util/Map;, -       124: return, +        77: iconst_0, +        78: istore_3, +        79: new           #842                // class java/util/LinkedHashMap, +        82: dup, +        83: invokespecial #843                // Method java/util/LinkedHashMap."<init>":()V, +        86: checkcast     #19                 // class java/util/Map, +        89: putfield      #302                // Field cachedFields:Ljava/util/Map;, +        92: return,        LineNumberTable:,          line 53: 14,          line 54: 15,          line 56: 28, -        line 57: 52, -        line 58: 76, -        line 59: 100, +        line 57: 44, +        line 58: 60, +        line 59: 76,        LocalVariableTable:,          Start  Length  Slot  Name   Signature, -            0     125     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;, -            0     125     1 extension   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;, -            0     125     2 pluginContext   Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;, +            0      93     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer;, +            0      93     1 extension   Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidIrExtension;, +            0      93     2 pluginContext   Lorg/jetbrains/kotlin/backend/common/extensions/IrPluginContext;,      RuntimeInvisibleParameterAnnotations:,        0:,          0: #322(),        1:,          0: #322(),  },  InnerClasses:,       static final #293; //class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$createMethod$1,       static final #646; //class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$1, -     static final #682; //class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1, +     static final #687; //class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1,  SourceFile: "AndroidIrExtension.kt",  SourceDebugExtension:,    SMAP,    AndroidIrExtension.kt,    Kotlin, @@ -2273,7 +2270,7 @@,    189#1,6:293,    189#1,4:299,    189#1,2:303,    *E,  RuntimeVisibleAnnotations:, -  0: #839(#840=[I#841,I#841,I#842],#843=[I#841,I#844,I#845],#846=I#841,#847=I#848,#849=[s#850],#851=[s#70,s#852,s#357,s#358,s#26,s#27,s#832,s#8,s#853,s#72,s#162,s#12,s#813,s#10,s#281,s#5,s#854,s#828,s#829,s#830,s#831,s#75,s#71,s#165,s#853,s#299,s#285,s#286,s#171,s#287,s#288,s#855,s#268,s#853,s#856,s#14,s#433,s#808,s#435,s#805,s#320,s#857,s#323,s#858]), +  0: #844(#845=[I#846,I#847,I#848],#849=[I#846,I#848,I#850],#851=I#846,#852=I#853,#854=[s#855],#856=[s#70,s#857,s#357,s#358,s#26,s#27,s#837,s#8,s#858,s#72,s#162,s#12,s#818,s#10,s#281,s#5,s#859,s#833,s#834,s#835,s#836,s#75,s#71,s#165,s#858,s#299,s#285,s#286,s#171,s#287,s#288,s#860,s#268,s#858,s#861,s#14,s#433,s#813,s#435,s#810,s#320,s#862,s#323,s#863]),  ]...

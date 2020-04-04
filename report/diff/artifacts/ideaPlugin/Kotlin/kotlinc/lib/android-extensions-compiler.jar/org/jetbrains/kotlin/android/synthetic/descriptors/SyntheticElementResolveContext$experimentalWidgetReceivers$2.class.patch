@@ -1,0 +1,40 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$experimentalWidgetReceivers$2.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$experimentalWidgetReceivers$2.class
+@@ -67,13 +67,13 @@
+   #61 = NameAndType        #39:#60        // "<init>":(I)V
+   #62 = Methodref          #5.#61         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #63 = Utf8               Lkotlin/Metadata;
+   #64 = Utf8               mv
+   #65 = Integer            1
+-  #66 = Integer            17
+-  #67 = Utf8               bv
+-  #68 = Integer            0
++  #66 = Integer            4
++  #67 = Integer            0
++  #68 = Utf8               bv
+   #69 = Integer            3
+   #70 = Utf8               k
+   #71 = Utf8               xi
+   #72 = Integer            2
+   #73 = Utf8               d1
+@@ -163,10 +163,11 @@
+           stack = [ class org/jetbrains/kotlin/types/SimpleType ]
+         frame_type = 0 /* same */
+       LineNumberTable:
+         line 84: 0
+         line 85: 14
++        line 65100: 34
+         line 85: 37
+         line 85: 68
+         line 85: 68
+         line 86: 72
+       LocalVariableTable:
+@@ -207,7 +208,7 @@
+   org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext$experimentalWidgetReceivers$2
+   *L
+   1#1,112:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #63(#64=[I#65,I#65,I#66],#67=[I#65,I#68,I#69],#70=I#69,#71=I#72,#73=[s#74],#75=[s#76,s#77,s#78,s#8])
++  0: #63(#64=[I#65,I#66,I#67],#68=[I#65,I#67,I#69],#70=I#69,#71=I#72,#73=[s#74],#75=[s#76,s#77,s#78,s#8])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/parcel/Parceler.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/parcel/Parceler.class
+@@ -29,13 +29,13 @@
+   #23 = Utf8               (I)[TT;
+   #24 = Utf8               size
+   #25 = Utf8               Lkotlin/Metadata;
+   #26 = Utf8               mv
+   #27 = Integer            1
+-  #28 = Integer            17
+-  #29 = Utf8               bv
+-  #30 = Integer            0
++  #28 = Integer            4
++  #29 = Integer            0
++  #30 = Utf8               bv
+   #31 = Integer            3
+   #32 = Utf8               k
+   #33 = Utf8               xi
+   #34 = Integer            2
+   #35 = Utf8               d1
+@@ -83,7 +83,7 @@
+ InnerClasses:
+      public static final #43= #42 of #2; //DefaultImpls=class kotlinx/android/parcel/Parceler$DefaultImpls of class kotlinx/android/parcel/Parceler
+ Signature: #3                           // <T:Ljava/lang/Object;>Ljava/lang/Object;
+ SourceFile: "Parceler.kt"
+ RuntimeVisibleAnnotations:
+-  0: #25(#26=[I#27,I#27,I#28],#29=[I#27,I#30,I#31],#32=I#27,#33=I#34,#35=[s#36],#37=[s#11,s#38,s#39,s#18,s#14,s#15,s#19,s#21,s#39,s#24,s#39,s#22,s#6,s#39,s#16,s#7,s#40])
++  0: #25(#26=[I#27,I#28,I#29],#30=[I#27,I#29,I#31],#32=I#27,#33=I#34,#35=[s#36],#37=[s#11,s#38,s#39,s#18,s#14,s#15,s#19,s#21,s#39,s#24,s#39,s#22,s#6,s#39,s#16,s#7,s#40])
+ 

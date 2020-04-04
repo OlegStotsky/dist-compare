@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$1.class
+@@ -46,13 +46,13 @@
+   #40 = NameAndType        #37:#39        // "<init>":(I)V
+   #41 = Methodref          #5.#40         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #42 = Utf8               Lkotlin/Metadata;
+   #43 = Utf8               mv
+   #44 = Integer            1
+-  #45 = Integer            17
+-  #46 = Utf8               bv
+-  #47 = Integer            0
++  #45 = Integer            4
++  #46 = Integer            0
++  #47 = Utf8               bv
+   #48 = Integer            3
+   #49 = Utf8               k
+   #50 = Utf8               xi
+   #51 = Integer            2
+   #52 = Utf8               d1
+@@ -125,7 +125,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$generateCachedFindViewByIdFunction$1
+ EnclosingMethod: #58.#61                // org.jetbrains.kotlin.android.synthetic.codegen.AbstractAndroidExtensionsExpressionCodegenExtension.generateCachedFindViewByIdFunction
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;
+ SourceFile: "AbstractAndroidExtensionsExpressionCodegenExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #42(#43=[I#44,I#44,I#45],#46=[I#44,I#47,I#48],#49=I#48,#50=I#51,#52=[s#53],#54=[s#55,s#56,s#8])
++  0: #42(#43=[I#44,I#45,I#46],#47=[I#44,I#46,I#48],#49=I#48,#50=I#51,#52=[s#53],#54=[s#55,s#56,s#8])
+ 

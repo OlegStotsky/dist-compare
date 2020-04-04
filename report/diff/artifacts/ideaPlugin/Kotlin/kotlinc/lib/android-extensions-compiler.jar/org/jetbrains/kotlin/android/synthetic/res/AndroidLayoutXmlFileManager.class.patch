@@ -1,0 +1,41 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager.class
+@@ -518,13 +518,13 @@
+   #512 = Utf8               <clinit>
+   #513 = Utf8               Lorg/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion;
+   #514 = Utf8               Lkotlin/Metadata;
+   #515 = Utf8               mv
+   #516 = Integer            1
+-  #517 = Integer            17
+-  #518 = Utf8               bv
+-  #519 = Integer            0
++  #517 = Integer            4
++  #518 = Integer            0
++  #519 = Utf8               bv
+   #520 = Integer            3
+   #521 = Utf8               k
+   #522 = Utf8               xi
+   #523 = Integer            2
+   #524 = Utf8               d1
+@@ -927,11 +927,11 @@
+   1360#2:158
+   1429#2,3:159
+   1265#2,12:162
+   704#2:174
+   777#2,2:175
+-  1589#2,3:177
++  1587#2,3:177
+   1288#2:180
+   1313#2,3:181
+   1316#2,3:191
+   1143#2,2:196
+   950#2:198
+@@ -972,7 +972,7 @@
+   85#1:194
+   85#1:195
+   109#1,7:216
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #514(#515=[I#516,I#516,I#517],#518=[I#516,I#519,I#520],#521=I#516,#522=I#523,#524=[s#525],#526=[s#9,s#527,s#107,s#108,s#509,s#105,s#106,s#5,s#6,s#507,s#508,s#346,s#506,s#356,s#354,s#344,s#355,s#339,s#527,s#492,s#342,s#350,s#29,s#528,s#79,s#529,s#336,s#93,s#357,s#359,s#401,s#361,s#527,s#402,s#403,s#10,s#14,s#28,s#35,s#530])
++  0: #514(#515=[I#516,I#517,I#518],#519=[I#516,I#518,I#520],#521=I#516,#522=I#523,#524=[s#525],#526=[s#9,s#527,s#107,s#108,s#509,s#105,s#106,s#5,s#6,s#507,s#508,s#346,s#506,s#356,s#354,s#344,s#355,s#339,s#527,s#492,s#342,s#350,s#29,s#528,s#79,s#529,s#336,s#93,s#357,s#359,s#401,s#361,s#527,s#402,s#403,s#10,s#14,s#28,s#35,s#530])
+ 

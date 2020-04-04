@@ -1,0 +1,40 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$getVariantData$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$getVariantData$1.class
+@@ -73,13 +73,13 @@
+    #67 = Utf8               INSTANCE
+    #68 = Utf8               <clinit>
+    #69 = Utf8               Lkotlin/Metadata;
+    #70 = Utf8               mv
+    #71 = Integer            1
+-   #72 = Integer            17
+-   #73 = Utf8               bv
+-   #74 = Integer            0
++   #72 = Integer            4
++   #73 = Integer            0
++   #74 = Utf8               bv
+    #75 = Integer            3
+    #76 = Utf8               k
+    #77 = Utf8               xi
+    #78 = Integer            2
+    #79 = Utf8               d1
+@@ -211,10 +211,11 @@
+         line 58: 15
+         line 59: 16
+         line 59: 27
+         line 59: 32
+         line 60: 33
++        line 60: 44
+         line 61: 58
+         line 62: 72
+         line 65: 89
+         line 66: 96
+         line 60: 96
+@@ -269,7 +270,7 @@
+   org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$getVariantData$1
+   *L
+   1#1,153:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #69(#70=[I#71,I#71,I#72],#73=[I#71,I#74,I#75],#76=I#75,#77=I#78,#79=[s#80],#81=[s#82,s#83,s#56,s#8])
++  0: #69(#70=[I#71,I#72,I#73],#74=[I#71,I#73,I#75],#76=I#75,#77=I#78,#79=[s#80],#81=[s#82,s#83,s#56,s#8])
+ 

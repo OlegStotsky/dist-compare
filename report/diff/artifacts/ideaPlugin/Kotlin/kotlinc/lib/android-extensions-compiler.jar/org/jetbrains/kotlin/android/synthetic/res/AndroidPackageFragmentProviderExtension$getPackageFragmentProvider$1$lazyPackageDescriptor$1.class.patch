@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1$lazyPackageDescriptor$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1$lazyPackageDescriptor$1.class
+@@ -86,13 +86,13 @@
+    #80 = NameAndType        #35:#79       // "<init>":(I)V
+    #81 = Methodref          #5.#80        // kotlin/jvm/internal/Lambda."<init>":(I)V
+    #82 = Utf8               Lkotlin/Metadata;
+    #83 = Utf8               mv
+    #84 = Integer            1
+-   #85 = Integer            17
+-   #86 = Utf8               bv
+-   #87 = Integer            0
++   #85 = Integer            4
++   #86 = Integer            0
++   #87 = Utf8               bv
+    #88 = Integer            3
+    #89 = Utf8               k
+    #90 = Utf8               xi
+    #91 = Integer            2
+    #92 = Utf8               d1
+@@ -228,7 +228,7 @@
+      static final #21; //class org/jetbrains/kotlin/android/synthetic/res/AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1
+ EnclosingMethod: #21.#98                // org.jetbrains.kotlin.android.synthetic.res.AndroidPackageFragmentProviderExtension$getPackageFragmentProvider$1.invoke
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function0<Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;>;
+ SourceFile: "AndroidPackageFragmentProviderExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #82(#83=[I#84,I#84,I#85],#86=[I#84,I#87,I#88],#89=I#88,#90=I#91,#92=[s#93],#94=[s#95,s#96,s#8])
++  0: #82(#83=[I#84,I#85,I#86],#87=[I#84,I#86,I#88],#89=I#88,#90=I#91,#92=[s#93],#94=[s#95,s#96,s#8])
+ 

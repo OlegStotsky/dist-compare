@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$checkParcelableClassProperty$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$checkParcelableClassProperty$1.class
+@@ -59,13 +59,13 @@
+   #53 = NameAndType        #50:#52        // "<init>":(I)V
+   #54 = Methodref          #5.#53         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #55 = Utf8               Lkotlin/Metadata;
+   #56 = Utf8               mv
+   #57 = Integer            1
+-  #58 = Integer            17
+-  #59 = Utf8               bv
+-  #60 = Integer            0
++  #58 = Integer            4
++  #59 = Integer            0
++  #60 = Utf8               bv
+   #61 = Integer            3
+   #62 = Utf8               k
+   #63 = Utf8               xi
+   #64 = Integer            2
+   #65 = Utf8               d1
+@@ -175,7 +175,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/parcel/ParcelableDeclarationChecker$checkParcelableClassProperty$1
+ EnclosingMethod: #71.#74                // org.jetbrains.kotlin.android.parcel.ParcelableDeclarationChecker.checkParcelableClassProperty
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function0<Ljava/lang/Boolean;>;
+ SourceFile: "ParcelableDeclarationChecker.kt"
+ RuntimeVisibleAnnotations:
+-  0: #55(#56=[I#57,I#57,I#58],#59=[I#57,I#60,I#61],#62=I#61,#63=I#64,#65=[s#66],#67=[s#68,s#69,s#8])
++  0: #55(#56=[I#57,I#58,I#59],#60=[I#57,I#59,I#61],#62=I#61,#63=I#64,#65=[s#66],#67=[s#68,s#69,s#8])
+ 

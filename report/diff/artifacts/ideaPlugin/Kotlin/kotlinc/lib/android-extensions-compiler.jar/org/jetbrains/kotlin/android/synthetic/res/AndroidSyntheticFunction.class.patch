@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticFunction.class
+@@ -9,13 +9,13 @@
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3             // java/lang/Object
+    #5 = Utf8               Lkotlin/Metadata;
+    #6 = Utf8               mv
+    #7 = Integer            1
+-   #8 = Integer            17
+-   #9 = Utf8               bv
+-  #10 = Integer            0
++   #8 = Integer            4
++   #9 = Integer            0
++  #10 = Utf8               bv
+   #11 = Integer            3
+   #12 = Utf8               k
+   #13 = Utf8               xi
+   #14 = Integer            2
+   #15 = Utf8               d1
+@@ -29,7 +29,7 @@
+   #23 = Utf8               RuntimeVisibleAnnotations
+ {
+ }
+ SourceFile: "syntheticDescriptorGeneration.kt"
+ RuntimeVisibleAnnotations:
+-  0: #5(#6=[I#7,I#7,I#8],#9=[I#7,I#10,I#11],#12=I#7,#13=I#14,#15=[s#16],#17=[s#18,s#19,s#20])
++  0: #5(#6=[I#7,I#8,I#9],#10=[I#7,I#9,I#11],#12=I#7,#13=I#14,#15=[s#16],#17=[s#18,s#19,s#20])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genProperty$property$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genProperty$property$1.class
+@@ -92,13 +92,13 @@
+    #86 = Utf8               $super_call_param$18
+    #87 = Utf8               $super_call_param$19
+    #88 = Utf8               Lkotlin/Metadata;
+    #89 = Utf8               mv
+    #90 = Integer            1
+-   #91 = Integer            17
+-   #92 = Utf8               bv
+-   #93 = Integer            0
++   #91 = Integer            4
++   #92 = Integer            0
++   #93 = Utf8               bv
+    #94 = Integer            3
+    #95 = Utf8               k
+    #96 = Utf8               xi
+    #97 = Integer            2
+    #98 = Utf8               d1
+@@ -265,7 +265,7 @@
+ InnerClasses:
+      public static final #2; //class org/jetbrains/kotlin/android/synthetic/res/SyntheticDescriptorGenerationKt$genProperty$property$1
+ EnclosingMethod: #8.#11                 // org.jetbrains.kotlin.android.synthetic.res.SyntheticDescriptorGenerationKt.genProperty
+ SourceFile: "syntheticDescriptorGeneration.kt"
+ RuntimeVisibleAnnotations:
+-  0: #88(#89=[I#90,I#90,I#91],#92=[I#90,I#93,I#94],#95=I#90,#96=I#97,#98=[s#99],#100=[s#1,s#101,s#102,s#12,s#103,s#15,s#16,s#27,s#28,s#30,s#31,s#21,s#103,s#23,s#24,s#104])
++  0: #88(#89=[I#90,I#91,I#92],#93=[I#90,I#92,I#94],#95=I#90,#96=I#97,#98=[s#99],#100=[s#1,s#101,s#102,s#12,s#103,s#15,s#16,s#27,s#28,s#30,s#31,s#21,s#103,s#23,s#24,s#104])
+ 

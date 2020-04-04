@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider.class
+@@ -133,13 +133,13 @@
+   #127 = String             #19           // packages
+   #128 = Methodref          #4.#79        // java/lang/Object."<init>":()V
+   #129 = Utf8               Lkotlin/Metadata;
+   #130 = Utf8               mv
+   #131 = Integer            1
+-  #132 = Integer            17
+-  #133 = Utf8               bv
+-  #134 = Integer            0
++  #132 = Integer            4
++  #133 = Integer            0
++  #134 = Utf8               bv
+   #135 = Integer            3
+   #136 = Utf8               k
+   #137 = Utf8               xi
+   #138 = Integer            2
+   #139 = Utf8               d1
+@@ -383,7 +383,7 @@
+   org/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticPackageFragmentProvider
+   *L
+   140#1,3:143
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #129(#130=[I#131,I#131,I#132],#133=[I#131,I#134,I#135],#136=I#131,#137=I#138,#139=[s#140],#141=[s#44,s#142,s#19,s#143,s#45,s#144,s#145,s#125,s#122,s#123,s#7,s#143,s#11,s#46,s#54,s#146,s#147,s#143,s#148])
++  0: #129(#130=[I#131,I#132,I#133],#134=[I#131,I#133,I#135],#136=I#131,#137=I#138,#139=[s#140],#141=[s#44,s#142,s#19,s#143,s#45,s#144,s#145,s#125,s#122,s#123,s#7,s#143,s#11,s#46,s#54,s#146,s#147,s#143,s#148])
+ 

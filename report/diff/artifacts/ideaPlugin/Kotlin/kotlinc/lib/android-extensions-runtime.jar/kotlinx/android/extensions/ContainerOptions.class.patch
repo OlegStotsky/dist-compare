@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/extensions/ContainerOptions.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/extensions/ContainerOptions.class
+@@ -19,13 +19,13 @@
+   #13 = Utf8               Lkotlinx/android/extensions/CacheImplementation;
+   #14 = Utf8               HASH_MAP
+   #15 = Utf8               Lkotlin/Metadata;
+   #16 = Utf8               mv
+   #17 = Integer            1
+-  #18 = Integer            17
+-  #19 = Utf8               bv
+-  #20 = Integer            0
++  #18 = Integer            4
++  #19 = Integer            0
++  #20 = Utf8               bv
+   #21 = Integer            3
+   #22 = Utf8               k
+   #23 = Utf8               xi
+   #24 = Integer            2
+   #25 = Utf8               d1
+@@ -45,7 +45,7 @@
+     AnnotationDefault:
+       default_value: e#13.#14}
+ SourceFile: "ContainerOptions.kt"
+ RuntimeVisibleAnnotations:
+   0: #7(#8=e#9.#10)
+-  1: #15(#16=[I#17,I#17,I#18],#19=[I#17,I#20,I#21],#22=I#17,#23=I#24,#25=[s#26],#27=[s#28,s#29,s#11,s#13,s#12,s#30])
++  1: #15(#16=[I#17,I#18,I#19],#20=[I#17,I#19,I#21],#22=I#17,#23=I#24,#25=[s#26],#27=[s#28,s#29,s#11,s#13,s#12,s#30])
+ 

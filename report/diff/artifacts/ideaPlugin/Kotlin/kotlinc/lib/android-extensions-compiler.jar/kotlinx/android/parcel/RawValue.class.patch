@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/kotlinx/android/parcel/RawValue.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/kotlinx/android/parcel/RawValue.class
+@@ -23,13 +23,13 @@
+   #17 = Utf8               CLASS
+   #18 = Utf8               Ljava/lang/annotation/Target;
+   #19 = Utf8               Lkotlin/Metadata;
+   #20 = Utf8               mv
+   #21 = Integer            1
+-  #22 = Integer            17
+-  #23 = Utf8               bv
+-  #24 = Integer            0
++  #22 = Integer            4
++  #23 = Integer            0
++  #24 = Utf8               bv
+   #25 = Integer            3
+   #26 = Utf8               k
+   #27 = Utf8               xi
+   #28 = Integer            2
+   #29 = Utf8               d1
+@@ -47,7 +47,7 @@
+ RuntimeVisibleAnnotations:
+   0: #7(#8=[e#9.#10])
+   1: #11(#12=e#13.#14)
+   2: #15(#12=e#16.#17)
+   3: #18(#12=[])
+-  4: #19(#20=[I#21,I#21,I#22],#23=[I#21,I#24,I#25],#26=I#21,#27=I#28,#29=[s#30],#31=[s#32,s#33,s#34])
++  4: #19(#20=[I#21,I#22,I#23],#24=[I#21,I#23,I#25],#26=I#21,#27=I#28,#29=[s#30],#31=[s#32,s#33,s#34])
+ 

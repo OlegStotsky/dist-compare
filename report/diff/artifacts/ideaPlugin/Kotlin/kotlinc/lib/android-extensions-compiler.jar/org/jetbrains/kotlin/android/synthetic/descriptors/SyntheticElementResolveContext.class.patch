@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext.class
+@@ -135,13 +135,13 @@
+   #129 = NameAndType        #120:#21      // ERROR_CONTEXT:Lorg/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext;
+   #130 = Fieldref           #2.#129       // org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext.ERROR_CONTEXT:Lorg/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext;
+   #131 = Utf8               Lkotlin/Metadata;
+   #132 = Utf8               mv
+   #133 = Integer            1
+-  #134 = Integer            17
+-  #135 = Utf8               bv
+-  #136 = Integer            0
++  #134 = Integer            4
++  #135 = Integer            0
++  #136 = Utf8               bv
+   #137 = Integer            3
+   #138 = Utf8               k
+   #139 = Utf8               xi
+   #140 = Integer            2
+   #141 = Utf8               d1
+@@ -524,7 +524,7 @@
+   org/jetbrains/kotlin/android/synthetic/descriptors/SyntheticElementResolveContext
+   *L
+   1#1,112:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #131(#132=[I#133,I#133,I#134],#135=[I#133,I#136,I#137],#138=I#133,#139=I#140,#141=[s#142],#143=[s#21,s#144,s#40,s#41,s#63,s#67,s#72,s#76,s#80,s#84,s#88,s#64,s#62,s#73,s#145,s#144,s#146,s#23,s#24,s#22,s#6,s#69,s#147,s#144,s#148,s#32,s#30,s#85,s#77,s#81,s#61,s#149,s#150,s#7,s#8,s#5,s#58,s#144,s#60,s#122,s#151])
++  0: #131(#132=[I#133,I#134,I#135],#136=[I#133,I#135,I#137],#138=I#133,#139=I#140,#141=[s#142],#143=[s#21,s#144,s#40,s#41,s#63,s#67,s#72,s#76,s#80,s#84,s#88,s#64,s#62,s#73,s#145,s#144,s#146,s#23,s#24,s#22,s#6,s#69,s#147,s#144,s#148,s#32,s#30,s#85,s#77,s#81,s#61,s#149,s#150,s#7,s#8,s#5,s#58,s#144,s#60,s#122,s#151])
+ 

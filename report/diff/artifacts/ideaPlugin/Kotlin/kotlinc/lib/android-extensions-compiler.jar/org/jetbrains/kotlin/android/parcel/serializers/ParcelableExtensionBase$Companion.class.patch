@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$Companion.class
+@@ -31,13 +31,13 @@
+   #25 = NameAndType        #7:#8          // ALLOWED_CLASS_KINDS:Ljava/util/List;
+   #26 = Fieldref           #2.#25         // org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$Companion.ALLOWED_CLASS_KINDS:Ljava/util/List;
+   #27 = Utf8               Lkotlin/Metadata;
+   #28 = Utf8               mv
+   #29 = Integer            1
+-  #30 = Integer            17
+-  #31 = Utf8               bv
+-  #32 = Integer            0
++  #30 = Integer            4
++  #31 = Integer            0
++  #32 = Utf8               bv
+   #33 = Integer            3
+   #34 = Utf8               k
+   #35 = Utf8               xi
+   #36 = Integer            2
+   #37 = Utf8               d1
+@@ -167,7 +167,7 @@
+ }
+ InnerClasses:
+      public static final #81= #2 of #80; //Companion=class org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase$Companion of class org/jetbrains/kotlin/android/parcel/serializers/ParcelableExtensionBase
+ SourceFile: "ParcelableExtensionBase.kt"
+ RuntimeVisibleAnnotations:
+-  0: #27(#28=[I#29,I#29,I#30],#31=[I#29,I#32,I#33],#34=I#29,#35=I#36,#37=[s#38],#39=[s#15,s#40,s#11,s#7,s#40,s#41,s#5,s#6,s#42])
++  0: #27(#28=[I#29,I#30,I#31],#32=[I#29,I#31,I#33],#34=I#29,#35=I#36,#37=[s#38],#39=[s#15,s#40,s#11,s#7,s#40,s#41,s#5,s#6,s#42])
+ 

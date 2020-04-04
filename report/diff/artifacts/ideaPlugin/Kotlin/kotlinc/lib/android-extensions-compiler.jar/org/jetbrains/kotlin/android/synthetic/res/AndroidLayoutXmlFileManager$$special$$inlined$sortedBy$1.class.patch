@@ -1,0 +1,47 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$$special$$inlined$sortedBy$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$$special$$inlined$sortedBy$1.class
+@@ -77,13 +77,13 @@
+    #71 = Utf8               Ljava/lang/Object;
+    #72 = Utf8               b
+    #73 = Utf8               Lkotlin/Metadata;
+    #74 = Utf8               mv
+    #75 = Integer            1
+-   #76 = Integer            17
+-   #77 = Utf8               bv
+-   #78 = Integer            0
++   #76 = Integer            4
++   #77 = Integer            0
++   #78 = Utf8               bv
+    #79 = Integer            3
+    #80 = Utf8               k
+    #81 = Utf8               xi
+    #82 = Integer            2
+    #83 = Utf8               d1
+@@ -169,14 +169,14 @@
+         line 320: 11
+         line 321: 53
+         line 102: 93
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-            8      28     4    it   Lcom/intellij/psi/PsiFile;
+-           11      25     5 $i$a$-sortedBy-AndroidLayoutXmlFileManager$getVariantData$layoutNameToXmlFiles$2$1   I
+-           50      28     4    it   Lcom/intellij/psi/PsiFile;
+-           53      25     5 $i$a$-sortedBy-AndroidLayoutXmlFileManager$getVariantData$layoutNameToXmlFiles$2$1   I
++            8      31     4    it   Lcom/intellij/psi/PsiFile;
++           11      28     5 $i$a$-sortedBy-AndroidLayoutXmlFileManager$getVariantData$layoutNameToXmlFiles$2$1   I
++           50      31     4    it   Lcom/intellij/psi/PsiFile;
++           53      28     5 $i$a$-sortedBy-AndroidLayoutXmlFileManager$getVariantData$layoutNameToXmlFiles$2$1   I
+             0      94     0  this   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$$special$$inlined$sortedBy$1;
+             0      94     1     a   Ljava/lang/Object;
+             0      94     2     b   Ljava/lang/Object;
+     Signature: #19                          // (TT;TT;)I
+ }
+@@ -199,7 +199,7 @@
+   1#1,319:1
+   85#2:320
+   85#2:321
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #73(#74=[I#75,I#75,I#76],#77=[I#75,I#78,I#79],#80=I#79,#81=I#82,#83=[s#84],#85=[s#86,s#87,s#88,s#70,s#89,s#72,s#17,s#18,s#90])
++  0: #73(#74=[I#75,I#76,I#77],#78=[I#75,I#77,I#79],#80=I#79,#81=I#82,#83=[s#84],#85=[s#86,s#87,s#88,s#70,s#89,s#72,s#17,s#18,s#90])
+ 

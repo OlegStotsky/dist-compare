@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion$get$1.class
+@@ -56,13 +56,13 @@
+   #50 = NameAndType        #47:#49        // "<init>":(I)V
+   #51 = Methodref          #5.#50         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #52 = Utf8               Lkotlin/Metadata;
+   #53 = Utf8               mv
+   #54 = Integer            1
+-  #55 = Integer            17
+-  #56 = Utf8               bv
+-  #57 = Integer            0
++  #55 = Integer            4
++  #56 = Integer            0
++  #57 = Utf8               bv
+   #58 = Integer            3
+   #59 = Utf8               k
+   #60 = Utf8               xi
+   #61 = Integer            2
+   #62 = Utf8               d1
+@@ -158,7 +158,7 @@
+      public static final #74= #68 of #73; //Companion=class org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion of class org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer
+ EnclosingMethod: #68.#71                // org.jetbrains.kotlin.android.parcel.serializers.ParcelSerializer$Companion.get
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function0<Ljava/lang/Boolean;>;
+ SourceFile: "ParcelSerializer.kt"
+ RuntimeVisibleAnnotations:
+-  0: #52(#53=[I#54,I#54,I#55],#56=[I#54,I#57,I#58],#59=I#58,#60=I#61,#62=[s#63],#64=[s#65,s#66,s#8])
++  0: #52(#53=[I#54,I#55,I#56],#57=[I#54,I#56,I#58],#59=I#58,#60=I#61,#62=[s#63],#64=[s#65,s#66,s#8])
+ 

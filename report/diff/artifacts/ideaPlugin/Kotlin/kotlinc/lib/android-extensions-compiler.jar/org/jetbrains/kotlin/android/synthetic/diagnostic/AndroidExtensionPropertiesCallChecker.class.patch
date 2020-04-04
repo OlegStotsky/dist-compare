@@ -1,0 +1,52 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/diagnostic/AndroidExtensionPropertiesCallChecker.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/diagnostic/AndroidExtensionPropertiesCallChecker.class
+@@ -249,13 +249,13 @@
+   #243 = NameAndType        #241:#242     // "<init>":()V
+   #244 = Methodref          #4.#243       // java/lang/Object."<init>":()V
+   #245 = Utf8               Lkotlin/Metadata;
+   #246 = Utf8               mv
+   #247 = Integer            1
+-  #248 = Integer            17
+-  #249 = Utf8               bv
+-  #250 = Integer            0
++  #248 = Integer            4
++  #249 = Integer            0
++  #250 = Utf8               bv
+   #251 = Integer            3
+   #252 = Utf8               k
+   #253 = Utf8               xi
+   #254 = Integer            2
+   #255 = Utf8               d1
+@@ -415,20 +415,21 @@
+         line 41: 70
+         line 41: 96
+         line 42: 100
+         line 42: 121
+         line 44: 125
++        line 65100: 141
+         line 45: 144
+         line 46: 159
+         line 47: 174
+         line 48: 187
+         line 44: 188
+         line 49: 189
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+-          141      46    10 $this$with   Lorg/jetbrains/kotlin/resolve/BindingTrace;
+-          144      43    11 $i$a$-with-AndroidExtensionPropertiesCallChecker$check$1   I
++          141      47    10 $this$with   Lorg/jetbrains/kotlin/resolve/BindingTrace;
++          144      44    11 $i$a$-with-AndroidExtensionPropertiesCallChecker$check$1   I
+           125      65     6 androidSyntheticProperty   Lorg/jetbrains/kotlin/android/synthetic/res/AndroidSyntheticProperty;
+           100      90     5 containingPackage   Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;
+            70     120     4 propertyDescriptor   Lorg/jetbrains/kotlin/descriptors/PropertyDescriptor;
+             0     190     0  this   Lorg/jetbrains/kotlin/android/synthetic/diagnostic/AndroidExtensionPropertiesCallChecker;
+             0     190     1 resolvedCall   Lorg/jetbrains/kotlin/resolve/calls/model/ResolvedCall;
+@@ -468,7 +469,7 @@
+   org/jetbrains/kotlin/android/synthetic/diagnostic/AndroidExtensionPropertiesCallChecker
+   *L
+   1#1,97:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #245(#246=[I#247,I#247,I#248],#249=[I#247,I#250,I#251],#252=I#247,#253=I#254,#255=[s#256],#257=[s#72,s#258,s#242,s#7,s#259,s#11,s#73,s#19,s#74,s#21,s#75,s#210,s#231,s#232,s#113,s#53,s#111,s#112,s#114,s#68,s#57,s#149,s#66,s#49,s#260])
++  0: #245(#246=[I#247,I#248,I#249],#250=[I#247,I#249,I#251],#252=I#247,#253=I#254,#255=[s#256],#257=[s#72,s#258,s#242,s#7,s#259,s#11,s#73,s#19,s#74,s#21,s#75,s#210,s#231,s#232,s#113,s#53,s#111,s#112,s#114,s#68,s#57,s#149,s#66,s#49,s#260])
+ 

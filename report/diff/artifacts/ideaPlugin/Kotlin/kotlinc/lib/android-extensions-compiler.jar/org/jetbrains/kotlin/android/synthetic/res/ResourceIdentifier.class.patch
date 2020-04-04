@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/ResourceIdentifier.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/ResourceIdentifier.class
+@@ -53,13 +53,13 @@
+   #47 = NameAndType        #39:#46        // "<init>":()V
+   #48 = Methodref          #4.#47         // java/lang/Object."<init>":()V
+   #49 = Utf8               Lkotlin/Metadata;
+   #50 = Utf8               mv
+   #51 = Integer            1
+-  #52 = Integer            17
+-  #53 = Utf8               bv
+-  #54 = Integer            0
++  #52 = Integer            4
++  #53 = Integer            0
++  #54 = Utf8               bv
+   #55 = Integer            3
+   #56 = Utf8               k
+   #57 = Utf8               xi
+   #58 = Integer            2
+   #59 = Utf8               d1
+@@ -212,7 +212,7 @@
+       1:
+         0: #7()
+ }
+ SourceFile: "androidResources.kt"
+ RuntimeVisibleAnnotations:
+-  0: #49(#50=[I#51,I#51,I#52],#53=[I#51,I#54,I#55],#56=I#51,#57=I#58,#59=[s#60],#61=[s#23,s#62,s#18,s#62,s#35,s#40,s#33,s#34,s#36,s#5,s#62,s#24,s#26,s#62,s#63])
++  0: #49(#50=[I#51,I#52,I#53],#54=[I#51,I#53,I#55],#56=I#51,#57=I#58,#59=[s#60],#61=[s#23,s#62,s#18,s#62,s#35,s#40,s#33,s#34,s#36,s#5,s#62,s#24,s#26,s#62,s#63])
+ 

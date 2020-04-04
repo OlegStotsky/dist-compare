@@ -1,0 +1,40 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtensionKt.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtensionKt.class
+@@ -131,13 +131,13 @@
+   #125 = Utf8               <clinit>
+   #126 = Utf8               ()V
+   #127 = Utf8               Lkotlin/Metadata;
+   #128 = Utf8               mv
+   #129 = Integer            1
+-  #130 = Integer            17
+-  #131 = Utf8               bv
+-  #132 = Integer            0
++  #130 = Integer            4
++  #131 = Integer            0
++  #132 = Utf8               bv
+   #133 = Integer            3
+   #134 = Utf8               k
+   #135 = Integer            2
+   #136 = Utf8               xi
+   #137 = Utf8               d1
+@@ -242,10 +242,11 @@
+         line 128: 6
+         line 129: 6
+         line 125: 6
+         line 128: 35
+         line 129: 78
++        line 65100: 85
+         line 129: 88
+         line 129: 93
+       LocalVariableTable:
+         Start  Length  Slot  Name   Signature
+            85       8     4    it   Lorg/jetbrains/kotlin/types/KotlinType;
+@@ -369,7 +370,7 @@
+   org/jetbrains/kotlin/android/parcel/ParcelableResolveExtensionKt
+   *L
+   1#1,150:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #127(#128=[I#129,I#129,I#130],#131=[I#129,I#132,I#133],#134=I#135,#136=I#135,#137=[s#138],#139=[s#75,s#70,s#76,s#72,s#69,s#71,s#96,s#140,s#63,s#53,s#79,s#95,s#80,s#5,s#66,s#141])
++  0: #127(#128=[I#129,I#130,I#131],#132=[I#129,I#131,I#133],#134=I#135,#136=I#135,#137=[s#138],#139=[s#75,s#70,s#76,s#72,s#69,s#71,s#96,s#140,s#63,s#53,s#79,s#95,s#80,s#5,s#66,s#141])
+ 

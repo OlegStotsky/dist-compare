@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/extensions/CacheImplementation$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-runtime.jar!/kotlinx/android/extensions/CacheImplementation$Companion.class
+@@ -27,13 +27,13 @@
+   #21 = Utf8               $constructor_marker
+   #22 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #23 = Utf8               Lkotlin/Metadata;
+   #24 = Utf8               mv
+   #25 = Integer            1
+-  #26 = Integer            17
+-  #27 = Utf8               bv
+-  #28 = Integer            0
++  #26 = Integer            4
++  #27 = Integer            0
++  #28 = Utf8               bv
+   #29 = Integer            3
+   #30 = Utf8               k
+   #31 = Utf8               xi
+   #32 = Integer            2
+   #33 = Utf8               d1
+@@ -85,7 +85,7 @@
+ }
+ InnerClasses:
+      public static final #40= #2 of #9; //Companion=class kotlinx/android/extensions/CacheImplementation$Companion of class kotlinx/android/extensions/CacheImplementation
+ SourceFile: "CacheImplementation.kt"
+ RuntimeVisibleAnnotations:
+-  0: #23(#24=[I#25,I#25,I#26],#27=[I#25,I#28,I#29],#30=I#25,#31=I#32,#33=[s#34],#35=[s#14,s#36,s#16,s#37,s#38,s#5,s#6,s#39])
++  0: #23(#24=[I#25,I#26,I#27],#28=[I#25,I#27,I#29],#30=I#25,#31=I#32,#33=[s#34],#35=[s#14,s#36,s#16,s#37,s#38,s#5,s#6,s#39])
+ 

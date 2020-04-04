@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/SparseArrayCacheMechanism.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/SparseArrayCacheMechanism.class
+@@ -119,13 +119,13 @@
+   #113 = NameAndType        #62:#8        // "<init>":()V
+   #114 = Methodref          #4.#113       // java/lang/Object."<init>":()V
+   #115 = Utf8               Lkotlin/Metadata;
+   #116 = Utf8               mv
+   #117 = Integer            1
+-  #118 = Integer            17
+-  #119 = Utf8               bv
+-  #120 = Integer            0
++  #118 = Integer            4
++  #119 = Integer            0
++  #120 = Utf8               bv
+   #121 = Integer            3
+   #122 = Utf8               k
+   #123 = Utf8               xi
+   #124 = Integer            2
+   #125 = Utf8               d1
+@@ -358,7 +358,7 @@
+       1:
+         0: #86()
+ }
+ SourceFile: "CacheMechanisms.kt"
+ RuntimeVisibleAnnotations:
+-  0: #115(#116=[I#117,I#117,I#118],#119=[I#117,I#120,I#121],#122=I#117,#123=I#124,#125=[s#126],#127=[s#47,s#128,s#9,s#10,s#13,s#14,s#110,s#108,s#109,s#106,s#107,s#72,s#129,s#78,s#48,s#7,s#83,s#87,s#130,s#131])
++  0: #115(#116=[I#117,I#118,I#119],#120=[I#117,I#119,I#121],#122=I#117,#123=I#124,#125=[s#126],#127=[s#47,s#128,s#9,s#10,s#13,s#14,s#110,s#108,s#109,s#106,s#107,s#72,s#129,s#78,s#48,s#7,s#83,s#87,s#130,s#131])
+ 

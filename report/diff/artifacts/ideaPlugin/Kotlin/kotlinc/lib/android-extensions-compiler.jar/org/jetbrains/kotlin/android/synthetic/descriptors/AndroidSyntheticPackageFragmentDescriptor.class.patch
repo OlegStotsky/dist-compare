@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor.class
+@@ -84,13 +84,13 @@
+    #78 = Utf8               access$isExperimental$p
+    #79 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;)Z
+    #80 = Utf8               Lkotlin/Metadata;
+    #81 = Utf8               mv
+    #82 = Integer            1
+-   #83 = Integer            17
+-   #84 = Utf8               bv
+-   #85 = Integer            0
++   #83 = Integer            4
++   #84 = Integer            0
++   #85 = Utf8               bv
+    #86 = Integer            3
+    #87 = Utf8               k
+    #88 = Utf8               xi
+    #89 = Integer            2
+    #90 = Utf8               d1
+@@ -301,7 +301,7 @@
+         Start  Length  Slot  Name   Signature
+             0       5     0 $this   Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor;
+ }
+ SourceFile: "AndroidSyntheticPackageFragmentDescriptor.kt"
+ RuntimeVisibleAnnotations:
+-  0: #80(#81=[I#82,I#82,I#83],#84=[I#82,I#85,I#86],#87=I#82,#88=I#89,#90=[s#91],#92=[s#15,s#93,s#34,s#67,s#42,s#68,s#16,s#17,s#22,s#23,s#24,s#25,s#26,s#94,s#28,s#29,s#30,s#94,s#33,s#18,s#19,s#5,s#6,s#7,s#95,s#96,s#97])
++  0: #80(#81=[I#82,I#83,I#84],#85=[I#82,I#84,I#86],#87=I#82,#88=I#89,#90=[s#91],#92=[s#15,s#93,s#34,s#67,s#42,s#68,s#16,s#17,s#22,s#23,s#24,s#25,s#26,s#94,s#28,s#29,s#30,s#94,s#33,s#18,s#19,s#5,s#6,s#7,s#95,s#96,s#97])
+ 

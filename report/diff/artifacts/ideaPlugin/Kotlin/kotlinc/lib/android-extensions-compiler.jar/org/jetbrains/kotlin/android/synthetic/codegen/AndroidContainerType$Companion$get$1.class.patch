@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion$get$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion$get$1.class
+@@ -106,13 +106,13 @@
+   #100 = Methodref          #5.#99        // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #101 = Utf8               <clinit>
+   #102 = Utf8               Lkotlin/Metadata;
+   #103 = Utf8               mv
+   #104 = Integer            1
+-  #105 = Integer            17
+-  #106 = Utf8               bv
+-  #107 = Integer            0
++  #105 = Integer            4
++  #106 = Integer            0
++  #107 = Utf8               bv
+   #108 = Integer            3
+   #109 = Utf8               k
+   #110 = Utf8               xi
+   #111 = Integer            2
+   #112 = Utf8               d1
+@@ -298,7 +298,7 @@
+      public static final #126= #118 of #40; //Companion=class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion of class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType
+ EnclosingMethod: #118.#121              // org.jetbrains.kotlin.android.synthetic.codegen.AndroidContainerType$Companion.get
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Ljava/lang/String;Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;>;
+ SourceFile: "AndroidContainerType.kt"
+ RuntimeVisibleAnnotations:
+-  0: #102(#103=[I#104,I#104,I#105],#106=[I#104,I#107,I#108],#109=I#108,#110=I#111,#112=[s#113],#114=[s#115,s#42,s#17,s#116,s#8])
++  0: #102(#103=[I#104,I#105,I#106],#107=[I#104,I#106,I#108],#109=I#108,#110=I#111,#112=[s#113],#114=[s#115,s#42,s#17,s#116,s#8])
+ 

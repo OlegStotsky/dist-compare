@@ -1,0 +1,130 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.class
+@@ -48,13 +48,13 @@
+   #42 = NameAndType        #36:#13        // EMPTY:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
+   #43 = Fieldref           #2.#42         // org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.EMPTY:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
+   #44 = Utf8               Lkotlin/Metadata;
+   #45 = Utf8               mv
+   #46 = Integer            1
+-  #47 = Integer            17
+-  #48 = Utf8               bv
+-  #49 = Integer            0
++  #47 = Integer            4
++  #48 = Integer            0
++  #49 = Utf8               bv
+   #50 = Integer            3
+   #51 = Utf8               k
+   #52 = Utf8               xi
+   #53 = Integer            2
+   #54 = Utf8               d1
+@@ -68,22 +68,22 @@
+   #62 = Utf8               (Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+   #63 = NameAndType        #22:#62        // "<init>":(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+   #64 = Methodref          #61.#63        // org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion."<init>":(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+   #65 = NameAndType        #38:#39        // Companion:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion;
+   #66 = Fieldref           #2.#65         // org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData.Companion:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion;
+-  #67 = Utf8               android
+-  #68 = String             #67            // android
+-  #69 = Utf8               kotlin/collections/CollectionsKt
+-  #70 = Class              #69            // kotlin/collections/CollectionsKt
+-  #71 = Utf8               emptyList
+-  #72 = NameAndType        #71:#18        // emptyList:()Ljava/util/List;
+-  #73 = Methodref          #70.#72        // kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
+-  #74 = Utf8               org/jetbrains/kotlin/android/synthetic/res/AndroidModule
+-  #75 = Class              #74            // org/jetbrains/kotlin/android/synthetic/res/AndroidModule
++  #67 = Utf8               org/jetbrains/kotlin/android/synthetic/res/AndroidModule
++  #68 = Class              #67            // org/jetbrains/kotlin/android/synthetic/res/AndroidModule
++  #69 = Utf8               android
++  #70 = String             #69            // android
++  #71 = Utf8               kotlin/collections/CollectionsKt
++  #72 = Class              #71            // kotlin/collections/CollectionsKt
++  #73 = Utf8               emptyList
++  #74 = NameAndType        #73:#18        // emptyList:()Ljava/util/List;
++  #75 = Methodref          #72.#74        // kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
+   #76 = Utf8               (Ljava/lang/String;Ljava/util/List;)V
+   #77 = NameAndType        #22:#76        // "<init>":(Ljava/lang/String;Ljava/util/List;)V
+-  #78 = Methodref          #75.#77        // org/jetbrains/kotlin/android/synthetic/res/AndroidModule."<init>":(Ljava/lang/String;Ljava/util/List;)V
++  #78 = Methodref          #68.#77        // org/jetbrains/kotlin/android/synthetic/res/AndroidModule."<init>":(Ljava/lang/String;Ljava/util/List;)V
+   #79 = NameAndType        #22:#23        // "<init>":(Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;Ljava/util/List;)V
+   #80 = Methodref          #2.#79         // org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData."<init>":(Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;Ljava/util/List;)V
+   #81 = Utf8               AndroidLayoutXmlFileManager.kt
+   #82 = Utf8               RuntimeInvisibleAnnotations
+   #83 = Utf8               Signature
+@@ -169,51 +169,35 @@
+ 
+   static {};
+     descriptor: ()V
+     flags: ACC_STATIC
+     Code:
+-      stack=4, locals=11, args_size=0
++      stack=6, locals=1, args_size=0
+          0: new           #61                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion
+          3: dup
+          4: aconst_null
+          5: invokespecial #64                 // Method org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion."<init>":(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+          8: putstatic     #66                 // Field Companion:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData$Companion;
+-        11: ldc           #68                 // String android
+-        13: astore        5
+-        15: iconst_0
+-        16: istore_0
+-        17: invokestatic  #73                 // Method kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
+-        20: astore        6
+-        22: aload         5
+-        24: aload         6
+-        26: astore        7
+-        28: astore        8
+-        30: new           #75                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidModule
+-        33: dup
+-        34: aload         8
+-        36: aload         7
+-        38: invokespecial #78                 // Method org/jetbrains/kotlin/android/synthetic/res/AndroidModule."<init>":(Ljava/lang/String;Ljava/util/List;)V
+-        41: astore_3
+-        42: iconst_0
+-        43: istore_0
+-        44: invokestatic  #73                 // Method kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
+-        47: astore        4
+-        49: aload_3
+-        50: aload         4
+-        52: astore        9
+-        54: astore        10
+-        56: new           #2                  // class org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData
+-        59: dup
+-        60: aload         10
+-        62: aload         9
+-        64: invokespecial #80                 // Method "<init>":(Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;Ljava/util/List;)V
+-        67: putstatic     #43                 // Field EMPTY:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
+-        70: return
++        11: new           #2                  // class org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData
++        14: dup
++        15: new           #68                 // class org/jetbrains/kotlin/android/synthetic/res/AndroidModule
++        18: dup
++        19: ldc           #70                 // String android
++        21: iconst_0
++        22: istore_0
++        23: invokestatic  #75                 // Method kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
++        26: invokespecial #78                 // Method org/jetbrains/kotlin/android/synthetic/res/AndroidModule."<init>":(Ljava/lang/String;Ljava/util/List;)V
++        29: iconst_0
++        30: istore_0
++        31: invokestatic  #75                 // Method kotlin/collections/CollectionsKt.emptyList:()Ljava/util/List;
++        34: invokespecial #80                 // Method "<init>":(Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModule;Ljava/util/List;)V
++        37: putstatic     #43                 // Field EMPTY:Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
++        40: return
+       LineNumberTable:
+         line 37: 11
+         line 37: 26
+-        line 37: 52
++        line 37: 34
+ 
+   public static final org.jetbrains.kotlin.android.synthetic.res.AndroidModuleData access$getEMPTY$cp();
+     descriptor: ()Lorg/jetbrains/kotlin/android/synthetic/res/AndroidModuleData;
+     flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_SYNTHETIC
+     Code:
+@@ -236,7 +220,7 @@
+   org/jetbrains/kotlin/android/synthetic/res/AndroidModuleData
+   *L
+   1#1,153:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #44(#45=[I#46,I#46,I#47],#48=[I#46,I#49,I#50],#51=I#46,#52=I#53,#54=[s#55],#56=[s#13,s#57,s#5,s#6,s#14,s#57,s#58,s#23,s#8,s#9,s#17,s#18,s#38,s#59])
++  0: #44(#45=[I#46,I#47,I#48],#49=[I#46,I#48,I#50],#51=I#46,#52=I#53,#54=[s#55],#56=[s#13,s#57,s#5,s#6,s#14,s#57,s#58,s#23,s#8,s#9,s#17,s#18,s#38,s#59])
+ 

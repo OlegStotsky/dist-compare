@@ -1,0 +1,51 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope$properties$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope$properties$1.class
+@@ -165,13 +165,13 @@
+   #159 = Utf8               (Lorg/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope;)V
+   #160 = Methodref          #5.#64        // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #161 = Utf8               Lkotlin/Metadata;
+   #162 = Utf8               mv
+   #163 = Integer            1
+-  #164 = Integer            17
+-  #165 = Utf8               bv
+-  #166 = Integer            0
++  #164 = Integer            4
++  #165 = Integer            0
++  #166 = Utf8               bv
+   #167 = Integer            3
+   #168 = Utf8               k
+   #169 = Utf8               xi
+   #170 = Integer            2
+   #171 = Utf8               d1
+@@ -377,19 +377,22 @@
+         line 60: 8
+         line 61: 22
+         line 62: 50
+         line 64: 56
+         line 65: 66
++        line 65: 94
+         line 66: 116
+         line 67: 120
+         line 68: 128
+         line 69: 148
+         line 70: 153
++        line 70: 161
+         line 71: 183
+         line 70: 220
+         line 75: 223
+         line 76: 247
++        line 76: 256
+         line 77: 298
+         line 76: 336
+         line 80: 339
+         line 65: 339
+         line 83: 342
+@@ -438,7 +441,7 @@
+   org/jetbrains/kotlin/android/synthetic/descriptors/AndroidSyntheticPackageFragmentDescriptor$AndroidExtensionPropertiesScope$properties$1
+   *L
+   1#1,103:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #161(#162=[I#163,I#163,I#164],#165=[I#163,I#166,I#167],#168=I#167,#169=I#170,#171=[s#172],#173=[s#174,s#148,s#175,s#8])
++  0: #161(#162=[I#163,I#164,I#165],#166=[I#163,I#165,I#167],#168=I#167,#169=I#170,#171=[s#172],#173=[s#174,s#148,s#175,s#8])
+ 

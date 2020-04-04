@@ -1,0 +1,44 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion.class
+@@ -115,13 +115,13 @@
+   #109 = Utf8               $constructor_marker
+   #110 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #111 = Utf8               Lkotlin/Metadata;
+   #112 = Utf8               mv
+   #113 = Integer            1
+-  #114 = Integer            17
+-  #115 = Utf8               bv
+-  #116 = Integer            0
++  #114 = Integer            4
++  #115 = Integer            0
++  #116 = Utf8               bv
+   #117 = Integer            3
+   #118 = Utf8               k
+   #119 = Utf8               xi
+   #120 = Integer            2
+   #121 = Utf8               d1
+@@ -228,13 +228,15 @@
+           locals = [ class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion, class org/jetbrains/kotlin/descriptors/ClassifierDescriptor, class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion$get$1, top, class java/util/Iterator ]
+           stack = []
+       LineNumberTable:
+         line 42: 6
+         line 55: 10
++        line 65100: 44
+         line 55: 47
+         line 55: 50
+         line 57: 51
++        line 57: 75
+         line 58: 96
+         line 59: 107
+         line 60: 112
+         line 61: 123
+         line 57: 134
+@@ -284,7 +286,7 @@
+   org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion
+   *L
+   1#1,68:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #111(#112=[I#113,I#113,I#114],#115=[I#113,I#116,I#117],#118=I#113,#119=I#120,#121=[s#122],#123=[s#102,s#124,s#104,s#125,s#124,s#126,s#5,s#89,s#8,s#97,s#127])
++  0: #111(#112=[I#113,I#114,I#115],#116=[I#113,I#115,I#117],#118=I#113,#119=I#120,#121=[s#122],#123=[s#102,s#124,s#104,s#125,s#124,s#126,s#5,s#89,s#8,s#97,s#127])
+ 

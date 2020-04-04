@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion.class
+@@ -222,13 +222,13 @@
+   #216 = Utf8               $constructor_marker
+   #217 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #218 = Utf8               Lkotlin/Metadata;
+   #219 = Utf8               mv
+   #220 = Integer            1
+-  #221 = Integer            17
+-  #222 = Utf8               bv
+-  #223 = Integer            0
++  #221 = Integer            4
++  #222 = Integer            0
++  #223 = Utf8               bv
+   #224 = Integer            3
+   #225 = Utf8               k
+   #226 = Utf8               xi
+   #227 = Integer            2
+   #228 = Utf8               d1
+@@ -518,7 +518,7 @@
+   *L
+   65#1:151
+   65#1,4:152
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #218(#219=[I#220,I#220,I#221],#222=[I#220,I#223,I#224],#225=I#220,#226=I#227,#228=[s#229],#230=[s#49,s#231,s#211,s#53,s#232,s#56,s#188,s#58,s#189,s#60,s#190,s#62,s#168,s#64,s#231,s#172,s#231,s#54,s#5,s#233,s#9,s#50,s#133,s#234,s#210,s#165,s#167,s#169,s#231,s#235])
++  0: #218(#219=[I#220,I#221,I#222],#223=[I#220,I#222,I#224],#225=I#220,#226=I#227,#228=[s#229],#230=[s#49,s#231,s#211,s#53,s#232,s#56,s#188,s#58,s#189,s#60,s#190,s#62,s#168,s#64,s#231,s#172,s#231,s#54,s#5,s#233,s#9,s#50,s#133,s#234,s#210,s#165,s#167,s#169,s#231,s#235])
+ 

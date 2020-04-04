@@ -1,0 +1,53 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidComponentRegistrar$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/AndroidComponentRegistrar$Companion.class
+@@ -292,13 +292,13 @@
+   #286 = Utf8               $constructor_marker
+   #287 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #288 = Utf8               Lkotlin/Metadata;
+   #289 = Utf8               mv
+   #290 = Integer            1
+-  #291 = Integer            17
+-  #292 = Utf8               bv
+-  #293 = Integer            0
++  #291 = Integer            4
++  #292 = Integer            0
++  #293 = Utf8               bv
+   #294 = Integer            3
+   #295 = Utf8               k
+   #296 = Utf8               xi
+   #297 = Integer            2
+   #298 = Utf8               d1
+@@ -590,10 +590,11 @@
+         line 191: 184
+         line 122: 192
+         line 122: 193
+         line 123: 196
+         line 125: 218
++        line 125: 253
+         line 126: 256
+         line 129: 257
+         line 130: 274
+         line 132: 282
+         line 133: 289
+@@ -738,11 +739,11 @@
+   + 2 _Collections.kt
+   kotlin/collections/CollectionsKt___CollectionsKt
+   *L
+   1#1,179:1
+   1412#2,9:180
+-  1644#2,2:189
++  1642#2,2:189
+   1421#2:191
+   *E
+   *S KotlinDebug
+   *F
+   + 1 AndroidComponentRegistrar.kt
+@@ -751,7 +752,7 @@
+   122#1,9:180
+   122#1,2:189
+   122#1:191
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #288(#289=[I#290,I#290,I#291],#292=[I#290,I#293,I#294],#295=I#290,#296=I#297,#298=[s#299],#300=[s#57,s#301,s#25,s#157,s#248,s#96,s#301,s#59,s#302,s#5,s#301,s#8,s#58,s#98,s#100,s#251,s#252,s#301,s#254,s#303])
++  0: #288(#289=[I#290,I#291,I#292],#293=[I#290,I#292,I#294],#295=I#290,#296=I#297,#298=[s#299],#300=[s#57,s#301,s#25,s#157,s#248,s#96,s#301,s#59,s#302,s#5,s#301,s#8,s#58,s#98,s#100,s#251,s#252,s#301,s#254,s#303])
+ 

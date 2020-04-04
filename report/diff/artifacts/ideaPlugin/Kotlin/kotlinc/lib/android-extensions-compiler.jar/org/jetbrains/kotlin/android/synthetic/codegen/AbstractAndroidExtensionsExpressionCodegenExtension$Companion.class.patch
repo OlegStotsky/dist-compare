@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$Companion.class
+@@ -58,13 +58,13 @@
+   #52 = Utf8               $constructor_marker
+   #53 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #54 = Utf8               Lkotlin/Metadata;
+   #55 = Utf8               mv
+   #56 = Integer            1
+-  #57 = Integer            17
+-  #58 = Utf8               bv
+-  #59 = Integer            0
++  #57 = Integer            4
++  #58 = Integer            0
++  #59 = Utf8               bv
+   #60 = Integer            3
+   #61 = Utf8               k
+   #62 = Utf8               xi
+   #63 = Integer            2
+   #64 = Utf8               d1
+@@ -208,7 +208,7 @@
+ }
+ InnerClasses:
+      public static final #73= #2 of #9; //Companion=class org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension$Companion of class org/jetbrains/kotlin/android/synthetic/codegen/AbstractAndroidExtensionsExpressionCodegenExtension
+ SourceFile: "AbstractAndroidExtensionsExpressionCodegenExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #54(#55=[I#56,I#56,I#57],#58=[I#56,I#59,I#60],#61=I#56,#62=I#63,#64=[s#65],#66=[s#14,s#67,s#47,s#68,s#67,s#15,s#6,s#69,s#19,s#70,s#23,s#71,s#5,s#27,s#67,s#29,s#43,s#72])
++  0: #54(#55=[I#56,I#57,I#58],#59=[I#56,I#58,I#60],#61=I#56,#62=I#63,#64=[s#65],#66=[s#14,s#67,s#47,s#68,s#67,s#15,s#6,s#69,s#19,s#70,s#23,s#71,s#5,s#27,s#67,s#29,s#43,s#72])
+ 

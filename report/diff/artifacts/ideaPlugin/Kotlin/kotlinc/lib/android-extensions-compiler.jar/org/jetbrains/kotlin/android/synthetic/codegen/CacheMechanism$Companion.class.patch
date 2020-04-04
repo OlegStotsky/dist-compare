@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion.class
+@@ -105,13 +105,13 @@
+    #99 = Utf8               $$INSTANCE
+   #100 = Utf8               <clinit>
+   #101 = Utf8               Lkotlin/Metadata;
+   #102 = Utf8               mv
+   #103 = Integer            1
+-  #104 = Integer            17
+-  #105 = Utf8               bv
+-  #106 = Integer            0
++  #104 = Integer            4
++  #105 = Integer            0
++  #106 = Utf8               bv
+   #107 = Integer            3
+   #108 = Utf8               k
+   #109 = Utf8               xi
+   #110 = Integer            2
+   #111 = Utf8               d1
+@@ -310,7 +310,7 @@
+ }
+ InnerClasses:
+      public static final #120= #2 of #92; //Companion=class org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism$Companion of class org/jetbrains/kotlin/android/synthetic/codegen/CacheMechanism
+ SourceFile: "CacheMechanisms.kt"
+ RuntimeVisibleAnnotations:
+-  0: #101(#102=[I#103,I#103,I#104],#105=[I#103,I#106,I#107],#108=I#103,#109=I#110,#111=[s#112],#113=[s#73,s#114,s#50,s#77,s#115,s#8,s#74,s#79,s#96,s#81,s#97,s#5,s#116])
++  0: #101(#102=[I#103,I#104,I#105],#106=[I#103,I#105,I#107],#108=I#103,#109=I#110,#111=[s#112],#113=[s#73,s#114,s#50,s#77,s#115,s#8,s#74,s#79,s#96,s#81,s#97,s#5,s#116])
+ 

@@ -1,0 +1,74 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion.class
+@@ -786,13 +786,13 @@
+   #780 = Fieldref           #2.#779       // org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion.WRITE_WITH_FQNAME:Lorg/jetbrains/kotlin/name/FqName;
+   #781 = Utf8               $this
+   #782 = Utf8               Lkotlin/Metadata;
+   #783 = Utf8               mv
+   #784 = Integer            1
+-  #785 = Integer            17
+-  #786 = Utf8               bv
+-  #787 = Integer            0
++  #785 = Integer            4
++  #786 = Integer            0
++  #787 = Utf8               bv
+   #788 = Integer            3
+   #789 = Utf8               k
+   #790 = Utf8               xi
+   #791 = Integer            2
+   #792 = Utf8               d1
+@@ -2003,10 +2003,11 @@
+         line 81: 18
+         line 83: 24
+         line 84: 30
+         line 86: 42
+         line 97: 53
++        line 65100: 75
+         line 97: 78
+         line 97: 96
+         line 99: 99
+         line 100: 100
+         line 101: 100
+@@ -2071,10 +2072,11 @@
+         line 173: 880
+         line 174: 880
+         line 175: 880
+         line 176: 880
+         line 178: 978
++        line 65100: 994
+         line 178: 997
+         line 178: 1053
+         line 178: 1056
+         line 178: 1076
+         line 178: 1096
+@@ -2149,19 +2151,21 @@
+         line 257: 2140
+         line 258: 2173
+         line 259: 2173
+         line 258: 2196
+         line 259: 2205
++        line 65100: 2215
+         line 259: 2218
+         line 259: 2243
+         line 256: 2257
+         line 262: 2259
+         line 263: 2260
+         line 264: 2292
+         line 265: 2329
+         line 262: 2330
+         line 268: 2332
++        line 65100: 2350
+         line 268: 2353
+         line 268: 2371
+         line 269: 2379
+         line 272: 2397
+         line 251: 2412
+@@ -2308,7 +2312,7 @@
+   org/jetbrains/kotlin/android/parcel/serializers/ParcelSerializer$Companion
+   *L
+   1#1,350:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #782(#783=[I#784,I#784,I#785],#786=[I#784,I#787,I#788],#789=I#784,#790=I#791,#792=[s#793],#794=[s#39,s#795,s#570,s#5,s#6,s#48,s#627,s#42,s#43,s#57,s#427,s#59,s#650,s#44,s#795,s#651,s#191,s#656,s#361,s#355,s#382,s#444,s#475,s#450,s#457,s#389,s#400,s#464,s#411,s#195,s#596,s#368,s#375,s#441,s#414,s#421,s#433,s#224,s#7,s#796,s#41,s#797])
++  0: #782(#783=[I#784,I#785,I#786],#787=[I#784,I#786,I#788],#789=I#784,#790=I#791,#792=[s#793],#794=[s#39,s#795,s#570,s#5,s#6,s#48,s#627,s#42,s#43,s#57,s#427,s#59,s#650,s#44,s#795,s#651,s#191,s#656,s#361,s#355,s#382,s#444,s#475,s#450,s#457,s#389,s#400,s#464,s#411,s#195,s#596,s#368,s#375,s#441,s#414,s#421,s#433,s#224,s#7,s#796,s#41,s#797])
+ 

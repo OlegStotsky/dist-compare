@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidVariant$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidVariant$Companion.class
+@@ -39,13 +39,13 @@
+   #33 = Utf8               $constructor_marker
+   #34 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #35 = Utf8               Lkotlin/Metadata;
+   #36 = Utf8               mv
+   #37 = Integer            1
+-  #38 = Integer            17
+-  #39 = Utf8               bv
+-  #40 = Integer            0
++  #38 = Integer            4
++  #39 = Integer            0
++  #40 = Utf8               bv
+   #41 = Integer            3
+   #42 = Utf8               k
+   #43 = Utf8               xi
+   #44 = Integer            2
+   #45 = Utf8               d1
+@@ -110,7 +110,7 @@
+ }
+ InnerClasses:
+      public static final #51= #2 of #18; //Companion=class org/jetbrains/kotlin/android/synthetic/res/AndroidVariant$Companion of class org/jetbrains/kotlin/android/synthetic/res/AndroidVariant
+ SourceFile: "androidResources.kt"
+ RuntimeVisibleAnnotations:
+-  0: #35(#36=[I#37,I#37,I#38],#39=[I#37,I#40,I#41],#42=I#37,#43=I#44,#45=[s#46],#47=[s#26,s#48,s#28,s#5,s#49,s#9,s#48,s#48,s#50])
++  0: #35(#36=[I#37,I#38,I#39],#40=[I#37,I#39,I#41],#42=I#37,#43=I#44,#45=[s#46],#47=[s#26,s#48,s#28,s#5,s#49,s#9,s#48,s#48,s#50])
+ 

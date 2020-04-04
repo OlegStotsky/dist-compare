@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ZeroParameterClassSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/ZeroParameterClassSerializer.class
+@@ -142,13 +142,13 @@
+   #136 = Utf8               org/jetbrains/kotlin/descriptors/ClassifierDescriptor
+   #137 = Class              #136          // org/jetbrains/kotlin/descriptors/ClassifierDescriptor
+   #138 = Utf8               Lkotlin/Metadata;
+   #139 = Utf8               mv
+   #140 = Integer            1
+-  #141 = Integer            17
+-  #142 = Utf8               bv
+-  #143 = Integer            0
++  #141 = Integer            4
++  #142 = Integer            0
++  #143 = Utf8               bv
+   #144 = Integer            3
+   #145 = Utf8               k
+   #146 = Utf8               xi
+   #147 = Integer            2
+   #148 = Utf8               d1
+@@ -403,7 +403,7 @@
+   org/jetbrains/kotlin/android/parcel/serializers/ZeroParameterClassSerializer
+   *L
+   1#1,831:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #138(#139=[I#140,I#140,I#141],#142=[I#140,I#143,I#144],#145=I#140,#146=I#147,#148=[s#149],#150=[s#15,s#151,s#96,s#97,s#102,s#135,s#100,s#71,s#72,s#7,s#8,s#10,s#11,s#33,s#152,s#18,s#32,s#16,s#153])
++  0: #138(#139=[I#140,I#141,I#142],#143=[I#140,I#142,I#144],#145=I#140,#146=I#147,#148=[s#149],#150=[s#15,s#151,s#96,s#97,s#102,s#135,s#100,s#71,s#72,s#7,s#8,s#10,s#11,s#33,s#152,s#18,s#32,s#16,s#153])
+ 

@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$WhenMappings.class
+@@ -58,13 +58,13 @@
+   #53 = NameAndType        #52:#20        // LAYOUT_CONTAINER:Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;
+   #54 = Fieldref           #12.#53        // org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.LAYOUT_CONTAINER:Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;
+   #55 = Utf8               Lkotlin/Metadata;
+   #56 = Utf8               mv
+   #57 = Integer            1
+-  #58 = Integer            17
+-  #59 = Utf8               bv
+-  #60 = Integer            0
++  #58 = Integer            4
++  #59 = Integer            0
++  #60 = Utf8               bv
+   #61 = Integer            3
+   #62 = Utf8               k
+   #63 = Utf8               xi
+   #64 = Integer            2
+   #65 = Utf8               Code
+@@ -185,7 +185,7 @@
+        216: bipush        9
+        218: iastore
+        219: return
+ }
+ RuntimeVisibleAnnotations:
+-  0: #55(#56=[I#57,I#57,I#58],#59=[I#57,I#60,I#61],#62=I#61,#63=I#64)
++  0: #55(#56=[I#57,I#58,I#59],#60=[I#57,I#59,I#61],#62=I#61,#63=I#64)
+ 

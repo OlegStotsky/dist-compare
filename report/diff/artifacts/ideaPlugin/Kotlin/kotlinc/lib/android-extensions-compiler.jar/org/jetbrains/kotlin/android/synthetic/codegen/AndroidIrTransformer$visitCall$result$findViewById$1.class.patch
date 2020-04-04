@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1.class
+@@ -75,13 +75,13 @@
+   #69 = NameAndType        #66:#68        // "<init>":(I)V
+   #70 = Methodref          #5.#69         // kotlin/jvm/internal/Lambda."<init>":(I)V
+   #71 = Utf8               Lkotlin/Metadata;
+   #72 = Utf8               mv
+   #73 = Integer            1
+-  #74 = Integer            17
+-  #75 = Utf8               bv
+-  #76 = Integer            0
++  #74 = Integer            4
++  #75 = Integer            0
++  #76 = Utf8               bv
+   #77 = Integer            3
+   #78 = Utf8               k
+   #79 = Utf8               xi
+   #80 = Integer            2
+   #81 = Utf8               d1
+@@ -171,7 +171,7 @@
+      static final #2; //class org/jetbrains/kotlin/android/synthetic/codegen/AndroidIrTransformer$visitCall$result$findViewById$1
+ EnclosingMethod: #39.#88                // org.jetbrains.kotlin.android.synthetic.codegen.AndroidIrTransformer.visitCall
+ Signature: #3                           // Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function1<Lorg/jetbrains/kotlin/ir/declarations/impl/IrFunctionImpl;Lkotlin/Unit;>;
+ SourceFile: "AndroidIrExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #71(#72=[I#73,I#73,I#74],#75=[I#73,I#76,I#77],#78=I#77,#79=I#80,#81=[s#82],#83=[s#84,s#85,s#65,s#8])
++  0: #71(#72=[I#73,I#74,I#75],#76=[I#73,I#75,I#77],#78=I#77,#79=I#80,#81=[s#82],#83=[s#84,s#85,s#65,s#8])
+ 

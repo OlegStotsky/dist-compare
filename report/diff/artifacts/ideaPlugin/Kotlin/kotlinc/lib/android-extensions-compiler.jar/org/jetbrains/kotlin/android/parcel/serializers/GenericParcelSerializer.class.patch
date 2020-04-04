@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/GenericParcelSerializer.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/serializers/GenericParcelSerializer.class
+@@ -81,13 +81,13 @@
+    #75 = NameAndType        #71:#74       // "<init>":()V
+    #76 = Methodref          #4.#75        // java/lang/Object."<init>":()V
+    #77 = Utf8               Lkotlin/Metadata;
+    #78 = Utf8               mv
+    #79 = Integer            1
+-   #80 = Integer            17
+-   #81 = Utf8               bv
+-   #82 = Integer            0
++   #80 = Integer            4
++   #81 = Integer            0
++   #82 = Utf8               bv
+    #83 = Integer            3
+    #84 = Utf8               k
+    #85 = Utf8               xi
+    #86 = Integer            2
+    #87 = Utf8               d1
+@@ -222,7 +222,7 @@
+       0:
+         0: #9()
+ }
+ SourceFile: "ParcelSerializers.kt"
+ RuntimeVisibleAnnotations:
+-  0: #77(#78=[I#79,I#79,I#80],#81=[I#79,I#82,I#83],#84=I#79,#85=I#86,#87=[s#88],#89=[s#45,s#90,s#67,s#68,s#72,s#48,s#21,s#47,s#91,s#10,s#46,s#7,s#92])
++  0: #77(#78=[I#79,I#80,I#81],#82=[I#79,I#81,I#83],#84=I#79,#85=I#86,#87=[s#88],#89=[s#45,s#90,s#67,s#68,s#72,s#48,s#21,s#47,s#91,s#10,s#46,s#7,s#92])
+ 

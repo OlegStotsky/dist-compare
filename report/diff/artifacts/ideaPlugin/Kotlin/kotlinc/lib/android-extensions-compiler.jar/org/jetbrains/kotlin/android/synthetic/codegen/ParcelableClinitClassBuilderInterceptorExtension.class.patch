@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension.class
+@@ -42,13 +42,13 @@
+   #36 = NameAndType        #24:#35        // "<init>":()V
+   #37 = Methodref          #4.#36         // java/lang/Object."<init>":()V
+   #38 = Utf8               Lkotlin/Metadata;
+   #39 = Utf8               mv
+   #40 = Integer            1
+-  #41 = Integer            17
+-  #42 = Utf8               bv
+-  #43 = Integer            0
++  #41 = Integer            4
++  #42 = Integer            0
++  #43 = Utf8               bv
+   #44 = Integer            3
+   #45 = Utf8               k
+   #46 = Utf8               xi
+   #47 = Integer            2
+   #48 = Utf8               d1
+@@ -127,7 +127,7 @@
+         Start  Length  Slot  Name   Signature
+             0       5     0  this   Lorg/jetbrains/kotlin/android/synthetic/codegen/ParcelableClinitClassBuilderInterceptorExtension;
+ }
+ SourceFile: "ParcelableClinitClassBuilderInterceptorExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #38(#39=[I#40,I#40,I#41],#42=[I#40,I#43,I#44],#45=I#40,#46=I#47,#48=[s#49],#50=[s#31,s#51,s#35,s#7,s#32,s#10,s#18,s#33,s#20,s#34,s#52,s#53,s#54,s#55])
++  0: #38(#39=[I#40,I#41,I#42],#43=[I#40,I#42,I#44],#45=I#40,#46=I#47,#48=[s#49],#50=[s#31,s#51,s#35,s#7,s#32,s#10,s#18,s#33,s#20,s#34,s#52,s#53,s#54,s#55])
+ 

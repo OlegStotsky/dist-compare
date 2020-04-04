@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion$createMethod$functionDescriptor$1.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion$createMethod$functionDescriptor$1.class
+@@ -51,13 +51,13 @@
+   #45 = Utf8               $super_call_param$7
+   #46 = Utf8               Lorg/jetbrains/kotlin/descriptors/SourceElement;
+   #47 = Utf8               Lkotlin/Metadata;
+   #48 = Utf8               mv
+   #49 = Integer            1
+-  #50 = Integer            17
+-  #51 = Utf8               bv
+-  #52 = Integer            0
++  #50 = Integer            4
++  #51 = Integer            0
++  #52 = Utf8               bv
+   #53 = Integer            3
+   #54 = Utf8               k
+   #55 = Utf8               xi
+   #56 = Integer            2
+   #57 = Utf8               d1
+@@ -146,7 +146,7 @@
+      public static final #2; //class org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion$createMethod$functionDescriptor$1
+      public static final #65= #8 of #64; //Companion=class org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension$Companion of class org/jetbrains/kotlin/android/parcel/ParcelableResolveExtension
+ EnclosingMethod: #8.#11                 // org.jetbrains.kotlin.android.parcel.ParcelableResolveExtension$Companion.createMethod
+ SourceFile: "ParcelableResolveExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #47(#48=[I#49,I#49,I#50],#51=[I#49,I#52,I#53],#54=I#49,#55=I#56,#57=[s#58],#59=[s#1,s#60,s#61,s#12,s#13,s#15,s#16,s#62])
++  0: #47(#48=[I#49,I#50,I#51],#52=[I#49,I#51,I#53],#54=I#49,#55=I#56,#57=[s#58],#59=[s#1,s#60,s#61,s#12,s#13,s#15,s#16,s#62])
+ 

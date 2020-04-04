@@ -1,0 +1,42 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtensionKt.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableCodegenExtensionKt.class
+@@ -133,13 +133,13 @@
+   #127 = Utf8               org/jetbrains/kotlin/descriptors/annotations/Annotations
+   #128 = Class              #127          // org/jetbrains/kotlin/descriptors/annotations/Annotations
+   #129 = Utf8               Lkotlin/Metadata;
+   #130 = Utf8               mv
+   #131 = Integer            1
+-  #132 = Integer            17
+-  #133 = Utf8               bv
+-  #134 = Integer            0
++  #132 = Integer            4
++  #133 = Integer            0
++  #134 = Utf8               bv
+   #135 = Integer            3
+   #136 = Utf8               k
+   #137 = Integer            2
+   #138 = Utf8               xi
+   #139 = Utf8               d1
+@@ -343,11 +343,13 @@
+         line 388: 32
+         line 395: 41
+         line 396: 60
+         line 388: 98
+         line 397: 125
++        line 388: 137
+         line 389: 158
++        line 65100: 179
+         line 389: 182
+         line 389: 198
+         line 389: 214
+         line 389: 215
+         line 389: 235
+@@ -403,7 +405,7 @@
+   *L
+   388#1:395
+   388#1,2:396
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #129(#130=[I#131,I#131,I#132],#133=[I#131,I#134,I#135],#136=I#137,#138=I#137,#139=[s#140],#141=[s#5,s#142,s#143,s#144,s#145,s#9,s#126,s#146])
++  0: #129(#130=[I#131,I#132,I#133],#134=[I#131,I#133,I#135],#136=I#137,#138=I#137,#139=[s#140],#141=[s#5,s#142,s#143,s#144,s#145,s#9,s#126,s#146])
+ 

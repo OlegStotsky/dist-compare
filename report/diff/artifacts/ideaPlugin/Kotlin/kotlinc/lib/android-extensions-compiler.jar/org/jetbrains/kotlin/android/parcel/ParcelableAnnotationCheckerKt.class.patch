@@ -1,0 +1,24 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationCheckerKt.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/parcel/ParcelableAnnotationCheckerKt.class
+@@ -44,11 +44,11 @@
+   #38 = String             #37            // $this$getNonStrictParentOfType
+   #39 = Utf8               $i$f$getNonStrictParentOfType
+   #40 = Utf8               Lkotlin/Metadata;
+   #41 = Utf8               mv
+   #42 = Integer            1
+-  #43 = Integer            17
++  #43 = Integer            4
+   #44 = Utf8               bv
+   #45 = Integer            3
+   #46 = Utf8               k
+   #47 = Integer            2
+   #48 = Utf8               xi
+@@ -128,7 +128,7 @@
+       0:
+         0: #9()
+ }
+ SourceFile: "ParcelableAnnotationChecker.kt"
+ RuntimeVisibleAnnotations:
+-  0: #40(#41=[I#42,I#42,I#43],#44=[I#42,I#10,I#45],#46=I#47,#48=I#47,#49=[s#50],#51=[s#36,s#19,s#33,s#6,s#5,s#52])
++  0: #40(#41=[I#42,I#43,I#10],#44=[I#42,I#10,I#45],#46=I#47,#48=I#47,#49=[s#50],#51=[s#36,s#19,s#33,s#6,s#5,s#52])
+ 

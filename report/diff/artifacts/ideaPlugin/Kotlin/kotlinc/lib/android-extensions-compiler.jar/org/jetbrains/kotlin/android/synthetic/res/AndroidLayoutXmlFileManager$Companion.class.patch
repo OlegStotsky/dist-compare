@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion.class
+@@ -48,13 +48,13 @@
+   #42 = Utf8               $constructor_marker
+   #43 = Utf8               Lkotlin/jvm/internal/DefaultConstructorMarker;
+   #44 = Utf8               Lkotlin/Metadata;
+   #45 = Utf8               mv
+   #46 = Integer            1
+-  #47 = Integer            17
+-  #48 = Utf8               bv
+-  #49 = Integer            0
++  #47 = Integer            4
++  #48 = Integer            0
++  #49 = Utf8               bv
+   #50 = Integer            3
+   #51 = Utf8               k
+   #52 = Utf8               xi
+   #53 = Integer            2
+   #54 = Utf8               d1
+@@ -136,7 +136,7 @@
+ }
+ InnerClasses:
+      public static final #59= #2 of #18; //Companion=class org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager$Companion of class org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutXmlFileManager
+ SourceFile: "AndroidLayoutXmlFileManager.kt"
+ RuntimeVisibleAnnotations:
+-  0: #44(#45=[I#46,I#46,I#47],#48=[I#46,I#49,I#50],#51=I#46,#52=I#53,#54=[s#55],#56=[s#34,s#57,s#37,s#5,s#32,s#9,s#35,s#58])
++  0: #44(#45=[I#46,I#47,I#48],#49=[I#46,I#48,I#50],#51=I#46,#52=I#53,#54=[s#55],#56=[s#34,s#57,s#37,s#5,s#32,s#9,s#35,s#58])
+ 

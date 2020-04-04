@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/allopen-compiler-plugin.jar!/org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension.class
+@@ -110,13 +110,13 @@
+   #104 = NameAndType        #65:#66       // ANNOTATIONS_FOR_TESTS:Ljava/util/List;
+   #105 = Fieldref           #2.#104       // org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension.ANNOTATIONS_FOR_TESTS:Ljava/util/List;
+   #106 = Utf8               Lkotlin/Metadata;
+   #107 = Utf8               mv
+   #108 = Integer            1
+-  #109 = Integer            17
+-  #110 = Utf8               bv
+-  #111 = Integer            0
++  #109 = Integer            4
++  #110 = Integer            0
++  #111 = Utf8               bv
+   #112 = Integer            3
+   #113 = Utf8               k
+   #114 = Utf8               xi
+   #115 = Integer            2
+   #116 = Utf8               d1
+@@ -413,7 +413,7 @@
+ }
+ InnerClasses:
+      public static final #69= #122 of #2; //Companion=class org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension$Companion of class org/jetbrains/kotlin/allopen/AbstractAllOpenDeclarationAttributeAltererExtension
+ SourceFile: "AllOpenDeclarationAttributeAltererExtension.kt"
+ RuntimeVisibleAnnotations:
+-  0: #106(#107=[I#108,I#108,I#109],#110=[I#108,I#111,I#112],#113=I#108,#114=I#115,#116=[s#117],#118=[s#55,s#85,s#101,s#62,s#9,s#26,s#13,s#56,s#57,s#53,s#58,s#21,s#59,s#119,s#69,s#120])
++  0: #106(#107=[I#108,I#109,I#110],#111=[I#108,I#110,I#112],#113=I#108,#114=I#115,#116=[s#117],#118=[s#55,s#85,s#101,s#62,s#9,s#26,s#13,s#56,s#57,s#53,s#58,s#21,s#59,s#119,s#69,s#120])
+ 

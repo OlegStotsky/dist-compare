@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue.class
+@@ -376,13 +376,13 @@
+   #370 = NameAndType        #97:#349      // "<init>":(Ljava/lang/Object;)V
+   #371 = Methodref          #369.#370     // java/lang/AssertionError."<init>":(Ljava/lang/Object;)V
+   #372 = Utf8               Lkotlin/Metadata;
+   #373 = Utf8               mv
+   #374 = Integer            1
+-  #375 = Integer            17
+-  #376 = Utf8               bv
+-  #377 = Integer            0
++  #375 = Integer            4
++  #376 = Integer            0
++  #377 = Utf8               bv
+   #378 = Integer            3
+   #379 = Utf8               k
+   #380 = Utf8               xi
+   #381 = Integer            2
+   #382 = Utf8               d1
+@@ -952,7 +952,7 @@
+   org/jetbrains/kotlin/android/synthetic/codegen/ResourcePropertyStackValue
+   *L
+   1#1,122:1
+   *E
+ RuntimeVisibleAnnotations:
+-  0: #372(#373=[I#374,I#374,I#375],#376=[I#374,I#377,I#378],#379=I#374,#380=I#381,#382=[s#383],#384=[s#16,s#142,s#141,s#31,s#32,s#35,s#36,s#129,s#130,s#7,s#8,s#163,s#385,s#107,s#108,s#337,s#335,s#336,s#386,s#357,s#5,s#6,s#332,s#333,s#148,s#334,s#239,s#385,s#29,s#290,s#17,s#21,s#272,s#288,s#289,s#89,s#387])
++  0: #372(#373=[I#374,I#375,I#376],#377=[I#374,I#376,I#378],#379=I#374,#380=I#381,#382=[s#383],#384=[s#16,s#142,s#141,s#31,s#32,s#35,s#36,s#129,s#130,s#7,s#8,s#163,s#385,s#107,s#108,s#337,s#335,s#336,s#386,s#357,s#5,s#6,s#332,s#333,s#148,s#334,s#239,s#385,s#29,s#290,s#17,s#21,s#272,s#288,s#289,s#89,s#387])
+ 

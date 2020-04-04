@@ -1,0 +1,43 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType.class
+@@ -51,12 +51,12 @@
+    #45 = Class              #44           // kotlin/text/StringsKt
+    #46 = Utf8               replace$default
+    #47 = Utf8               (Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
+    #48 = NameAndType        #46:#47       // replace$default:(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
+    #49 = Methodref          #45.#48       // kotlin/text/StringsKt.replace$default:(Ljava/lang/String;CCZILjava/lang/Object;)Ljava/lang/String;
+-   #50 = Utf8               $enum_name_or_ordinal$0
+-   #51 = Utf8               $enum_name_or_ordinal$1
++   #50 = Utf8               $enum$name
++   #51 = Utf8               $enum$ordinal
+    #52 = Utf8               I
+    #53 = Utf8               className
+    #54 = Utf8               (Ljava/lang/String;ILjava/lang/String;ZZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    #55 = NameAndType        #38:#39       // "<init>":(Ljava/lang/String;ILjava/lang/String;ZZ)V
+    #56 = Methodref          #2.#55        // org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType."<init>":(Ljava/lang/String;ILjava/lang/String;ZZ)V
+@@ -81,13 +81,13 @@
+    #75 = NameAndType        #72:#74       // valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    #76 = Methodref          #5.#75        // java/lang/Enum.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    #77 = Utf8               Lkotlin/Metadata;
+    #78 = Utf8               mv
+    #79 = Integer            1
+-   #80 = Integer            17
+-   #81 = Utf8               bv
+-   #82 = Integer            0
++   #80 = Integer            4
++   #81 = Integer            0
++   #82 = Utf8               bv
+    #83 = Integer            3
+    #84 = Utf8               k
+    #85 = Utf8               xi
+    #86 = Integer            2
+    #87 = Utf8               d1
+@@ -531,7 +531,7 @@
+ InnerClasses:
+      public static final #58= #171 of #2; //Companion=class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType$Companion of class org/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType
+ Signature: #3                           // Ljava/lang/Enum<Lorg/jetbrains/kotlin/android/synthetic/codegen/AndroidContainerType;>;
+ SourceFile: "AndroidContainerType.kt"
+ RuntimeVisibleAnnotations:
+-  0: #77(#78=[I#79,I#79,I#80],#81=[I#79,I#82,I#83],#84=I#79,#85=I#86,#87=[s#88],#89=[s#7,s#90,s#53,s#90,s#29,s#90,s#35,s#39,s#31,s#32,s#21,s#24,s#25,s#6,s#8,s#9,s#10,s#11,s#12,s#13,s#14,s#15,s#16,s#58,s#91])
++  0: #77(#78=[I#79,I#80,I#81],#82=[I#79,I#81,I#83],#84=I#79,#85=I#86,#87=[s#88],#89=[s#7,s#90,s#53,s#90,s#29,s#90,s#35,s#39,s#31,s#32,s#21,s#24,s#25,s#6,s#8,s#9,s#10,s#11,s#12,s#13,s#14,s#15,s#16,s#58,s#91])
+ 

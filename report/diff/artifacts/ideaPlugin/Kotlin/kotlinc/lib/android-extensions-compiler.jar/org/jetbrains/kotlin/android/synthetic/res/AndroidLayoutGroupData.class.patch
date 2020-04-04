@@ -1,0 +1,28 @@
+--- jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_gradle/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutGroupData.class
++++ jar:file:///Users/olegstotsky/Desktop/Code/JBSpring2020/dist-compare/compare/dist_jps/artifacts/ideaPlugin/Kotlin/kotlinc/lib/android-extensions-compiler.jar!/org/jetbrains/kotlin/android/synthetic/res/AndroidLayoutGroupData.class
+@@ -85,13 +85,13 @@
+    #79 = NameAndType        #77:#78       // areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #80 = Methodref          #27.#79       // kotlin/jvm/internal/Intrinsics.areEqual:(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #81 = Utf8               Lkotlin/Metadata;
+    #82 = Utf8               mv
+    #83 = Integer            1
+-   #84 = Integer            17
+-   #85 = Utf8               bv
+-   #86 = Integer            0
++   #84 = Integer            4
++   #85 = Integer            0
++   #86 = Utf8               bv
+    #87 = Integer            3
+    #88 = Utf8               k
+    #89 = Utf8               xi
+    #90 = Integer            2
+    #91 = Utf8               d1
+@@ -368,7 +368,7 @@
+       0:
+         0: #76()
+ }
+ SourceFile: "AndroidLayoutXmlFileManager.kt"
+ RuntimeVisibleAnnotations:
+-  0: #81(#82=[I#83,I#83,I#84],#85=[I#83,I#86,I#87],#88=I#83,#89=I#90,#91=[s#92],#93=[s#13,s#94,s#5,s#94,s#14,s#94,s#95,s#23,s#17,s#18,s#8,s#9,s#36,s#37,s#38,s#74,s#94,s#96,s#66,s#94,s#47,s#97])
++  0: #81(#82=[I#83,I#84,I#85],#86=[I#83,I#85,I#87],#88=I#83,#89=I#90,#91=[s#92],#93=[s#13,s#94,s#5,s#94,s#14,s#94,s#95,s#23,s#17,s#18,s#8,s#9,s#36,s#37,s#38,s#74,s#94,s#96,s#66,s#94,s#47,s#97])
+ 
