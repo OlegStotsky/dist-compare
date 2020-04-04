@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-GRADLE_PROJECT_DIR=./compare/dist_gradle
-JPS_PROJECT_DIR=./compare/dist_jps
+GRADLE_PROJECT_DIR=./kotlin/compare/dist_gradle
+JPS_PROJECT_DIR=./kotlin/compare/dist_jps
 
 pwd
 
