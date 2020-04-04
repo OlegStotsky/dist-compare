@@ -5,4 +5,4 @@ JPS_PROJECT_DIR=./compare/dist_jps
 
 pwd
 
-./build/install/dist-compare/bin/dist-compare ${GRADLE_PROJECT_DIR} ${JPS_PROJECT_DIR} --teamCity
+./kotlin/build/install/dist-compare/bin/dist-compare ${GRADLE_PROJECT_DIR} ${JPS_PROJECT_DIR} --teamCity
